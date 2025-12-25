@@ -1,0 +1,14 @@
+✅ Using Prisma singleton for database connection
+Queue worker using Chrome at: /usr/bin/chromium
+PM2 Instance: 0, Running Lighthouse: true
+🕷️ Creating Crawl worker (enabled=true, isMainInstance=true)
+🔒 Memory guard started for queue-workers-0 (limit: 2048MB)
+[STORAGE] Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📊 Memory [queue-workers-0]: RSS 123MB, Heap 37MB
+📊 Memory [queue-workers-0]: RSS 89MB, Heap 27MB
+📊 Memory [queue-workers-0]: RSS 90MB, Heap 28MB
+📊 Memory [queue-workers-0]: RSS 89MB, Heap 28MB
+📊 Memory [queue-workers-0]: RSS 89MB, Heap 27MB
+📊 Memory [queue-workers-0]: RSS 89MB, Heap 28MB
+📊 Memory [queue-workers-0]: RSS 89MB, Heap 27MB

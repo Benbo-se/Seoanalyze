@@ -1,0 +1,70 @@
+✅ Using Prisma singleton for database connection
+Queue worker using Chrome at: /usr/bin/chromium
+PM2 Instance: 0, Running Lighthouse: true
+🕷️ Creating Crawl worker (enabled=true, isMainInstance=true)
+🔒 Memory guard started for queue-workers-0 (limit: 1100MB)
+[STORAGE] Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+Processing Crawl job 1022 for https://chatgpt.com
+🔄 STATE TRANSITION [Crawl 1022]: waiting → active (worker picked up job)
+📊 PROGRESS UPDATE [Crawl 1022]: 10 pages crawled
+Loaded robots.txt
+Could not parse sitemap: https://chatgpt.com/sitemap.xml
+Could not parse sitemap: https://chatgpt.com/sitemap_index.xml
+Could not parse sitemap: https://chatgpt.com/sitemap.txt
+Could not parse sitemap: https://chatgpt.com/sitemaps.xml
+Could not parse sitemap: https://chatgpt.com/sitemap-index.xml
+Could not parse sitemap: https://chatgpt.com/wp-sitemap.xml
+Could not parse sitemap: https://chatgpt.com/page-sitemap.xml
+No sitemap found - will discover pages by following links
+Crawling (1/100): https://chatgpt.com
+📊 PROGRESS UPDATE [Crawl 1022]: 1 pages crawled
+[CRAWL DEBUG] Puppeteer check: ENABLE=true, links=0, threshold=10
+🔄 CRAWL: Only 0 links found with Axios, trying Puppeteer fallback for https://chatgpt.com...
+Creating new browser instance...
+Browser instance created
+Browser acquired from pool (1 in pool, 0 available)
+✅ CRAWL: Puppeteer HTML retrieved for https://chatgpt.com
+Browser operation completed in 6561ms
+Browser released to pool
+✅ CRAWL: Puppeteer found 6 links vs 0, using Puppeteer result
+Crawling (2/100): https://chatgpt.com/
+📊 PROGRESS UPDATE [Crawl 1022]: 2 pages crawled
+[CRAWL DEBUG] Puppeteer check: ENABLE=true, links=0, threshold=10
+🔄 CRAWL: Only 0 links found with Axios, trying Puppeteer fallback for https://chatgpt.com/...
+Browser acquired from pool (1 in pool, 0 available)
+✅ CRAWL: Puppeteer HTML retrieved for https://chatgpt.com/
+Browser operation completed in 6488ms
+Browser released to pool
+✅ CRAWL: Puppeteer found 6 links vs 0, using Puppeteer result
+🧠 Running Rule Engine for crawl analysis 01K74SWAAFWWV6ANDFQAZ8E3WQ
+✅ Added 0 rule-based recommendations
+📊 Added RUM data with 0 samples
+🔍 Running Change Detection for crawl https://chatgpt.com
+📸 Created snapshot 553006ac-8e90-481b-88f8-2e2f33e682ad for https://chatgpt.com
+📊 PROGRESS UPDATE [Crawl 1022]: 100 pages crawled
+Crawl job 1022 completed in 14718ms
+💾 Updating Crawl analysis 01K74SWAAFWWV6ANDFQAZ8E3WQ in database
+💾 DB results uppdaterade för crawl 01K74SWAAFWWV6ANDFQAZ8E3WQ
+📝 Updated analysis 01K74SWAAFWWV6ANDFQAZ8E3WQ status to completed
+[SAVE] Saved artifact locally: analyses/2025-10-09/01K74SWAAFWWV6ANDFQAZ8E3WQ/crawl-results.json
+✅ Crawl analysis 01K74SWAAFWWV6ANDFQAZ8E3WQ updated in database and artifacts
+📊 METRICS [Crawl]: domain=chatgpt.com, score=72, issuesCount=14, durationMs=14929, pagesCount=2
+🔄 STATE TRANSITION [Crawl 1022]: active → completed (resultId: 01K74SWAAFWWV6ANDFQAZ8E3WQ)
+📊 Memory [queue-workers-0]: RSS 148MB, Heap 40MB
+Destroying browser instance...
+Browser instance destroyed
+📊 Memory [queue-workers-0]: RSS 110MB, Heap 30MB
+📊 Memory [queue-workers-0]: RSS 111MB, Heap 31MB

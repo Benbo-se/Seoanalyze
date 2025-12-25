@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "functions": {
+    "/api/rate-limit": {},
+    "/api/rule-engine": {},
+    "/api/rum": {},
+    "/api/change-detection": {},
+    "/api/circuit-breaker": {},
+    "/api/analytics-v2": {}
+  }
+}

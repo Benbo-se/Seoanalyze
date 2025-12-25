@@ -1,0 +1,40 @@
+config:
+  target: "http://localhost:5001"
+  phases:
+    - duration: 10
+      arrivalRate: 1
+      name: "Setup phase"
+    - duration: 60
+      arrivalRate: 50  # High concurrency
+      name: "Maximum concurrent load"
+  defaults:
+    headers:
+      Content-Type: "application/json"
+  pool: 100  # High connection pool
+
+scenarios:
+  - weight: 50
+    name: "Rapid Fire SEO Tests"
+    flow:
+      - post:
+          url: "/api/v1/analyses"
+          json:
+            url: "{{ $randomString() }}.example.com"
+            type: "seo"
+
+  - weight: 30
+    name: "Rapid Fire Lighthouse Tests"
+    flow:
+      - post:
+          url: "/api/v1/analyses"
+          json:
+            url: "https://httpbin.org/delay/{{ $randomInt(1, 3) }}"
+            type: "lighthouse"
+
+  - weight: 20
+    name: "Database & Cache Load"
+    flow:
+      - get:
+          url: "/api/v1/analyses?page={{ $randomInt(1, 10) }}"
+      - get:
+          url: "/api/cache/health"

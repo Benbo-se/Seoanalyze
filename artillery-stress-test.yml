@@ -1,0 +1,110 @@
+config:
+  target: "http://localhost:5001"  # Next.js production server
+  phases:
+    - duration: 30
+      arrivalRate: 5
+      name: "Warm up phase"
+    - duration: 60
+      arrivalRate: 15
+      name: "Concurrent analysis phase"
+    - duration: 120
+      arrivalRate: 25
+      name: "Peak load phase"
+    - duration: 30
+      arrivalRate: 10
+      name: "Cool down phase"
+  defaults:
+    headers:
+      Content-Type: "application/json"
+  pool: 50  # Max concurrent connections
+
+scenarios:
+  - weight: 40
+    name: "SEO Analysis Stress Test"
+    flow:
+      - post:
+          url: "/api/analyze"
+          json:
+            url: "https://example.com"
+            type: "seo"
+          capture:
+            - json: "$.jobId"
+              as: "jobId"
+      - loop:
+          - get:
+              url: "/api/job/{{ jobId }}/status"
+              expect:
+                - statusCode: 200
+          - think: 2
+        whileTrue: "state != 'completed' && state != 'failed'"
+        count: 30  # Max 60s wait
+      - get:
+          url: "/api/v1/analyses/{{ jobId }}"
+          expect:
+            - statusCode: 200
+
+  - weight: 30
+    name: "Lighthouse Analysis Stress Test"
+    flow:
+      - post:
+          url: "/api/analyze"
+          json:
+            url: "https://httpbin.org"
+            type: "lighthouse"
+          capture:
+            - json: "$.jobId"
+              as: "jobId"
+      - loop:
+          - get:
+              url: "/api/job/{{ jobId }}/status"
+              expect:
+                - statusCode: 200
+          - think: 5
+        whileTrue: "state != 'completed' && state != 'failed'"
+        count: 50  # Max 250s wait for Lighthouse
+      - get:
+          url: "/api/v1/analyses/{{ jobId }}"
+          expect:
+            - statusCode: 200
+
+  - weight: 20
+    name: "Crawl Analysis Stress Test"
+    flow:
+      - post:
+          url: "/api/analyze"
+          json:
+            url: "https://httpbin.org"
+            type: "crawl"
+            maxPages: 5  # Small crawl for stress testing
+          capture:
+            - json: "$.jobId"
+              as: "jobId"
+      - loop:
+          - get:
+              url: "/api/job/{{ jobId }}/status"
+              expect:
+                - statusCode: 200
+          - think: 3
+        whileTrue: "state != 'completed' && state != 'failed'"
+        count: 60  # Max 180s wait for crawl
+      - get:
+          url: "/api/v1/analyses/{{ jobId }}"
+          expect:
+            - statusCode: 200
+
+  - weight: 10
+    name: "Health Check & Static Content"
+    flow:
+      - get:
+          url: "/api/cache/health"
+          expect:
+            - statusCode: 200
+            - hasProperty: "status"
+      - get:
+          url: "/"
+          expect:
+            - statusCode: 200
+      - get:
+          url: "/api/health"
+          expect:
+            - statusCode: 200

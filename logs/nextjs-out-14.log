@@ -1,0 +1,14 @@
+
+> seo-analyzer-nextjs@0.1.0 start
+> next start
+
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1208ms
+✅ Using Prisma singleton for database connection
+[STORAGE] Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+Proxying Lighthouse request for https://example.com to worker at http://127.0.0.1:5002

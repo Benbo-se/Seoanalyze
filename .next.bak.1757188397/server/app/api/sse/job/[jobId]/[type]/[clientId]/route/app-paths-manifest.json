@@ -1,0 +1,3 @@
+{
+  "/api/sse/job/[jobId]/[type]/[clientId]/route": "app/api/sse/job/[jobId]/[type]/[clientId]/route.js"
+}

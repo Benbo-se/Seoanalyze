@@ -1,0 +1,31 @@
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1372ms, CLS: 0, INP: 464ms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1372ms, CLS: 0, INP: 464ms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2560ms, CLS: 0, INP: 112ms
+[Error: Failed to find Server Action "y". This request might be from an older or newer deployment.
+Read more: https://nextjs.org/docs/messages/failed-to-find-server-action]
+[Error: Failed to find Server Action "x". This request might be from an older or newer deployment.
+Read more: https://nextjs.org/docs/messages/failed-to-find-server-action]
+📡 SSE for job null using queue: seo, client: zs1y8pdy1ys
+SSE polling error: Error: Stream isn't writeable and enableOfflineQueue options is false
+    at c (.next/server/chunks/[root-of-the-server]__2c0a4764._.js:6:480)
+    at Object.start (.next/server/chunks/[root-of-the-server]__2c0a4764._.js:6:1154)
+    at w (.next/server/chunks/[root-of-the-server]__2c0a4764._.js:1:6812)
+[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+🔌 SSE cleanup for job null, client zs1y8pdy1ys
+[Error: Failed to find Server Action "x". This request might be from an older or newer deployment.
+Read more: https://nextjs.org/docs/messages/failed-to-find-server-action]
+[Error: Failed to find Server Action "x". This request might be from an older or newer deployment.
+Read more: https://nextjs.org/docs/messages/failed-to-find-server-action]
+[Error: Failed to find Server Action "x". This request might be from an older or newer deployment.
+Read more: https://nextjs.org/docs/messages/failed-to-find-server-action]
+[Error: Failed to find Server Action "x". This request might be from an older or newer deployment.
+Read more: https://nextjs.org/docs/messages/failed-to-find-server-action]
+[Error: Failed to find Server Action "x". This request might be from an older or newer deployment.
+Read more: https://nextjs.org/docs/messages/failed-to-find-server-action]
+[Error: Failed to find Server Action "x". This request might be from an older or newer deployment.
+Read more: https://nextjs.org/docs/messages/failed-to-find-server-action]
+[Error: Failed to find Server Action "x". This request might be from an older or newer deployment.
+Read more: https://nextjs.org/docs/messages/failed-to-find-server-action]
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1812ms, CLS: 0.0175, INP: nullms
+📡 SSE for job null using queue: seo, client: zs1y8pdy1ys
+🔌 SSE cleanup for job null, client zs1y8pdy1ys

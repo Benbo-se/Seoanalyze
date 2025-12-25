@@ -1,0 +1,17 @@
+[lh-worker] Lighthouse worker listening on http://127.0.0.1:5002
+[lh-worker] Config: {
+  timeout: '90000ms',
+  cache: '600000ms',
+  concurrency: 3,
+  chrome: 'auto-detect'
+}
+[lh-worker] Queue job for https://reddit.com (queue size: 0)
+[lh-worker] Starting analysis for https://reddit.com
+Loading ES modules...
+Using Chrome path: /usr/bin/chromium
+Chrome flags: 5 flags configured
+Lighthouse categories: performance, seo
+Chrome process 312008 killed successfully
+Cleaned up temp directory: /tmp/lighthouse-1763935757443-8iucdlx7-311115
+[lh-worker] Analysis complete for https://reddit.com
+[lh-worker] SIGINT received, shutting down...

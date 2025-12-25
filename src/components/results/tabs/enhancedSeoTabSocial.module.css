@@ -1,0 +1,457 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.errorCard {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  color: #991b1b;
+}
+
+.errorIcon {
+  color: #dc2626;
+}
+
+/* Platforms Grid */
+.platformsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.platformCard {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+}
+
+.platformHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.platformIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: #f3f4f6;
+  color: #6b7280;
+}
+
+.platformName {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.completionRate {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.fieldsList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.fieldItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.fieldName {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+  min-width: 100px;
+}
+
+.fieldValue {
+  flex: 1;
+  text-align: right;
+  font-size: 13px;
+}
+
+.fieldLength {
+  display: block;
+  color: #9ca3af;
+  font-size: 11px;
+  margin-top: 2px;
+}
+
+.fieldMissing {
+  color: #dc2626;
+  font-style: italic;
+}
+
+.progressBar {
+  height: 4px;
+  background: #f3f4f6;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, #10b981, #34d399);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+/* Icons */
+.iconGood {
+  color: #10b981;
+}
+
+.iconWarning {
+  color: #f59e0b;
+}
+
+.iconPoor {
+  color: #ef4444;
+}
+
+/* Preview Section */
+.previewSection {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.previewControls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.previewTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.previewTabs {
+  display: flex;
+  gap: 4px;
+  background: #f3f4f6;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.previewTab {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #6b7280;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.previewTabActive {
+  background: white;
+  color: #1f2937;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.previewContainer {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Facebook Preview */
+.facebookPreview {
+  background: #f0f2f5;
+}
+
+.previewHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.facebookCard {
+  display: flex;
+  background: white;
+  border: 1px solid #dddfe2;
+  border-radius: 8px;
+  margin: 16px;
+  overflow: hidden;
+}
+
+.facebookImage {
+  width: 158px;
+  height: 158px;
+  flex-shrink: 0;
+}
+
+.facebookImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imagePlaceholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: #f3f4f6;
+  color: #9ca3af;
+  font-size: 12px;
+  gap: 8px;
+}
+
+.facebookContent {
+  padding: 12px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.facebookUrl {
+  font-size: 12px;
+  color: #65676b;
+  text-transform: uppercase;
+}
+
+.facebookTitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1c1e21;
+  line-height: 1.3;
+}
+
+.facebookDesc {
+  font-size: 14px;
+  color: #65676b;
+  line-height: 1.33;
+}
+
+/* Twitter Preview */
+.twitterPreview {
+  background: #f7f9fa;
+}
+
+.twitterCard {
+  background: white;
+  border: 1px solid #cfd9de;
+  border-radius: 16px;
+  margin: 16px;
+  overflow: hidden;
+}
+
+.twitterImage {
+  width: 100%;
+  height: 200px;
+}
+
+.twitterImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.twitterContent {
+  padding: 12px;
+}
+
+.twitterTitle {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0f1419;
+  line-height: 1.3;
+  margin-bottom: 2px;
+}
+
+.twitterDesc {
+  font-size: 15px;
+  color: #536471;
+  line-height: 1.3;
+  margin-bottom: 2px;
+}
+
+.twitterUrl {
+  font-size: 15px;
+  color: #536471;
+  line-height: 1.3;
+}
+
+/* LinkedIn Preview */
+.linkedinPreview {
+  background: #f3f2ef;
+}
+
+.linkedinCard {
+  background: white;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  margin: 16px;
+  overflow: hidden;
+}
+
+.linkedinImage {
+  width: 100%;
+  height: 200px;
+}
+
+.linkedinImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.linkedinContent {
+  padding: 12px;
+}
+
+.linkedinTitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 1.3;
+  margin-bottom: 4px;
+}
+
+.linkedinDesc {
+  font-size: 14px;
+  color: #666666;
+  line-height: 1.4;
+  margin-bottom: 4px;
+}
+
+.linkedinUrl {
+  font-size: 12px;
+  color: #666666;
+  text-transform: lowercase;
+}
+
+/* Recommendations */
+.recommendationsCard {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.recommendationsHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.recommendationsIcon {
+  color: #10b981;
+}
+
+.recommendationsHeader h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #065f46;
+}
+
+.recommendationsList {
+  margin: 0;
+  padding-left: 20px;
+  color: #047857;
+}
+
+.recommendationsList li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.recommendationsList li:last-child {
+  margin-bottom: 0;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .container {
+    gap: 16px;
+  }
+
+  .platformsGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .previewSection {
+    padding: 16px;
+  }
+
+  .previewControls {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .previewTabs {
+    width: 100%;
+  }
+
+  .previewTab {
+    flex: 1;
+    justify-content: center;
+  }
+
+  .facebookCard {
+    flex-direction: column;
+    margin: 12px;
+  }
+
+  .facebookImage {
+    width: 100%;
+    height: 200px;
+  }
+
+  .twitterCard,
+  .linkedinCard {
+    margin: 12px;
+  }
+}

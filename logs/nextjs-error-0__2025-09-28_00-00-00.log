@@ -1,0 +1,152 @@
+ ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+ ⚠ Webpack is configured while Turbopack is not, which may cause problems.
+ ⚠ See instructions if you need to configure Turbopack:
+  https://nextjs.org/docs/app/api-reference/next-config-js/turbopack
+
+job-meta error Error: Stream isn't writeable and enableOfflineQueue options is false
+    at E (.next/server/chunks/[root-of-the-server]__e2489f32._.js:1:7152)
+SSE polling error: Error: Stream isn't writeable and enableOfflineQueue options is false
+    at c (.next/server/chunks/[root-of-the-server]__3a606e33._.js:6:436)
+    at Object.start (.next/server/chunks/[root-of-the-server]__3a606e33._.js:6:1110)
+    at b (.next/server/chunks/[root-of-the-server]__3a606e33._.js:1:6988)
+Redis get error: Error: Stream isn't writeable and enableOfflineQueue options is false
+    at o (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:6921)
+    at s (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:7320)
+Redis set error: Error: Stream isn't writeable and enableOfflineQueue options is false
+    at i (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:7158)
+    at s (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:7381)
+ ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+ ⚠ Webpack is configured while Turbopack is not, which may cause problems.
+ ⚠ See instructions if you need to configure Turbopack:
+  https://nextjs.org/docs/app/api-reference/next-config-js/turbopack
+
+ ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+ ⚠ Webpack is configured while Turbopack is not, which may cause problems.
+ ⚠ See instructions if you need to configure Turbopack:
+  https://nextjs.org/docs/app/api-reference/next-config-js/turbopack
+
+ ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+ ⚠ Webpack is configured while Turbopack is not, which may cause problems.
+ ⚠ See instructions if you need to configure Turbopack:
+  https://nextjs.org/docs/app/api-reference/next-config-js/turbopack
+
+SSE polling error: Error: Stream isn't writeable and enableOfflineQueue options is false
+    at c (.next/server/chunks/[root-of-the-server]__3a606e33._.js:6:436)
+    at Object.start (.next/server/chunks/[root-of-the-server]__3a606e33._.js:6:1110)
+    at b (.next/server/chunks/[root-of-the-server]__3a606e33._.js:1:6988)
+job-meta error Error: Stream isn't writeable and enableOfflineQueue options is false
+    at E (.next/server/chunks/[root-of-the-server]__e2489f32._.js:1:7152)
+Redis get error: Error: Stream isn't writeable and enableOfflineQueue options is false
+    at o (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:6921)
+    at s (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:7320)
+Redis set error: Error: Stream isn't writeable and enableOfflineQueue options is false
+    at i (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:7158)
+    at s (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:7381)
+Job status error: Error: Stream isn't writeable and enableOfflineQueue options is false
+    at y (.next/server/chunks/[root-of-the-server]__6c1c2830._.js:1:6732)
+Failed to retrieve artifact analyses/2025-09-27/01K65JJPHRZ2G2W419F3C2H446/report.pdf: Error: ENOENT: no such file or directory, open '/home/reda/seo-analyzer-nextjs/artifacts/analyses/2025-09-27/01K65JJPHRZ2G2W419F3C2H446/report.pdf'
+    at async Object.get (.next/server/chunks/[root-of-the-server]__1a8263cc._.js:10:14637)
+    at async y (.next/server/chunks/[root-of-the-server]__de1e6677._.js:974:1180)
+    at async c (.next/server/chunks/[root-of-the-server]__de1e6677._.js:974:4653)
+    at async l (.next/server/chunks/[root-of-the-server]__de1e6677._.js:974:5685)
+    at async k (.next/server/chunks/[root-of-the-server]__de1e6677._.js:974:6818) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/reda/seo-analyzer-nextjs/artifacts/analyses/2025-09-27/01K65JJPHRZ2G2W419F3C2H446/report.pdf'
+}
+ ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+ ⚠ Webpack is configured while Turbopack is not, which may cause problems.
+ ⚠ See instructions if you need to configure Turbopack:
+  https://nextjs.org/docs/app/api-reference/next-config-js/turbopack
+
+SSE polling error: Error: Stream isn't writeable and enableOfflineQueue options is false
+    at c (.next/server/chunks/[root-of-the-server]__3a606e33._.js:6:436)
+    at Object.start (.next/server/chunks/[root-of-the-server]__3a606e33._.js:6:1110)
+    at b (.next/server/chunks/[root-of-the-server]__3a606e33._.js:1:6988)
+job-meta error Error: Stream isn't writeable and enableOfflineQueue options is false
+    at E (.next/server/chunks/[root-of-the-server]__e2489f32._.js:1:7152)
+Redis get error: Error: Stream isn't writeable and enableOfflineQueue options is false
+    at o (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:6921)
+    at s (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:7320)
+Redis set error: Error: Stream isn't writeable and enableOfflineQueue options is false
+    at i (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:7158)
+    at s (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:7381)
+Failed to retrieve artifact analyses/2025-09-27/01K668S5BXJ0GAS72663AR67YD/report.pdf: Error: ENOENT: no such file or directory, open '/home/reda/seo-analyzer-nextjs/artifacts/analyses/2025-09-27/01K668S5BXJ0GAS72663AR67YD/report.pdf'
+    at async Object.get (.next/server/chunks/[root-of-the-server]__1a8263cc._.js:10:14637)
+    at async y (.next/server/chunks/[root-of-the-server]__de1e6677._.js:974:1180)
+    at async c (.next/server/chunks/[root-of-the-server]__de1e6677._.js:974:4653)
+    at async l (.next/server/chunks/[root-of-the-server]__de1e6677._.js:974:5685)
+    at async k (.next/server/chunks/[root-of-the-server]__de1e6677._.js:974:6818) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/reda/seo-analyzer-nextjs/artifacts/analyses/2025-09-27/01K668S5BXJ0GAS72663AR67YD/report.pdf'
+}
+Failed to retrieve artifact analyses/2025-09-27/01K668SHB1BRZA7S8C3K8V6PE2/report.pdf: Error: ENOENT: no such file or directory, open '/home/reda/seo-analyzer-nextjs/artifacts/analyses/2025-09-27/01K668SHB1BRZA7S8C3K8V6PE2/report.pdf'
+    at async Object.get (.next/server/chunks/[root-of-the-server]__1a8263cc._.js:10:14637)
+    at async y (.next/server/chunks/[root-of-the-server]__de1e6677._.js:974:1180)
+    at async c (.next/server/chunks/[root-of-the-server]__de1e6677._.js:974:4653)
+    at async l (.next/server/chunks/[root-of-the-server]__de1e6677._.js:974:5685)
+    at async k (.next/server/chunks/[root-of-the-server]__de1e6677._.js:974:6818) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/reda/seo-analyzer-nextjs/artifacts/analyses/2025-09-27/01K668SHB1BRZA7S8C3K8V6PE2/report.pdf'
+}
+ ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+ ⚠ Webpack is configured while Turbopack is not, which may cause problems.
+ ⚠ See instructions if you need to configure Turbopack:
+  https://nextjs.org/docs/app/api-reference/next-config-js/turbopack
+
+job-meta error Error: Stream isn't writeable and enableOfflineQueue options is false
+    at E (.next/server/chunks/[root-of-the-server]__e2489f32._.js:1:7152)
+SSE polling error: Error: Stream isn't writeable and enableOfflineQueue options is false
+    at c (.next/server/chunks/[root-of-the-server]__3a606e33._.js:6:436)
+    at Object.start (.next/server/chunks/[root-of-the-server]__3a606e33._.js:6:1110)
+    at b (.next/server/chunks/[root-of-the-server]__3a606e33._.js:1:6988)
+Failed to retrieve artifact analyses/2025-09-27/01K6691FT60XDP086Q7WRS1QCB/report.pdf: Error: ENOENT: no such file or directory, open '/home/reda/seo-analyzer-nextjs/artifacts/analyses/2025-09-27/01K6691FT60XDP086Q7WRS1QCB/report.pdf'
+    at async Object.get (.next/server/chunks/[root-of-the-server]__1a8263cc._.js:10:14637)
+    at async y (.next/server/chunks/[root-of-the-server]__de1e6677._.js:974:1180)
+    at async c (.next/server/chunks/[root-of-the-server]__de1e6677._.js:974:4653)
+    at async l (.next/server/chunks/[root-of-the-server]__de1e6677._.js:974:5685)
+    at async k (.next/server/chunks/[root-of-the-server]__de1e6677._.js:974:6818) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/reda/seo-analyzer-nextjs/artifacts/analyses/2025-09-27/01K6691FT60XDP086Q7WRS1QCB/report.pdf'
+}
+Server-side job-meta fetch failed: Error: NEXT_REDIRECT
+    at g (.next/server/chunks/ssr/_6ba7d4ce._.js:1:22185)
+    at h (.next/server/chunks/ssr/_6ba7d4ce._.js:1:22478)
+    at j (.next/server/chunks/ssr/_6ba7d4ce._.js:1:30568) {
+  digest: 'NEXT_REDIRECT;replace;/analys/01K66A56V8BYYJENQ0125GSCZE;307;'
+}
+ ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+ ⚠ Webpack is configured while Turbopack is not, which may cause problems.
+ ⚠ See instructions if you need to configure Turbopack:
+  https://nextjs.org/docs/app/api-reference/next-config-js/turbopack
+
+ ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+ ⚠ Webpack is configured while Turbopack is not, which may cause problems.
+ ⚠ See instructions if you need to configure Turbopack:
+  https://nextjs.org/docs/app/api-reference/next-config-js/turbopack
+
+job-meta error Error: Stream isn't writeable and enableOfflineQueue options is false
+    at E (.next/server/chunks/[root-of-the-server]__e2489f32._.js:1:7152)
+SSE polling error: Error: Stream isn't writeable and enableOfflineQueue options is false
+    at c (.next/server/chunks/[root-of-the-server]__3a606e33._.js:6:436)
+    at Object.start (.next/server/chunks/[root-of-the-server]__3a606e33._.js:6:1110)
+    at b (.next/server/chunks/[root-of-the-server]__3a606e33._.js:1:6988)
+Redis get error: Error: Stream isn't writeable and enableOfflineQueue options is false
+    at o (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:6921)
+    at s (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:7320)
+Redis set error: Error: Stream isn't writeable and enableOfflineQueue options is false
+    at i (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:7158)
+    at s (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:7381)
+ ⨯ The requested resource isn't a valid image for /images/SEOanalyzerLogo.png received null
+ ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+ ⚠ Webpack is configured while Turbopack is not, which may cause problems.
+ ⚠ See instructions if you need to configure Turbopack:
+  https://nextjs.org/docs/app/api-reference/next-config-js/turbopack
+

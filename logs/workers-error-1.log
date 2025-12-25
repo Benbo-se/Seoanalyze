@@ -1,0 +1,166 @@
+Security analysis failed: response is not defined
+Error crawling https://stackr.se/foretag: Request failed with status code 500
+Security analysis failed: response is not defined
+LanternError: NO_LCP
+    at LargestContentfulPaint.getOptimisticGraph (file:///home/reda/seo-analyzer-nextjs/node_modules/@paulirish/trace_engine/models/trace/lantern/metrics/LargestContentfulPaint.js:30:19)
+    at LargestContentfulPaint.compute (file:///home/reda/seo-analyzer-nextjs/node_modules/@paulirish/trace_engine/models/trace/lantern/metrics/Metric.js:46:38)
+    at LargestContentfulPaint.compute (file:///home/reda/seo-analyzer-nextjs/node_modules/@paulirish/trace_engine/models/trace/lantern/metrics/LargestContentfulPaint.js:63:36)
+    at #createLanternContext (file:///home/reda/seo-analyzer-nextjs/node_modules/@paulirish/trace_engine/models/trace/Processor.js:275:66)
+    at #computeInsightsForNavigation (file:///home/reda/seo-analyzer-nextjs/node_modules/@paulirish/trace_engine/models/trace/Processor.js:498:49)
+    at #computeInsights (file:///home/reda/seo-analyzer-nextjs/node_modules/@paulirish/trace_engine/models/trace/Processor.js:467:47)
+    at TraceProcessor.parse (file:///home/reda/seo-analyzer-nextjs/node_modules/@paulirish/trace_engine/models/trace/Processor.js:122:38)
+    at async TraceEngineResult.runTraceEngine (file:///home/reda/seo-analyzer-nextjs/node_modules/lighthouse/core/computed/trace-engine-result.js:42:5)
+    at async TraceEngineResult.compute_ (file:///home/reda/seo-analyzer-nextjs/node_modules/lighthouse/core/computed/trace-engine-result.js:254:7)
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+Error crawling https://competitor1-google.com: getaddrinfo ENOTFOUND competitor1-google.com
+Error crawling https://competitor2-google.com: getaddrinfo ENOTFOUND competitor2-google.com
+Error crawling https://competitor3-google.com: getaddrinfo ENOTFOUND competitor3-google.com
+Failed to generate AI report: Error: DEEPSEEK_API_KEY not configured
+    at generateAiReport (/home/reda/seo-analyzer-nextjs/lib/queue-workers.js:2162:13)
+    at Worker.connection.host [as processFn] (/home/reda/seo-analyzer-nextjs/lib/queue-workers.js:2055:28)
+    at async /home/reda/seo-analyzer-nextjs/node_modules/bullmq/dist/cjs/classes/worker.js:498:32
+    at async Worker.retryIfFailed (/home/reda/seo-analyzer-nextjs/node_modules/bullmq/dist/cjs/classes/worker.js:776:24)
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+Error crawling https://competitor1-wikipedia.com: getaddrinfo ENOTFOUND competitor1-wikipedia.com
+Error crawling https://competitor2-wikipedia.com: getaddrinfo ENOTFOUND competitor2-wikipedia.com
+Error crawling https://competitor3-wikipedia.com: getaddrinfo ENOTFOUND competitor3-wikipedia.com
+Failed to generate AI report: Error: DEEPSEEK_API_KEY not configured
+    at generateAiReport (/home/reda/seo-analyzer-nextjs/lib/queue-workers.js:2162:13)
+    at Worker.connection.host [as processFn] (/home/reda/seo-analyzer-nextjs/lib/queue-workers.js:2055:28)
+    at async /home/reda/seo-analyzer-nextjs/node_modules/bullmq/dist/cjs/classes/worker.js:498:32
+    at async Worker.retryIfFailed (/home/reda/seo-analyzer-nextjs/node_modules/bullmq/dist/cjs/classes/worker.js:776:24)
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+Failed to generate AI report: Error: DEEPSEEK_API_KEY not configured
+    at generateAiReport (/home/reda/seo-analyzer-nextjs/lib/queue-workers.js:2251:13)
+    at Worker.connection.host [as processFn] (/home/reda/seo-analyzer-nextjs/lib/queue-workers.js:2162:28)
+    at async /home/reda/seo-analyzer-nextjs/node_modules/bullmq/dist/cjs/classes/worker.js:498:32
+    at async Worker.retryIfFailed (/home/reda/seo-analyzer-nextjs/node_modules/bullmq/dist/cjs/classes/worker.js:776:24)
+Failed to generate AI report: Error: DEEPSEEK_API_KEY not configured
+    at generateAiReport (/home/reda/seo-analyzer-nextjs/lib/queue-workers.js:2251:13)
+    at Worker.connection.host [as processFn] (/home/reda/seo-analyzer-nextjs/lib/queue-workers.js:2162:28)
+    at async /home/reda/seo-analyzer-nextjs/node_modules/bullmq/dist/cjs/classes/worker.js:498:32
+    at async Worker.retryIfFailed (/home/reda/seo-analyzer-nextjs/node_modules/bullmq/dist/cjs/classes/worker.js:776:24)
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+🤖 AI Analysis job 77 failed: Error: Job 1033 timed out after 180000ms
+    at waitForJob (/home/reda/seo-analyzer-nextjs/lib/queue-workers.js:2235:9)
+    at async Worker.connection.host [as processFn] (/home/reda/seo-analyzer-nextjs/lib/queue-workers.js:2021:29)
+    at async /home/reda/seo-analyzer-nextjs/node_modules/bullmq/dist/cjs/classes/worker.js:498:32
+    at async Worker.retryIfFailed (/home/reda/seo-analyzer-nextjs/node_modules/bullmq/dist/cjs/classes/worker.js:776:24)
+💥 [queue-workers-0] RSS 1126MB > 1100MB, exiting for restart
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+💥 [queue-workers-0] RSS 1518MB > 1100MB, exiting for restart
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+Lighthouse analysis error: TypeError: Failed to fetch browser webSocket URL from http://127.0.0.1:45843/json/version: fetch failed
+    at node:internal/deps/undici/undici:13510:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getWSEndpoint (file:///home/reda/seo-analyzer-nextjs/node_modules/puppeteer-core/lib/esm/puppeteer/common/BrowserConnector.js:67:24)
+    at async getConnectionTransport (file:///home/reda/seo-analyzer-nextjs/node_modules/puppeteer-core/lib/esm/puppeteer/common/BrowserConnector.js:54:31)
+    at async _connectToBrowser (file:///home/reda/seo-analyzer-nextjs/node_modules/puppeteer-core/lib/esm/puppeteer/common/BrowserConnector.js:24:50)
+    at async gatherFn (file:///home/reda/seo-analyzer-nextjs/node_modules/lighthouse/core/gather/navigation-runner.js:283:19)
+    at async Runner.gather (file:///home/reda/seo-analyzer-nextjs/node_modules/lighthouse/core/runner.js:211:25)
+    at async navigationGather (file:///home/reda/seo-analyzer-nextjs/node_modules/lighthouse/core/gather/navigation-runner.js:306:21)
+    at async navigation (file:///home/reda/seo-analyzer-nextjs/node_modules/lighthouse/core/index.js:58:24)
+    at async LighthouseAnalyzer.analyze (/home/reda/seo-analyzer-nextjs/lighthouse-analyzer.js:148:28) {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:45843
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 45843
+  }
+}

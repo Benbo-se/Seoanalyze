@@ -1,0 +1,342 @@
+'use client';
+
+import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
+import { useParams } from 'next/navigation';
+import { useJobStatus } from '../../../hooks/useJobStatus';
+import CrawlResultsDisplay from '../../../components/results/CrawlResultsDisplay';
+import LighthouseResultsDisplay from '../../../components/results/LighthouseResultsDisplay';
+import ResultsDisplay from '../../../components/results/ResultsDisplay';
+import SkeletonLoader from '../../../components/common/SkeletonLoader';
+import styles from './page.module.css';
+
+export default function AnalysisPageClient({ params }) {
+  const urlParams = useParams();
+  const jobId = params?.jobId || urlParams?.jobId || '';
+  const { status, isOffline, isRecovering, nextRetryInMs, retryNow, done } = useJobStatus(jobId);
+  const [results, setResults] = useState(null);
+  const [loadingResults, setLoadingResults] = useState(false);
+
+  const state = status?.state ?? 'initializing';
+  
+  const progress = status?.progress ?? 0;
+  const position = status?.position;
+  const error = status?.error;
+  const resultId = status?.resultId;
+
+  // Determine analysis type from URL or status  
+  const [detectedType, setDetectedType] = useState('analys');
+  
+  // Fetch type from API when we have resultId but no type
+  useEffect(() => {
+    if (resultId && !status?.type && state === 'completed') {
+      fetch(`/api/v1/analyses/${resultId}`)
+        .then(response => response.json())
+        .then(data => {
+          if (data.type) {
+            setDetectedType(data.type);
+          }
+        })
+        .catch(error => console.error('Failed to fetch type:', error));
+    }
+  }, [resultId, status?.type, state]);
+  
+  const analysisType = status?.type || detectedType;
+  const typeDisplayName = {
+    seo: 'SEO-analys',
+    lighthouse: 'Lighthouse-analys', 
+    crawl: 'Crawl-analys'
+  }[analysisType] || 'Analys';
+
+  const formatRetryTime = () => {
+    if (!nextRetryInMs) return '1';
+    return Math.ceil(nextRetryInMs / 1000);
+  };
+
+  // Fetch results when analysis is completed
+  useEffect(() => {
+    if (state === 'completed' && resultId && !results && !loadingResults) {
+      setLoadingResults(true);
+      fetch(`/api/v1/analyses/${resultId}`)
+        .then(response => response.json())
+        .then(data => {
+          // The API returns full data in 'results' field, not 'result'
+          if (data.results) {
+            // Include summary from top level for crawl analyses
+            setResults({...data.results, summary: data.summary});
+          }
+        })
+        .catch(error => {
+          console.error('Failed to fetch results:', error);
+        })
+        .finally(() => {
+          setLoadingResults(false);
+        });
+    }
+  }, [state, resultId, results, loadingResults]);
+
+  return (
+    <div className={styles.analysisPage}>
+      <div className="warm-overlay"></div>
+      <div className="container">
+        <div className={styles.analysisContent}>
+          
+          {/* Header */}
+          <div className={styles.analysisHeader}>
+            <Link href="/" className={styles.backLink}>
+              ← Tillbaka till start
+            </Link>
+            <h1 className={styles.analysisTitle}>
+              {typeDisplayName} #{jobId}
+            </h1>
+            {status?.url && (
+              <p className={styles.analysisUrl}>
+                Analyserar: <span className={styles.urlText}>{status.url}</span>
+              </p>
+            )}
+          </div>
+
+          {/* Status Card */}
+          <div className={styles.statusCard}>
+            
+            {/* Offline Notice */}
+            {isOffline && (
+              <div className="offline-notice">
+                <div className="offline-indicator"></div>
+                <span className="offline-text">
+                  Du är offline. Fortsätter automatiskt när anslutningen är tillbaka.
+                </span>
+              </div>
+            )}
+
+            {/* Initializing State */}
+            {state === 'initializing' && (
+              <div className="state-section">
+                <div className="state-icon spinner-icon">
+                  ⚡
+                </div>
+                <h3 className="state-title">
+                  Ansluter till analys...
+                </h3>
+                <p className="state-message">
+                  Förbereder din {typeDisplayName.toLowerCase()}
+                </p>
+                {isRecovering && (
+                  <div className="recovery-notice">
+                    <span className="recovery-text">
+                      Återansluter om {formatRetryTime()}s
+                      <button 
+                        className="retry-button"
+                        onClick={retryNow}
+                      >
+                        försök nu
+                      </button>
+                    </span>
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Waiting in Queue */}
+            {state === 'waiting' && (
+              <div className="state-section">
+                <div className="state-icon">
+                  <span>🕒</span>
+                </div>
+                <h3 className="state-title">
+                  Väntar i kön
+                </h3>
+                {position && (
+                  <p className="queue-position">
+                    Din plats: #{position}
+                  </p>
+                )}
+                <p className="state-message">
+                  Vi startar din {typeDisplayName.toLowerCase()} så snart som möjligt
+                </p>
+                {isRecovering && (
+                  <div className="recovery-notice">
+                    <span className="recovery-text">
+                      Återansluter om {formatRetryTime()}s
+                      <button 
+                        className="retry-button"
+                        onClick={retryNow}
+                      >
+                        försök nu
+                      </button>
+                    </span>
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Active - In Progress */}
+            {state === 'active' && (
+              <div className="state-section">
+                <div className="state-icon spinner-icon">
+                  <span>⚡</span>
+                </div>
+                <h3 className="state-title">
+                  {analysisType === 'crawl' && `Crawlar din webbplats...`}
+                  {analysisType === 'lighthouse' && `Kör Lighthouse-analys...`}
+                  {analysisType === 'seo' && `Analyserar SEO...`}
+                  {!['crawl', 'lighthouse', 'seo'].includes(analysisType) && `Bearbetar analys...`}
+                </h3>
+                
+                {/* Progress Display */}
+                <div className="progress-display">
+                  <div className="progress-text">
+                    {progress}% slutfört
+                  </div>
+                  <div className="progress-bar">
+                    <div 
+                      className="progress-fill" 
+                      style={{ width: `${Math.max(0, Math.min(100, progress))}%` }}
+                    ></div>
+                  </div>
+                </div>
+                
+                <p className="state-message">
+                  {analysisType === 'crawl' && progress > 0 && `${progress} av 100 sidor analyserade`}
+                  {analysisType === 'lighthouse' && 'Mäter prestanda, tillgänglighet och SEO'}
+                  {analysisType === 'seo' && 'Granskar sidans SEO-optimering'}
+                </p>
+              </div>
+            )}
+
+            {/* Completed */}
+            {state === 'completed' && !results && (
+              <div className="state-section success-state">
+                <div className="state-icon">
+                  <span>🎉</span>
+                </div>
+                <h3 className="state-title success-title">
+                  Analysen är klar!
+                </h3>
+                
+                {loadingResults ? (
+                  <div>
+                    <SkeletonLoader type="analysis" />
+                    <p className="state-message">
+                      Hämtar resultaten...
+                    </p>
+                  </div>
+                ) : (
+                  <div>
+                    <p className="state-message">
+                      Din {typeDisplayName.toLowerCase()} är nu redo att visas
+                    </p>
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Failed */}
+            {state === 'failed' && (
+              <div className="state-section error-state">
+                <div className="state-icon">
+                  <span>❌</span>
+                </div>
+                <h3 className="state-title error-title">
+                  Analysen misslyckades
+                </h3>
+                {error && (
+                  <p className="error-message">
+                    {error}
+                  </p>
+                )}
+                <div>
+                  <button 
+                    className="action-button"
+                    onClick={() => window.location.reload()}
+                  >
+                    Försök igen
+                  </button>
+                  <div>
+                    <Link 
+                      href="/"
+                      className="secondary-button"
+                    >
+                      Starta ny analys
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* Connection Recovery Notice */}
+            {!done && isRecovering && !isOffline && (
+              <div className="recovery-notice">
+                <span className="recovery-text">
+                  Tillfälligt anslutningsfel — försöker igen om {formatRetryTime()}s
+                  <button 
+                    className="retry-button"
+                    onClick={retryNow}
+                  >
+                    försök nu
+                  </button>
+                </span>
+              </div>
+            )}
+          </div>
+
+          {/* Help Section */}
+          <div className="help-section">
+            <h3 className="help-title">
+              Vad händer nu?
+            </h3>
+            <div>
+              {state === 'waiting' && (
+                <ul className="help-list">
+                  <li>• Din analys väntar i kön tillsammans med andra användares analyser</li>
+                  <li>• Vi bearbetar analyser i den ordning de kommer in</li>
+                  <li>• Du kan lämna denna sida och komma tillbaka - analysen fortsätter</li>
+                </ul>
+              )}
+              {state === 'active' && (
+                <ul className="help-list">
+                  <li>• Analysen pågår just nu och kommer att slutföras automatiskt</li>
+                  <li>• Stäng inte denna flik - du kan följa progressen i realtid</li>
+                  <li>• När analysen är klar kommer du automatiskt att kunna se resultaten</li>
+                </ul>
+              )}
+              {state === 'completed' && (
+                <ul className="help-list">
+                  <li>• Din analys är nu helt klar med detaljerade resultat</li>
+                  <li>• Du kan dela resultaten med andra via den unika länken</li>
+                  <li>• Resultaten sparas i 90 dagar och kan nås när som helst</li>
+                </ul>
+              )}
+            </div>
+          </div>
+
+          {/* Results Display */}
+          {results && (
+            <div className="results-section">
+              {analysisType === 'crawl' && (
+                <CrawlResultsDisplay 
+                  crawlData={{...results, analysisId: resultId}} 
+                  onNewAnalysis={() => window.location.href = '/'} 
+                />
+              )}
+              {analysisType === 'lighthouse' && (
+                <LighthouseResultsDisplay 
+                  lighthouseData={{...results, analysisId: resultId}} 
+                  onNewAnalysis={() => window.location.href = '/'} 
+                />
+              )}
+              {analysisType === 'seo' && (
+                <ResultsDisplay 
+                  result={{...results, analysisId: resultId}} 
+                  type="seo" 
+                  onNewAnalysis={() => window.location.href = '/'} 
+                />
+              )}
+            </div>
+          )}
+
+        </div>
+      </div>
+    </div>
+  );
+}

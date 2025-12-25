@@ -1,0 +1,450 @@
+/* AI Analysis Landing Page Styles */
+
+.ai-landing {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 80px 20px 60px;
+  position: relative;
+}
+
+.ai-landing::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    radial-gradient(circle at 20% 50%, rgba(255,255,255,0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(255,255,255,0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.ai-landing-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Hero Section */
+.ai-hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.ai-hero-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  padding: 8px 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.ai-hero-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: white;
+  margin: 0 0 20px 0;
+  line-height: 1.2;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.ai-hero-description {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.95);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Benefits Grid */
+.ai-benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-bottom: 80px;
+}
+
+.ai-benefit-card {
+  background: white;
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ai-benefit-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+}
+
+.ai-benefit-icon {
+  font-size: 3rem;
+  margin-bottom: 16px;
+  color: #667eea;
+}
+
+.ai-benefit-icon i {
+  display: block;
+}
+
+.ai-benefit-card h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin: 0 0 12px 0;
+}
+
+.ai-benefit-card p {
+  font-size: 0.95rem;
+  color: #4a5568;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Section Titles */
+.ai-section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin: 0 0 40px 0;
+  text-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Comparison Section */
+.ai-comparison-section {
+  margin-bottom: 80px;
+}
+
+.ai-comparison-table {
+  background: white;
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+.ai-comparison-header {
+  display: grid;
+  grid-template-columns: 180px repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.ai-comparison-header div {
+  font-weight: 700;
+  color: #2d3748;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.ai-comparison-header div:first-child {
+  text-align: left;
+}
+
+.ai-comparison-row {
+  display: grid;
+  grid-template-columns: 180px repeat(4, 1fr);
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.ai-comparison-row:last-child {
+  border-bottom: none;
+}
+
+.ai-comparison-label {
+  font-weight: 600;
+  color: #2d3748;
+  font-size: 0.9rem;
+}
+
+.ai-comparison-value {
+  text-align: center;
+  color: #4a5568;
+  font-size: 0.9rem;
+}
+
+.ai-comparison-value.highlight {
+  color: #667eea;
+  font-weight: 700;
+}
+
+/* CTA Section */
+.ai-cta-section {
+  background: white;
+  border-radius: 24px;
+  padding: 40px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+  margin-bottom: 60px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ai-cta-description {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #4a5568;
+  margin: 0 0 32px 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ai-analysis-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ai-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.ai-form-label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.ai-form-sublabel {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #718096;
+  margin-top: 4px;
+}
+
+.ai-competitors-group {
+  gap: 12px;
+}
+
+.ai-competitor-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.ai-competitor-input {
+  width: 100%;
+  padding: 14px 20px;
+  padding-right: 45px;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background: #f7fafc;
+}
+
+.ai-competitor-input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  background: white;
+}
+
+.ai-competitor-remove {
+  position: absolute;
+  right: 8px;
+  background: #e53e3e;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ai-competitor-remove:hover {
+  background: #c53030;
+  transform: scale(1.1);
+}
+
+.ai-url-input {
+  width: 100%;
+  padding: 18px 24px;
+  border: 2px solid #e2e8f0;
+  border-radius: 16px;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  background: #f7fafc;
+}
+
+.ai-url-input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  background: white;
+}
+
+.ai-analyze-button {
+  width: 100%;
+  padding: 18px 32px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 16px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+}
+
+.ai-analyze-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 35px rgba(102, 126, 234, 0.4);
+}
+
+.ai-analyze-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.ai-error-message {
+  background: #fff5f5;
+  border: 1px solid #fc8181;
+  border-radius: 12px;
+  padding: 12px 16px;
+  color: #c53030;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.ai-form-note {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #718096;
+  margin: 16px 0 0 0;
+}
+
+/* What You Get Section */
+.ai-what-you-get {
+  margin-bottom: 40px;
+}
+
+.ai-report-preview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.ai-report-section {
+  background: white;
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.ai-report-section h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin: 0 0 12px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ai-report-section h3 i {
+  color: #667eea;
+}
+
+.ai-report-section p {
+  font-size: 0.9rem;
+  color: #4a5568;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .ai-comparison-header,
+  .ai-comparison-row {
+    grid-template-columns: 140px repeat(4, 1fr);
+    gap: 12px;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .ai-hero-title {
+    font-size: 2rem;
+  }
+
+  .ai-hero-description {
+    font-size: 1.1rem;
+  }
+
+  .ai-section-title {
+    font-size: 1.8rem;
+  }
+
+  .ai-benefits-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ai-comparison-table {
+    padding: 20px;
+    overflow-x: scroll;
+  }
+
+  .ai-comparison-header,
+  .ai-comparison-row {
+    grid-template-columns: 120px repeat(4, 100px);
+    gap: 8px;
+    font-size: 0.75rem;
+  }
+
+  .ai-cta-section {
+    padding: 32px 24px;
+  }
+
+  .ai-report-preview {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .ai-landing {
+    padding: 60px 16px 40px;
+  }
+
+  .ai-hero-title {
+    font-size: 1.75rem;
+  }
+
+  .ai-comparison-header,
+  .ai-comparison-row {
+    grid-template-columns: 100px repeat(4, 80px);
+    font-size: 0.7rem;
+  }
+
+  .ai-url-input,
+  .ai-analyze-button {
+    font-size: 1rem;
+    padding: 14px 20px;
+  }
+}

@@ -1,0 +1,11 @@
+🤖 AI Analysis job 83 failed: Error: Job 1041 timed out after 180000ms
+    at waitForJob (/home/reda/seo-analyzer-nextjs/lib/queue-workers.js:2235:9)
+    at async Worker.connection.host [as processFn] (/home/reda/seo-analyzer-nextjs/lib/queue-workers.js:2021:29)
+    at async /home/reda/seo-analyzer-nextjs/node_modules/bullmq/dist/cjs/classes/worker.js:498:32
+    at async Worker.retryIfFailed (/home/reda/seo-analyzer-nextjs/node_modules/bullmq/dist/cjs/classes/worker.js:776:24)
+Error crawling https://transdev.se/wp-content/uploads/2024/03/Transdev_podd_pgm1_MASTER_200907.mp3: maxContentLength size of 10485760 exceeded
+Error crawling https://transdev.se/wp-content/uploads/2024/03/Transdev_podd_pgm2_MASTER_200907.mp3: maxContentLength size of 10485760 exceeded
+Error crawling https://transdev.se/wp-content/uploads/2024/03/Transdev_podd_pgm3_MASTER_201005.mp3: maxContentLength size of 10485760 exceeded
+💥 [queue-workers-0] RSS 1237MB > 1100MB, exiting for restart
+Error crawling https://vrsverige.se: Hostname/IP does not match certificate's altnames: Host: vrsverige.se. is not in the cert's altnames: DNS:ccmrnd.cctracking.gr
+Error crawling https://polisen.se/polisen-i-ditt-lan/polisen-i-varmland/: timeout of 15000ms exceeded

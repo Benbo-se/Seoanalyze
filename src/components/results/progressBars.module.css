@@ -1,0 +1,92 @@
+.container {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0 0 20px 0;
+}
+
+.barsGrid {
+  display: grid;
+  gap: 16px;
+}
+
+.barItem {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.barHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.barIcon {
+  color: #6b7280;
+  flex-shrink: 0;
+}
+
+.barName {
+  flex: 1;
+  color: #4b5563;
+  font-weight: 500;
+}
+
+.barScore {
+  color: #1f2937;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.barTrack {
+  height: 8px;
+  background: #f3f4f6;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.barFill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.progressGood {
+  background: linear-gradient(90deg, #10b981, #34d399);
+}
+
+.progressWarning {
+  background: linear-gradient(90deg, #f59e0b, #fbbf24);
+}
+
+.progressPoor {
+  background: linear-gradient(90deg, #ef4444, #f87171);
+}
+
+@media (min-width: 768px) {
+  .barsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 24px;
+  }
+
+  .title {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+}

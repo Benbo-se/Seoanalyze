@@ -1,0 +1,3657 @@
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1552ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1264ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 344ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/671 - LCP: 840ms, CLS: 0.0045, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/213 - LCP: 244ms, CLS: 0.0225, INP: 120ms
+📊 RUM data stored: https://seoanalyze.se/analys/671 - LCP: 840ms, CLS: 0.0186, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 5072ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/671 - LCP: 840ms, CLS: 0.0186, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 5072ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/213 - LCP: 244ms, CLS: 0.0225, INP: 120ms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: 2521bdde-b10a-4609-ace6-12b4b8acb5e6)
+📝 Created analysis 01K4B2J47Z62QM3BMK8AEWWXN3 for https://seoanalyze.se/
+Added SEO job 3710 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 5072ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3710 - LCP: 196ms, CLS: 0.0097, INP: nullms
+✅ Connected to Redis
+Cache SET: seo-analyzer:analysis-history:https://seoanalyze.se/-10 (TTL: 1800s)
+📊 RUM data stored: https://seoanalyze.se/analys/671 - LCP: 840ms, CLS: 0.0186, INP: nullms
+🔍 Starting CRAWL analysis for https://seoanalyze.se/ (client: 134f8212-f2e3-416c-9943-c45d08161b7d)
+📝 Created analysis 01K4B2JA17V1W9TJ4GAZRPC8FG for https://seoanalyze.se/
+📝 Created Crawl analysis record: 01K4B2JA17V1W9TJ4GAZRPC8FG
+Added Crawl job 673 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 256ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3710 - LCP: 196ms, CLS: 0.0097, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/673 - LCP: 208ms, CLS: 0.0097, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/213 - LCP: 244ms, CLS: 0.0225, INP: 120ms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: 2a3ec36c-aed3-48e8-b0a4-67ca2a9ed571)
+📝 Created analysis 01K4B2JE8FQ1DH86ZJNYWQG26X for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4B2JE8FQ1DH86ZJNYWQG26X
+Added Lighthouse job 214 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/213 - LCP: 276ms, CLS: 0.0225, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/214 - LCP: 168ms, CLS: 0.0097, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/673 - LCP: 208ms, CLS: 0.0097, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3710 - LCP: 196ms, CLS: 0.0284, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: f89b0440-5350-4f31-b135-3a5a79fae593)
+📝 Created analysis 01K4B2JJ10N1K3ZDPHAPTZM4FB for https://seoanalyze.se/
+Added SEO job 3711 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 968ms, CLS: 0, INP: nullms
+Cache HIT: seo-analyzer:analysis-history:https://seoanalyze.se/-10
+📊 RUM data stored: https://seoanalyze.se/analys/214 - LCP: 168ms, CLS: 0.0097, INP: nullms
+🖨️ Generating PDF for analysis 01K4B2JJ10N1K3ZDPHAPTZM4FB (seo)
+Creating new browser instance...
+Browser instance created
+Browser acquired from pool (1 in pool, 0 available)
+📊 RUM data stored: https://seoanalyze.se/analys/3711 - LCP: 224ms, CLS: 0.0186, INP: nullms
+✅ PDF generated for analysis 01K4B2JJ10N1K3ZDPHAPTZM4FB (103739 bytes)
+Browser operation completed in 2665ms
+Browser released to pool
+🖨️ Generated PDF for analysis 01K4B2JJ10N1K3ZDPHAPTZM4FB, type: object, isBuffer: false, length: 103739
+💾 Saved artifact locally: analyses/2025-09-04/01K4B2JJ10N1K3ZDPHAPTZM4FB/report.pdf
+💾 Stored PDF for analysis 01K4B2JJ10N1K3ZDPHAPTZM4FB
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1648ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3711 - LCP: 224ms, CLS: 0.0186, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1648ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1648ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/673 - LCP: 208ms, CLS: 0.0284, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/214 - LCP: 168ms, CLS: 0.0259, INP: nullms
+Destroying browser instance...
+Browser instance destroyed
+📊 RUM data stored: https://seoanalyze.se/analys/214 - LCP: 168ms, CLS: 0.0259, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/673 - LCP: 208ms, CLS: 0.0284, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3711 - LCP: 224ms, CLS: 0.0186, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1204ms, CLS: 0, INP: 64ms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1204ms, CLS: 0, INP: 64ms
+🔍 Starting SEO analysis for https://redaekengren.se/ (client: 772a432f-bfe5-4702-aa28-dec67b405959)
+📝 Created analysis 01K4BAMKM4M0FBD0CN576B5TTW for https://redaekengren.se/
+Added SEO job 3712 for https://redaekengren.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1204ms, CLS: 0, INP: 64ms
+Cache MISS: seo-analyzer:analysis-history:https://redaekengren.se/-10
+Cache SET: seo-analyzer:analysis-history:https://redaekengren.se/-10 (TTL: 1800s)
+📊 RUM data stored: https://seoanalyze.se/analys/3712 - LCP: 196ms, CLS: 0.0589, INP: 80ms
+🔍 Starting LIGHTHOUSE analysis for https://redaekengren.se/ (client: 5307d13b-311a-440a-b176-1a31ef87e5c9)
+📝 Created analysis 01K4BAN0XQQXJSH601MKBQKTAQ for https://redaekengren.se/
+📝 Created Lighthouse analysis record: 01K4BAN0XQQXJSH601MKBQKTAQ
+Added Lighthouse job 215 for https://redaekengren.se/
+📊 RUM data stored: https://seoanalyze.se/analys/3712 - LCP: 196ms, CLS: 0.0589, INP: 80ms
+📊 RUM data stored: https://seoanalyze.se/analys/215 - LCP: 204ms, CLS: 0.0221, INP: nullms
+🔍 Starting CRAWL analysis for https://redaekengren.se/ (client: 0f2d84ae-09cd-4cb6-8cb4-207869a0e84a)
+📝 Created analysis 01K4BAP6FWR52YWCTYD8C8YW4F for https://redaekengren.se/
+📝 Created Crawl analysis record: 01K4BAP6FWR52YWCTYD8C8YW4F
+Added Crawl job 674 for https://redaekengren.se/
+📊 RUM data stored: https://seoanalyze.se/analys/215 - LCP: 204ms, CLS: 0.2964, INP: 88ms
+📊 RUM data stored: https://seoanalyze.se/analys/674 - LCP: 180ms, CLS: 0.0221, INP: 96ms
+📊 RUM data stored: https://seoanalyze.se/analys/674 - LCP: 180ms, CLS: 0.0221, INP: 96ms
+📊 RUM data stored: https://seoanalyze.se/analys/674 - LCP: 180ms, CLS: 0.0646, INP: 96ms
+📊 RUM data stored: https://seoanalyze.se/analys/674 - LCP: 180ms, CLS: 0.0646, INP: 96ms
+📊 RUM data stored: https://seoanalyze.se/analys/674 - LCP: 180ms, CLS: 0.0646, INP: 96ms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 476ms, CLS: 0, INP: 128ms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 476ms, CLS: 0, INP: 128ms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 984ms, CLS: 0, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: 846c4411-6f0c-4125-9624-333644eaf296)
+📝 Created analysis 01K4BVPAHREYJ5MGMTB4KRRABC for https://seoanalyze.se/
+Added SEO job 3713 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 984ms, CLS: 0, INP: 80ms
+Cache MISS: seo-analyzer:analysis-history:https://seoanalyze.se/-10
+Cache SET: seo-analyzer:analysis-history:https://seoanalyze.se/-10 (TTL: 1800s)
+📊 RUM data stored: https://seoanalyze.se/analys/3713 - LCP: 376ms, CLS: 0, INP: 96ms
+📊 RUM data stored: https://seoanalyze.se/analys/3713 - LCP: 376ms, CLS: 0, INP: 112ms
+📊 RUM data stored: https://seoanalyze.se/analys/3713 - LCP: 376ms, CLS: 0, INP: 112ms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1742ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📝 Created analysis 01K4BZG727G85YFER8WWWF13F6 for https://example.com
+📝 Created analysis 01K4BZG727G85YFER8WWWF13F6 for https://example.com
+📊 RUM data stored: https://seoanalyze.se/analys/3711 - LCP: 224ms, CLS: 0.0186, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 208ms, CLS: 0, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: 645ca9d7-133d-47d6-9c82-c002881dc48a)
+📝 Created analysis 01K4BZNC6A2PS8KSB70YZ9MNWA for https://seoanalyze.se/
+Added SEO job 3714 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 952ms, CLS: 0, INP: nullms
+✅ Connected to Redis
+Cache SET: seo-analyzer:analysis-history:https://seoanalyze.se/-10 (TTL: 1800s)
+📊 RUM data stored: https://seoanalyze.se/analys/673 - LCP: 208ms, CLS: 0.0284, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/214 - LCP: 168ms, CLS: 0.0259, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: effd2d73-13af-4ade-bf5d-dfd062e93e19)
+📝 Created analysis 01K4BZNHSES5AG1PECSKRR0N3K for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4BZNHSES5AG1PECSKRR0N3K
+Added Lighthouse job 216 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/214 - LCP: 320ms, CLS: 0.0088, INP: 128ms
+📊 RUM data stored: https://seoanalyze.se/analys/216 - LCP: 152ms, CLS: 0.0097, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/673 - LCP: 280ms, CLS: 0.0044, INP: nullms
+🔍 Starting CRAWL analysis for https://seoanalyze.se/ (client: ca5c2934-0c8c-42c5-b63a-0f4e9ca2ab30)
+📝 Created analysis 01K4BZNPQNAXY96QNRZFZ798WT for https://seoanalyze.se/
+📝 Created Crawl analysis record: 01K4BZNPQNAXY96QNRZFZ798WT
+Added Crawl job 676 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/673 - LCP: 280ms, CLS: 0.0044, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/216 - LCP: 152ms, CLS: 0.0097, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/676 - LCP: 216ms, CLS: 0.0097, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3714 - LCP: 11724ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/676 - LCP: 216ms, CLS: 0.0097, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2124ms, CLS: 0, INP: nullms
+🖨️ Generating PDF for analysis 01K4BZNPQNAXY96QNRZFZ798WT (crawl)
+Creating new browser instance...
+Browser instance created
+Browser acquired from pool (1 in pool, 0 available)
+✅ PDF generated for analysis 01K4BZNPQNAXY96QNRZFZ798WT (80234 bytes)
+Browser operation completed in 2490ms
+Browser released to pool
+🖨️ Generated PDF for analysis 01K4BZNPQNAXY96QNRZFZ798WT, type: object, isBuffer: false, length: 80234
+💾 Saved artifact locally: analyses/2025-09-05/01K4BZNPQNAXY96QNRZFZ798WT/report.pdf
+💾 Stored PDF for analysis 01K4BZNPQNAXY96QNRZFZ798WT
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2124ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2124ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/676 - LCP: 216ms, CLS: 0.0284, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/216 - LCP: 152ms, CLS: 0.0259, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/676 - LCP: 216ms, CLS: 0.0284, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/216 - LCP: 152ms, CLS: 0.0259, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/216 - LCP: 152ms, CLS: 0.0259, INP: nullms
+Destroying browser instance...
+Browser instance destroyed
+📊 RUM data stored: https://seoanalyze.se/analys/216 - LCP: 152ms, CLS: 0.0259, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3714 - LCP: 11724ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/216 - LCP: 152ms, CLS: 0.0259, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/676 - LCP: 216ms, CLS: 0.0284, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3714 - LCP: 11724ms, CLS: 0, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1326ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1215ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📝 Created analysis 01K4C1458GERCJ6FZT1CNCXTQP for https://seoanalyze.se
+📝 Created analysis 01K4C1458GERCJ6FZT1CNCXTQP for https://seoanalyze.se
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 3144ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 3144ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 3144ms, CLS: 0, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1385ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1219ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📊 RUM data stored: https://seoanalyze.se/analys/3714 - LCP: 11724ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 988ms, CLS: 0, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: c54d7501-35cb-4d9f-b310-0962b1111bff)
+📝 Created analysis 01K4CGPX242AEQHSMHDAVEPFQA for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4CGPX242AEQHSMHDAVEPFQA
+Added Lighthouse job 218 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 960ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/218 - LCP: 204ms, CLS: 0.0097, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1288ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1288ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1288ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/218 - LCP: 204ms, CLS: 0.0259, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analyses/01K4C1458GERCJ6FZT1CNCXTQP - LCP: 204ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analyses/01K4C1458GERCJ6FZT1CNCXTQP - LCP: 204ms, CLS: 0, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1101ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1592ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📊 RUM data stored: https://seoanalyze.se/analyses/01K4C1458GERCJ6FZT1CNCXTQP - LCP: 204ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/218 - LCP: 204ms, CLS: 0.0259, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/01K4C1458GERCJ6FZT1CNCXTQP - LCP: 188ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/01K4C1458GERCJ6FZT1CNCXTQP - LCP: 188ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/01K4C1458GERCJ6FZT1CNCXTQP - LCP: 132ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/01K4C1458GERCJ6FZT1CNCXTQP - LCP: 132ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/01K4C1458GERCJ6FZT1CNCXTQP - LCP: 144ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/01K4C1458GERCJ6FZT1CNCXTQP - LCP: 144ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/01K4C1458GERCJ6FZT1CNCXTQP - LCP: 136ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/01K4C1458GERCJ6FZT1CNCXTQP - LCP: 136ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/01K4C1458GERCJ6FZT1CNCXTQP - LCP: 136ms, CLS: 0.007, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/676 - LCP: 216ms, CLS: 0.0284, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/01K4C1458GERCJ6FZT1CNCXTQP - LCP: 188ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/01K4C1458GERCJ6FZT1CNCXTQP - LCP: 188ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/01K4C1458GERCJ6FZT1CNCXTQP - LCP: 188ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/01K4C1458GERCJ6FZT1CNCXTQP - LCP: 136ms, CLS: 0.014, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/01K4C1458GERCJ6FZT1CNCXTQP - LCP: 188ms, CLS: 0.007, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/01K4C1458GERCJ6FZT1CNCXTQP - LCP: 136ms, CLS: 0.014, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/01K4C1458GERCJ6FZT1CNCXTQP - LCP: 188ms, CLS: 0.014, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/216 - LCP: 152ms, CLS: 0.0259, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/216 - LCP: 152ms, CLS: 0.0259, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: 9fb839aa-4bb2-4e6e-a27b-6db5c7e2fbea)
+📝 Created analysis 01K4CHBQ3RXC66N45RB17A8S7M for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4CHBQ3RXC66N45RB17A8S7M
+Added Lighthouse job 219 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 964ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/219 - LCP: 144ms, CLS: 0.0097, INP: 40ms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2072ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2072ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2072ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/219 - LCP: 144ms, CLS: 0.0259, INP: 40ms
+📊 RUM data stored: https://seoanalyze.se/analys/01K4C1458GERCJ6FZT1CNCXTQP - LCP: 144ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 856ms, CLS: 0, INP: 80ms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: 61624eb6-486e-4cc7-8363-a78b3f9c4709)
+📝 Created analysis 01K4CJ8927882F2HZDCNSZNKSC for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4CJ8927882F2HZDCNSZNKSC
+Added Lighthouse job 220 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 856ms, CLS: 0, INP: 88ms
+📊 RUM data stored: https://seoanalyze.se/analys/220 - LCP: 580ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2208ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2208ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2208ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/220 - LCP: 580ms, CLS: 0.0508, INP: 48ms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1281ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📝 Created analysis 01K4CJHSHEQA6QERPSQSVYRG6J for https://seoanalyze.se
+📝 Created analysis 01K4CJHSHEQA6QERPSQSVYRG6J for https://seoanalyze.se
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 3268ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 3268ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 3268ms, CLS: 0, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1365ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1372ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📊 RUM data stored: https://seoanalyze.se/analys/219 - LCP: 144ms, CLS: 0.0259, INP: 40ms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 168ms, CLS: 0, INP: 104ms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: e7d6e026-5cdf-4b10-bd3a-25c82cf09f9c)
+📝 Created analysis 01K4CX65TV75P1KWZEFJRC4FAB for https://seoanalyze.se/
+Added SEO job 3715 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 940ms, CLS: 0, INP: nullms
+✅ Connected to Redis
+Cache SET: seo-analyzer:analysis-history:https://seoanalyze.se/-10 (TTL: 1800s)
+📊 RUM data stored: https://seoanalyze.se/analys/3715 - LCP: 264ms, CLS: 0.0259, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: fdac8b79-baaf-4886-81e0-da8527a9a98c)
+📝 Created analysis 01K4CX6JF5P01MQMNJAZN5MMB2 for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4CX6JF5P01MQMNJAZN5MMB2
+Added Lighthouse job 222 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/3715 - LCP: 264ms, CLS: 0.0259, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/222 - LCP: 140ms, CLS: 0.0097, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2220ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2220ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2220ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/222 - LCP: 140ms, CLS: 0.0097, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/222 - LCP: 33052ms, CLS: 0.0176, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/222 - LCP: 284ms, CLS: 0.0162, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/222 - LCP: 284ms, CLS: 0.0162, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/222 - LCP: 284ms, CLS: 0.0162, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/01K4CJHSHEQA6QERPSQSVYRG6J - LCP: 140ms, CLS: 0, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1157ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: 697f1594-eb10-4d4b-adc5-33bc27ac1e59)
+📝 Created analysis 01K4CYFX4YG53CQN2JNSS47WAV for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4CYFX4YG53CQN2JNSS47WAV
+Added Lighthouse job 223 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1124ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/223 - LCP: 172ms, CLS: 0.0097, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/223 - LCP: 172ms, CLS: 0.0097, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2112ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2112ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2112ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/223 - LCP: 172ms, CLS: 0.0305, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1163ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1064ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📝 Created analysis 01K4CZQA0EA3AQXCJW0V16HEVX for https://example.com
+📝 Created analysis 01K4CZQA0EA3AQXCJW0V16HEVX for https://example.com
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1164ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: 3dec5918-f355-4dc4-bd6e-9a675ab7d349)
+📝 Created analysis 01K4D00QA4TA345ERTZKFT3MGE for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4D00QA4TA345ERTZKFT3MGE
+Added Lighthouse job 225 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1140ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/225 - LCP: 252ms, CLS: 0.0097, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2184ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2184ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2184ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/225 - LCP: 252ms, CLS: 0.0259, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1085ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1443ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📊 RUM data stored: https://seoanalyze.se/analys/223 - LCP: 172ms, CLS: 0.0305, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: 2e7df563-5633-49da-a44c-286de11ef78b)
+📝 Created analysis 01K4D0G2559Z6F76SZ1METB9JZ for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4D0G2559Z6F76SZ1METB9JZ
+Added Lighthouse job 226 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 984ms, CLS: 0, INP: 112ms
+📊 RUM data stored: https://seoanalyze.se/analys/226 - LCP: 172ms, CLS: 0.0097, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 3136ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 3136ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 3136ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/226 - LCP: 172ms, CLS: 0.0259, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/226 - LCP: 172ms, CLS: 0.0259, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/225 - LCP: 252ms, CLS: 0.0259, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/225 - LCP: 252ms, CLS: 0.0259, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/226 - LCP: 172ms, CLS: 0.0259, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/225 - LCP: 252ms, CLS: 0.0259, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/226 - LCP: 172ms, CLS: 0.0259, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/225 - LCP: 252ms, CLS: 0.0259, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/226 - LCP: 172ms, CLS: 0.0259, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/226 - LCP: 172ms, CLS: 0.0259, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1213ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1358ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1281ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📊 RUM data stored: https://seoanalyze.se/analys/226 - LCP: 172ms, CLS: 0.0259, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: c72b90a3-1161-47d7-b50d-303e85180de0)
+📝 Created analysis 01K4D2C3Q0WQ0WWBRHNCC6R8DW for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4D2C3Q0WQ0WWBRHNCC6R8DW
+Added Lighthouse job 227 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 984ms, CLS: 0, INP: 112ms
+📊 RUM data stored: https://seoanalyze.se/analys/227 - LCP: 156ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/227 - LCP: 156ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/227 - LCP: 156ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2144ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2144ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2144ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/227 - LCP: 156ms, CLS: 0.4399, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1268ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📊 RUM data stored: https://seoanalyze.se/analys/227 - LCP: 156ms, CLS: 0.4399, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1448ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📊 RUM data stored: https://seoanalyze.se/analys/227 - LCP: 156ms, CLS: 0.4399, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: c5b39c10-7585-454a-8964-e65277527010)
+📝 Created analysis 01K4D47RY5CQ0CAPVDF4QBT82E for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4D47RY5CQ0CAPVDF4QBT82E
+Added Lighthouse job 228 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 984ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/228 - LCP: 240ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2124ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2124ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2124ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/228 - LCP: 240ms, CLS: 0.0636, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1365ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📊 RUM data stored: https://seoanalyze.se/analys/228 - LCP: 240ms, CLS: 0.0636, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1323ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1366ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 476ms, CLS: 0, INP: 96ms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 476ms, CLS: 0, INP: 96ms
+📊 RUM data stored: https://seoanalyze.se/analys/228 - LCP: 240ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/228 - LCP: 240ms, CLS: 0.0636, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1492ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 476ms, CLS: 0, INP: 96ms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1028ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1028ms, CLS: 0, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1251ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1028ms, CLS: 0, INP: 56ms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1096ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1096ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1096ms, CLS: 0, INP: 136ms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1076ms, CLS: 0, INP: 80ms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: 84789534-b225-4ff0-885a-d40bdc5c2f23)
+📝 Created analysis 01K4D8SFQCFAGES7XWC36JK7AG for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4D8SFQCFAGES7XWC36JK7AG
+Added Lighthouse job 229 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1076ms, CLS: 0, INP: 80ms
+📊 RUM data stored: https://seoanalyze.se/analys/229 - LCP: 572ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 3152ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 3152ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 3152ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/229 - LCP: 572ms, CLS: 0, INP: 64ms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1076ms, CLS: 0, INP: 80ms
+🔍 Starting LIGHTHOUSE analysis for https://www.wikipedia.org/ (client: 544dc76f-0214-42e6-ab2f-c5dc460a8345)
+📝 Created analysis 01K4D8TXXT92Y461Y0PPBT3BJ2 for https://www.wikipedia.org/
+📝 Created Lighthouse analysis record: 01K4D8TXXT92Y461Y0PPBT3BJ2
+Added Lighthouse job 230 for https://www.wikipedia.org/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 400ms, CLS: 0, INP: 88ms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 400ms, CLS: 0, INP: 88ms
+📊 RUM data stored: https://seoanalyze.se/analys/230 - LCP: 816ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/230 - LCP: 816ms, CLS: 0.0508, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/230 - LCP: 816ms, CLS: 0.0508, INP: 64ms
+🔍 Starting LIGHTHOUSE analysis for https://www.27gradernord.se/ (client: 519794f5-bcf7-4fc1-acf2-c21b68e8e5e9)
+📝 Created analysis 01K4D9XX6ATVG12PNYCBDSWMRS for https://www.27gradernord.se/
+📝 Created Lighthouse analysis record: 01K4D9XX6ATVG12PNYCBDSWMRS
+Added Lighthouse job 231 for https://www.27gradernord.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 696ms, CLS: 0, INP: 304ms
+📊 RUM data stored: https://seoanalyze.se/analys/231 - LCP: 528ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/231 - LCP: 528ms, CLS: 0.0464, INP: 56ms
+📊 RUM data stored: https://seoanalyze.se/analys/231 - LCP: 528ms, CLS: 0.0464, INP: 80ms
+📊 RUM data stored: https://seoanalyze.se/analys/231 - LCP: 528ms, CLS: 0.0464, INP: 80ms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2444.599998474121ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://www.seoanalyze.se/ - LCP: 7705.700000762939ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/dashboard/lighthouse/01K46K7AJTYCX7Y6BA1VN52W3F - LCP: 188ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/dashboard/seo/01K46K7AJTYCX7Y6BA1VN52W3F#focus-keyword - LCP: 100ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/dashboard/seo/01K46K7AJTYCX7Y6BA1VN52W3F - LCP: 148ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/dashboard/seo/01K46K7AJTYCX7Y6BA1VN52W3F#focus-keyword - LCP: 104ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/dashboard/seo/01K46K7AJTYCX7Y6BA1VN52W3F#robots-meta - LCP: 92ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/dashboard/seo/01K46K7AJTYCX7Y6BA1VN52W3F - LCP: 80ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/228 - LCP: 240ms, CLS: 0.0636, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1137ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1534ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📊 RUM data stored: https://seoanalyze.se/analys/228 - LCP: 240ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 976ms, CLS: 0, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: 2d90ebbe-3af8-4c67-8db7-a866842285d7)
+📝 Created analysis 01K4DTZ1C2ZANPX599ZQG7B8BM for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4DTZ1C2ZANPX599ZQG7B8BM
+Added Lighthouse job 232 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 948ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/232 - LCP: 212ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/232 - LCP: 212ms, CLS: 0.0352, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2144ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2144ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2144ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/232 - LCP: 212ms, CLS: 0.0978, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1084ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1219ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1181ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: 31677f17-3dd9-469d-8393-f4ebd27d47bc)
+📝 Created analysis 01K4DWNZZGJ5816XTQ6V0APTPS for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4DWNZZGJ5816XTQ6V0APTPS
+Added Lighthouse job 233 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1196ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/233 - LCP: 176ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/233 - LCP: 176ms, CLS: 0.0352, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2092ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2092ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2092ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/233 - LCP: 176ms, CLS: 0.0864, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/233 - LCP: 148ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/233 - LCP: 148ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/233 - LCP: 148ms, CLS: 0.0551, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1362ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1308ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1375ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1508ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📊 RUM data stored: https://seoanalyze.se/analys/232 - LCP: 212ms, CLS: 0.0978, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: 7bfc6113-3e65-4be0-9dd2-60913c73ce92)
+📝 Created analysis 01K4DYFHFSMFT7YJJ1HRJ9RHMV for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4DYFHFSMFT7YJJ1HRJ9RHMV
+Added Lighthouse job 234 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 996ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/234 - LCP: 204ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/234 - LCP: 204ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2132ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2132ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2132ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/233 - LCP: 148ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/234 - LCP: 204ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/234 - LCP: 204ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/234 - LCP: 172ms, CLS: 0.0551, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: 19df9239-2acc-4b54-a4f1-04c0e1424bbc)
+📝 Created analysis 01K4DYHBMW4SZM4A2DG93NFSBZ for https://seoanalyze.se/
+Added SEO job 3716 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/234 - LCP: 172ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3716 - LCP: 176ms, CLS: 0.0636, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: d2cb7a77-0330-4bfc-85d2-d8f91750a136)
+📝 Created analysis 01K4DYHH7NEK3Z0FD46TMXH1SX for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4DYHH7NEK3Z0FD46TMXH1SX
+Added Lighthouse job 235 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/3716 - LCP: 176ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/235 - LCP: 204ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/235 - LCP: 204ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2152ms, CLS: 0, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: ea99ed3b-379e-4f6b-9f57-bb43ad584ba6)
+📝 Created analysis 01K4DYHWZ2PJ5WD7Z3J3XD7N7G for https://seoanalyze.se/
+Added SEO job 3717 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2152ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1364ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2152ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3717 - LCP: 352ms, CLS: 0.0238, INP: nullms
+🔍 Starting CRAWL analysis for https://seoanalyze.se/ (client: f6b62c0f-fc77-483b-94c8-049536247069)
+📝 Created analysis 01K4DYJ2GEE2HKZE1RFT5SR3HZ for https://seoanalyze.se/
+📝 Created Crawl analysis record: 01K4DYJ2GEE2HKZE1RFT5SR3HZ
+Added Crawl job 677 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1048ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3717 - LCP: 352ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/677 - LCP: 180ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/677 - LCP: 180ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/235 - LCP: 204ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3717 - LCP: 352ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/677 - LCP: 180ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/235 - LCP: 204ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/235 - LCP: 244ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3717 - LCP: 352ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3717 - LCP: 268ms, CLS: 0.0457, INP: 136ms
+📊 RUM data stored: https://seoanalyze.se/analys/677 - LCP: 180ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/235 - LCP: 244ms, CLS: 0.0551, INP: nullms
+🔍 Starting CRAWL analysis for https://seoanalyze.se/ (client: 51e6f93c-15b9-40dc-b2ba-50f4e727a44e)
+📝 Created analysis 01K4DYX8SCVV0PZ21VTEPM4MTX for https://seoanalyze.se/
+📝 Created Crawl analysis record: 01K4DYX8SCVV0PZ21VTEPM4MTX
+Added Crawl job 678 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/677 - LCP: 256ms, CLS: 0.0458, INP: 136ms
+📊 RUM data stored: https://seoanalyze.se/analys/3717 - LCP: 268ms, CLS: 0.0457, INP: 136ms
+📊 RUM data stored: https://seoanalyze.se/analys/678 - LCP: 144ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/678 - LCP: 144ms, CLS: 0.0636, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: 97cfe28e-7d58-4f98-8263-43a3997e228a)
+📝 Created analysis 01K4DYXF8F6N8A8NJDWJBHZ0DY for https://seoanalyze.se/
+Added SEO job 3718 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/3717 - LCP: 268ms, CLS: 0.0457, INP: 136ms
+📊 RUM data stored: https://seoanalyze.se/analys/3718 - LCP: 152ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/235 - LCP: 244ms, CLS: 0.0551, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: 271da21e-40cd-4c04-975b-18e00e1d4fe1)
+📝 Created analysis 01K4DYXM8DYW46N3JQVMSSRVK1 for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4DYXM8DYW46N3JQVMSSRVK1
+Added Lighthouse job 236 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 332ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3718 - LCP: 152ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/236 - LCP: 208ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3718 - LCP: 152ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/678 - LCP: 144ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/678 - LCP: 148ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3718 - LCP: 152ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/236 - LCP: 208ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/678 - LCP: 148ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2108ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3718 - LCP: 248ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3718 - LCP: 248ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2108ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2108ms, CLS: 0, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1437ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📊 RUM data stored: https://seoanalyze.se/analys/236 - LCP: 208ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/236 - LCP: 892ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3718 - LCP: 248ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3718 - LCP: 236ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/678 - LCP: 148ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/678 - LCP: 216ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/236 - LCP: 892ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3718 - LCP: 236ms, CLS: 0.0457, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: 5fb3c400-00ee-4bed-835f-2e31639d2214)
+📝 Created analysis 01K4DZ6E46X0TDNEYMR63C6JMV for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4DZ6E46X0TDNEYMR63C6JMV
+Added Lighthouse job 237 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 964ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/237 - LCP: 176ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3718 - LCP: 236ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/237 - LCP: 176ms, CLS: 0.0238, INP: nullms
+🔍 Starting CRAWL analysis for https://seoanalyze.se/ (client: 54eef942-4107-4bb3-8cf7-c6001190d7b5)
+📝 Created analysis 01K4DZ6KNFHEY03FAZ2A446KS3 for https://seoanalyze.se/
+📝 Created Crawl analysis record: 01K4DZ6KNFHEY03FAZ2A446KS3
+Added Crawl job 679 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 960ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/679 - LCP: 244ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/236 - LCP: 892ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2172ms, CLS: 0, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: 260c7f62-488b-459c-a0e5-fc2cc67bc021)
+📝 Created analysis 01K4DZ6QHRPF6RHB8Q9A17A2PQ for https://seoanalyze.se/
+Added SEO job 3719 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/236 - LCP: 164ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3719 - LCP: 200ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/679 - LCP: 244ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/237 - LCP: 176ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3719 - LCP: 200ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2172ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2172ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/679 - LCP: 244ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3719 - LCP: 200ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/237 - LCP: 176ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3719 - LCP: 200ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/679 - LCP: 244ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/237 - LCP: 176ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3719 - LCP: 200ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3719 - LCP: 200ms, CLS: 0.0457, INP: nullms
+🔍 Starting SEO analysis for https://www.27gradernord.se/ (client: 51d3dd78-5ff3-4a85-a352-062034c451f3)
+📝 Created analysis 01K4DZ8J6M1N7QWJ6SDSX47G9J for https://www.27gradernord.se/
+Added SEO job 3720 for https://www.27gradernord.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 556ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3720 - LCP: 192ms, CLS: 0.0636, INP: nullms
+🔍 Starting CRAWL analysis for https://www.27gradernord.se/ (client: ee20c6e3-e875-4603-8af4-967ffc0e1004)
+📝 Created analysis 01K4DZ8QPDKA08H91VHPZSZ7BV for https://www.27gradernord.se/
+📝 Created Crawl analysis record: 01K4DZ8QPDKA08H91VHPZSZ7BV
+Added Crawl job 680 for https://www.27gradernord.se/
+📊 RUM data stored: https://seoanalyze.se/analys/3720 - LCP: 192ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/679 - LCP: 244ms, CLS: 0.0699, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/680 - LCP: 284ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/237 - LCP: 176ms, CLS: 0.0696, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://www.27gradernord.se/ (client: 382a343e-bf2d-4dbd-9470-b223d925e951)
+📝 Created analysis 01K4DZ8W10C9D7V3GABENRE0E4 for https://www.27gradernord.se/
+📝 Created Lighthouse analysis record: 01K4DZ8W10C9D7V3GABENRE0E4
+Added Lighthouse job 238 for https://www.27gradernord.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 536ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/680 - LCP: 284ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/238 - LCP: 184ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/680 - LCP: 284ms, CLS: 0.0353, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3720 - LCP: 192ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/238 - LCP: 184ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/680 - LCP: 284ms, CLS: 0.0467, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/238 - LCP: 184ms, CLS: 0.0352, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/680 - LCP: 284ms, CLS: 0.1218, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3720 - LCP: 192ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/238 - LCP: 184ms, CLS: 0.0352, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3720 - LCP: 192ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3720 - LCP: 228ms, CLS: 0.0457, INP: 88ms
+📊 RUM data stored: https://seoanalyze.se/analys/680 - LCP: 284ms, CLS: 0.1218, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/680 - LCP: 144ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/238 - LCP: 184ms, CLS: 0.0811, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/238 - LCP: 204ms, CLS: 0.0551, INP: 72ms
+📊 RUM data stored: https://seoanalyze.se/analys/3720 - LCP: 228ms, CLS: 0.0457, INP: 88ms
+📊 RUM data stored: https://seoanalyze.se/analys/680 - LCP: 144ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/238 - LCP: 204ms, CLS: 0.0551, INP: 72ms
+📊 RUM data stored: https://seoanalyze.se/analys/680 - LCP: 144ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3720 - LCP: 228ms, CLS: 0.0457, INP: 88ms
+📊 RUM data stored: https://seoanalyze.se/analys/3720 - LCP: 272ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/680 - LCP: 144ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/680 - LCP: 252ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/238 - LCP: 204ms, CLS: 0.0551, INP: 72ms
+📊 RUM data stored: https://seoanalyze.se/analys/3720 - LCP: 272ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/238 - LCP: 272ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/680 - LCP: 252ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3720 - LCP: 272ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/680 - LCP: 252ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/238 - LCP: 272ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3720 - LCP: 272ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/238 - LCP: 272ms, CLS: 0.0551, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1257ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📊 RUM data stored: https://seoanalyze.se/analys/3720 - LCP: 272ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3720 - LCP: 812ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 964ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 964ms, CLS: 0, INP: nullms
+🔍 Starting SEO analysis for https://www.27gradernord.se/ (client: e34e3e85-cf82-403b-a903-744640e00071)
+📝 Created analysis 01K4E02PE8H5D16XEWRQ1H5KYX for https://www.27gradernord.se/
+Added SEO job 3721 for https://www.27gradernord.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 964ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3721 - LCP: 212ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/680 - LCP: 252ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3721 - LCP: 212ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 984ms, CLS: 0, INP: 56ms
+🔍 Starting CRAWL analysis for https://www.27gradernord.se/ (client: 7f4a0ce5-04d4-4560-87a2-ac8e72aee6c7)
+📝 Created analysis 01K4E02XYX88V51RHT5VCE8B6F for https://www.27gradernord.se/
+📝 Created Crawl analysis record: 01K4E02XYX88V51RHT5VCE8B6F
+Added Crawl job 681 for https://www.27gradernord.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 348ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/681 - LCP: 188ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/238 - LCP: 272ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/681 - LCP: 188ms, CLS: 0.0238, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://www.27gradernord.se/ (client: 33d31993-4d86-4f49-8a08-ba4b8eb44bb0)
+📝 Created analysis 01K4E033KX6CVEEVY7AE11BA16 for https://www.27gradernord.se/
+📝 Created Lighthouse analysis record: 01K4E033KX6CVEEVY7AE11BA16
+Added Lighthouse job 239 for https://www.27gradernord.se/
+📊 RUM data stored: https://seoanalyze.se/analys/238 - LCP: 200ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/239 - LCP: 152ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3721 - LCP: 212ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/681 - LCP: 188ms, CLS: 0.0353, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/239 - LCP: 152ms, CLS: 0.0352, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/239 - LCP: 152ms, CLS: 0.0352, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3721 - LCP: 212ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/681 - LCP: 188ms, CLS: 0.0811, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/239 - LCP: 152ms, CLS: 0.0466, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3721 - LCP: 212ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/681 - LCP: 188ms, CLS: 0.0811, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/239 - LCP: 152ms, CLS: 0.0978, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/681 - LCP: 188ms, CLS: 0.0811, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3721 - LCP: 212ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3721 - LCP: 212ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3721 - LCP: 232ms, CLS: 0.0457, INP: 80ms
+📊 RUM data stored: https://seoanalyze.se/analys/681 - LCP: 188ms, CLS: 0.0811, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/681 - LCP: 196ms, CLS: 0.0457, INP: 80ms
+📊 RUM data stored: https://seoanalyze.se/analys/239 - LCP: 152ms, CLS: 0.0978, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/239 - LCP: 204ms, CLS: 0.0551, INP: 56ms
+📊 RUM data stored: https://seoanalyze.se/analys/3721 - LCP: 232ms, CLS: 0.0457, INP: 80ms
+📊 RUM data stored: https://seoanalyze.se/analys/3721 - LCP: 232ms, CLS: 0.0457, INP: 80ms
+📊 RUM data stored: https://seoanalyze.se/analys/681 - LCP: 196ms, CLS: 0.0457, INP: 80ms
+📊 RUM data stored: https://seoanalyze.se/analys/239 - LCP: 204ms, CLS: 0.0551, INP: 56ms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 944ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 944ms, CLS: 0, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: c2de92f1-07c6-4369-9643-e3e1074d6acb)
+📝 Created analysis 01K4E0AYRE448K43B580FZTN5W for https://seoanalyze.se/
+Added SEO job 3722 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1072ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3722 - LCP: 192ms, CLS: 0.0457, INP: 72ms
+📊 RUM data stored: https://seoanalyze.se/analys/3722 - LCP: 192ms, CLS: 0.0457, INP: 72ms
+🔍 Starting CRAWL analysis for https://seoanalyze.se/ (client: b36c8e62-21d5-4275-b092-7de4e53cc4ab)
+📝 Created analysis 01K4E0B4V47TS877WT3YBW6CH2 for https://seoanalyze.se/
+📝 Created Crawl analysis record: 01K4E0B4V47TS877WT3YBW6CH2
+Added Crawl job 682 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 480ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/682 - LCP: 152ms, CLS: 0.0636, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: 3633a013-b1af-46de-83d0-bcb3c3c309b9)
+📝 Created analysis 01K4E0B93K1QG2SKV4GHB05F4Z for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4E0B93K1QG2SKV4GHB05F4Z
+Added Lighthouse job 240 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 544ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/682 - LCP: 152ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/240 - LCP: 144ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/240 - LCP: 144ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/682 - LCP: 152ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3722 - LCP: 192ms, CLS: 0.0457, INP: 72ms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2132ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2132ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2132ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/240 - LCP: 144ms, CLS: 0.0657, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 944ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 944ms, CLS: 0, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: 9f805a87-e39a-4daf-b1db-29bf639600f3)
+📝 Created analysis 01K4E0HZRB9WMBN551PNN79HRW for https://seoanalyze.se/
+Added SEO job 3723 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1092ms, CLS: 0, INP: 128ms
+📊 RUM data stored: https://seoanalyze.se/analys/3723 - LCP: 164ms, CLS: 0.0457, INP: nullms
+🔍 Starting CRAWL analysis for https://seoanalyze.se/ (client: a7524018-2e1b-4ebb-881e-a039bdb18226)
+📝 Created analysis 01K4E0J4CQQ98FXJFW25471JJG for https://seoanalyze.se/
+📝 Created Crawl analysis record: 01K4E0J4CQQ98FXJFW25471JJG
+Added Crawl job 683 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/681 - LCP: 196ms, CLS: 0.0457, INP: 80ms
+📊 RUM data stored: https://seoanalyze.se/analys/3723 - LCP: 164ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/683 - LCP: 248ms, CLS: 0.0238, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: c2bc58dc-d8d3-4b22-bf99-f9ed812230f0)
+📝 Created analysis 01K4E0J8VJZYQ5YVSN8ZGVK594 for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4E0J8VJZYQ5YVSN8ZGVK594
+Added Lighthouse job 241 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/239 - LCP: 204ms, CLS: 0.0551, INP: 56ms
+📊 RUM data stored: https://seoanalyze.se/analys/683 - LCP: 248ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/241 - LCP: 300ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/683 - LCP: 248ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/241 - LCP: 300ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2128ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/241 - LCP: 300ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2128ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2128ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3723 - LCP: 164ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/683 - LCP: 248ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/241 - LCP: 300ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3723 - LCP: 164ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3723 - LCP: 256ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/683 - LCP: 248ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/683 - LCP: 216ms, CLS: 0.0457, INP: 72ms
+📊 RUM data stored: https://seoanalyze.se/analys/241 - LCP: 300ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/241 - LCP: 228ms, CLS: 0.0551, INP: 96ms
+📊 RUM data stored: https://seoanalyze.se/analys/3723 - LCP: 256ms, CLS: 0.0457, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: 621a5d3c-0682-4aa1-9f8a-174746fd35d2)
+📝 Created analysis 01K4E1594HE09RVS2ZAAME3TVV for https://seoanalyze.se/
+Added SEO job 3724 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/683 - LCP: 216ms, CLS: 0.0457, INP: 72ms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 948ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/241 - LCP: 228ms, CLS: 0.0551, INP: 96ms
+📊 RUM data stored: https://seoanalyze.se/analys/3724 - LCP: 192ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3724 - LCP: 192ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/683 - LCP: 216ms, CLS: 0.0457, INP: 72ms
+🔍 Starting CRAWL analysis for https://seoanalyze.se/ (client: 5bfa4fda-9aad-4218-b700-271a53e8d84a)
+📝 Created analysis 01K4E15TC81G8FGHP2SG9EQ0YX for https://seoanalyze.se/
+📝 Created Crawl analysis record: 01K4E15TC81G8FGHP2SG9EQ0YX
+Added Crawl job 684 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 940ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/684 - LCP: 176ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/684 - LCP: 176ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/241 - LCP: 228ms, CLS: 0.0551, INP: 96ms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: 655cc127-1710-4002-a114-96952c91503f)
+📝 Created analysis 01K4E167ZEHWFQN49QC8JD5PM1 for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4E167ZEHWFQN49QC8JD5PM1
+Added Lighthouse job 242 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 944ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/242 - LCP: 172ms, CLS: 0.0238, INP: 72ms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2164ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2164ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2164ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/242 - LCP: 172ms, CLS: 0.0636, INP: 72ms
+📊 RUM data stored: https://seoanalyze.se/analys/3724 - LCP: 192ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3724 - LCP: 240ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/684 - LCP: 176ms, CLS: 0.0636, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: a20c4a63-3a6a-4814-bcca-b4249a2866dd)
+📝 Created analysis 01K4E1F6XGVGF8DX4DXSG5QJ93 for https://seoanalyze.se/
+Added SEO job 3725 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 964ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3724 - LCP: 240ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3725 - LCP: 212ms, CLS: 0.0457, INP: 56ms
+📊 RUM data stored: https://seoanalyze.se/analys/3725 - LCP: 212ms, CLS: 0.0457, INP: 56ms
+📊 RUM data stored: https://seoanalyze.se/analys/3724 - LCP: 240ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3725 - LCP: 212ms, CLS: 0.0457, INP: 56ms
+📊 RUM data stored: https://seoanalyze.se/analys/242 - LCP: 172ms, CLS: 0.0636, INP: 72ms
+📊 RUM data stored: https://seoanalyze.se/analys/3724 - LCP: 240ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3725 - LCP: 212ms, CLS: 0.0457, INP: 56ms
+📊 RUM data stored: https://seoanalyze.se/analys/242 - LCP: 172ms, CLS: 0.0636, INP: 72ms
+📊 RUM data stored: https://seoanalyze.se/analys/3724 - LCP: 240ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3725 - LCP: 212ms, CLS: 0.0457, INP: 56ms
+📊 RUM data stored: https://seoanalyze.se/analys/242 - LCP: 172ms, CLS: 0.0636, INP: 72ms
+📊 RUM data stored: https://seoanalyze.se/analys/3724 - LCP: 240ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3724 - LCP: 292ms, CLS: 0.0457, INP: 152ms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: 75ba0bce-2844-45b7-b7dc-354d7c756ea2)
+📝 Created analysis 01K4E2416EKSN7D2HSYMN3P1RS for https://seoanalyze.se/
+Added SEO job 3726 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 944ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3726 - LCP: 208ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3726 - LCP: 208ms, CLS: 0.0457, INP: nullms
+🔍 Starting CRAWL analysis for https://seoanalyze.se/ (client: 36234c2a-065c-46cf-972f-9825d0ea8a28)
+📝 Created analysis 01K4E24AYCCAH6X6A9T9AGRW13 for https://seoanalyze.se/
+📝 Created Crawl analysis record: 01K4E24AYCCAH6X6A9T9AGRW13
+Added Crawl job 685 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/3725 - LCP: 212ms, CLS: 0.0461, INP: 56ms
+📊 RUM data stored: https://seoanalyze.se/analys/685 - LCP: 220ms, CLS: 0.0124, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/685 - LCP: 220ms, CLS: 0.0124, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: 922b0d94-cb4f-48d3-ac86-7ef4f82983ad)
+📝 Created analysis 01K4E24GMRYQDJYK7MCER11M51 for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4E24GMRYQDJYK7MCER11M51
+Added Lighthouse job 243 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/242 - LCP: 172ms, CLS: 0.0636, INP: 72ms
+📊 RUM data stored: https://seoanalyze.se/analys/243 - LCP: 216ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/685 - LCP: 220ms, CLS: 0.047, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/243 - LCP: 216ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/685 - LCP: 220ms, CLS: 0.047, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2136ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2136ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2136ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/243 - LCP: 216ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3726 - LCP: 208ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3726 - LCP: 228ms, CLS: 0.0457, INP: 88ms
+📊 RUM data stored: https://seoanalyze.se/analys/685 - LCP: 220ms, CLS: 0.047, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/685 - LCP: 188ms, CLS: 0.0457, INP: 72ms
+📊 RUM data stored: https://seoanalyze.se/analys/243 - LCP: 216ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/243 - LCP: 192ms, CLS: 0.0551, INP: 88ms
+📊 RUM data stored: https://seoanalyze.se/analys/3726 - LCP: 228ms, CLS: 0.0457, INP: 88ms
+📊 RUM data stored: https://seoanalyze.se/analys/685 - LCP: 188ms, CLS: 0.0457, INP: 72ms
+📊 RUM data stored: https://seoanalyze.se/analys/3726 - LCP: 228ms, CLS: 0.0457, INP: 88ms
+📊 RUM data stored: https://seoanalyze.se/analys/243 - LCP: 192ms, CLS: 0.0551, INP: 88ms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: 4bf61a27-a078-4798-8cc4-d872f53677e9)
+📝 Created analysis 01K4E2H5QDCT31XNC1K88EEHME for https://seoanalyze.se/
+Added SEO job 3727 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 332ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3727 - LCP: 196ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3727 - LCP: 196ms, CLS: 0.0457, INP: nullms
+🔍 Starting CRAWL analysis for https://seoanalyze.se/ (client: 3f9a03a6-faf4-4e81-86e1-17a287c82cdb)
+📝 Created analysis 01K4E2HBGS4EWD6K6MXSWP4ZS4 for https://seoanalyze.se/
+📝 Created Crawl analysis record: 01K4E2HBGS4EWD6K6MXSWP4ZS4
+Added Crawl job 686 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/685 - LCP: 188ms, CLS: 0.0457, INP: 72ms
+📊 RUM data stored: https://seoanalyze.se/analys/686 - LCP: 152ms, CLS: 0.0238, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: 4d2b3a3d-11eb-499c-8054-fd5600354947)
+📝 Created analysis 01K4E2HFC1RHHYMXRED6YB5T12 for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4E2HFC1RHHYMXRED6YB5T12
+Added Lighthouse job 244 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/243 - LCP: 192ms, CLS: 0.0551, INP: 88ms
+📊 RUM data stored: https://seoanalyze.se/analys/244 - LCP: 136ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/686 - LCP: 152ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3727 - LCP: 196ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/244 - LCP: 136ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3727 - LCP: 196ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2136ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/686 - LCP: 152ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2136ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2136ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/244 - LCP: 136ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3727 - LCP: 196ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3727 - LCP: 200ms, CLS: 0.0457, INP: 96ms
+📊 RUM data stored: https://seoanalyze.se/analys/3727 - LCP: 128ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3727 - LCP: 140ms, CLS: 0.0484, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3727 - LCP: 116ms, CLS: 0.0408, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3727 - LCP: 132ms, CLS: 0.0484, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/686 - LCP: 152ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/686 - LCP: 124ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/686 - LCP: 188ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/244 - LCP: 136ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/244 - LCP: 116ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/244 - LCP: 112ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3727 - LCP: 132ms, CLS: 0.0484, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/686 - LCP: 188ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/244 - LCP: 112ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3727 - LCP: 132ms, CLS: 0.0484, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3727 - LCP: 204ms, CLS: 0.0408, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/686 - LCP: 188ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/686 - LCP: 152ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/244 - LCP: 112ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/244 - LCP: 136ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3727 - LCP: 204ms, CLS: 0.0408, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/686 - LCP: 152ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/244 - LCP: 136ms, CLS: 0.0551, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: 9b03ad95-2d2f-4e00-a776-697da8bb5f85)
+📝 Created analysis 01K4E2QSYZXGGNHA1MAMJ7E1J2 for https://seoanalyze.se/
+Added SEO job 3728 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 964ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3728 - LCP: 224ms, CLS: 0.0457, INP: nullms
+🔍 Starting CRAWL analysis for https://seoanalyze.se/ (client: 30829960-18c7-4f69-ab4a-cb5d3ab2e375)
+📝 Created analysis 01K4E2QXRTNBMFSSH5BPZMBHDJ for https://seoanalyze.se/
+📝 Created Crawl analysis record: 01K4E2QXRTNBMFSSH5BPZMBHDJ
+Added Crawl job 687 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/686 - LCP: 152ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3728 - LCP: 224ms, CLS: 0.0457, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: b5354b60-a5a4-4edd-849b-7eaefe1b17c5)
+📝 Created analysis 01K4E2R1GV86A6RR7N718JGDHD for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4E2R1GV86A6RR7N718JGDHD
+Added Lighthouse job 245 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/244 - LCP: 136ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/245 - LCP: 180ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2160ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/245 - LCP: 180ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2160ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2160ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3728 - LCP: 224ms, CLS: 0.0457, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: 711ff629-f0ec-4c2a-b970-93b05b7fa56d)
+📝 Created analysis 01K4E2ZZR99H39Y9SMMTR9Y48T for https://seoanalyze.se/
+Added SEO job 3729 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/3728 - LCP: 244ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3729 - LCP: 180ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3729 - LCP: 180ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3729 - LCP: 180ms, CLS: 0.0636, INP: nullms
+🔍 Starting CRAWL analysis for https://seoanalyze.se/ (client: 73142bc3-6d54-465a-a4ea-2f88f24245a2)
+📝 Created analysis 01K4E30SDE6V63572S7VT7NGNE for https://seoanalyze.se/
+📝 Created Crawl analysis record: 01K4E30SDE6V63572S7VT7NGNE
+Added Crawl job 688 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/687 - LCP: nullms, CLS: 0.0458, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/688 - LCP: 236ms, CLS: 0.0238, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: c4e656c0-4fda-4296-9b23-7f911f313399)
+📝 Created analysis 01K4E30XMS163QD6DQ1VM97V3X for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4E30XMS163QD6DQ1VM97V3X
+Added Lighthouse job 246 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/245 - LCP: 180ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/246 - LCP: 192ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/688 - LCP: 236ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/688 - LCP: 236ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3729 - LCP: 180ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/688 - LCP: 236ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/246 - LCP: 192ms, CLS: 0.0352, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2104ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2104ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2104ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/246 - LCP: 192ms, CLS: 0.0864, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3729 - LCP: 180ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3729 - LCP: 180ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3729 - LCP: 228ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/688 - LCP: 236ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/688 - LCP: 200ms, CLS: 0.0457, INP: 72ms
+📊 RUM data stored: https://seoanalyze.se/analys/246 - LCP: 192ms, CLS: 0.0864, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/246 - LCP: 188ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3729 - LCP: 228ms, CLS: 0.0457, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: cbbd6244-8aef-4c8d-8b9a-36bfb04c821c)
+📝 Created analysis 01K4E3H0H8AVA97SH54MN1PJTC for https://seoanalyze.se/
+Added SEO job 3730 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/3729 - LCP: 228ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/688 - LCP: 200ms, CLS: 0.0457, INP: 72ms
+📊 RUM data stored: https://seoanalyze.se/analys/246 - LCP: 188ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3730 - LCP: 192ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3730 - LCP: 192ms, CLS: 0.0457, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1301ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📊 RUM data stored: https://seoanalyze.se/analys/3730 - LCP: 192ms, CLS: 0.0457, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: 776c7d85-d38d-40f9-9588-e484fdbaa2bf)
+📝 Created analysis 01K4E409J77WXNDW07P8JFRFRM for https://seoanalyze.se/
+Added SEO job 3731 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/3730 - LCP: 748ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3731 - LCP: 208ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/688 - LCP: 200ms, CLS: 0.0457, INP: 72ms
+📊 RUM data stored: https://seoanalyze.se/analys/3731 - LCP: 208ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3731 - LCP: 208ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/688 - LCP: 200ms, CLS: 0.0457, INP: 72ms
+📊 RUM data stored: https://seoanalyze.se/analys/3731 - LCP: 208ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/246 - LCP: 188ms, CLS: 0.0551, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1197ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1096.572, displayValue: '1.1 s' },
+  fid: { score: 0.36, value: 298, displayValue: '300 ms' },
+  lcp: { score: 0.74, value: 3134.975, displayValue: '3.1 s' },
+  tbt: { score: 0.91, value: 190, displayValue: '190 ms' },
+  tti: { score: 0.95, value: 3150.6787, displayValue: '3.2 s' },
+  ttfb: { score: 1, value: 16.335, displayValue: 'Root document took 20 ms' },
+  speedIndex: { score: 0.98, value: 2449.140909884508, displayValue: '2.4 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1096.572, displayValue: '1.1 s' },
+  fid: { score: 0.36, value: 298, displayValue: '300 ms' },
+  lcp: { score: 0.74, value: 3134.975, displayValue: '3.1 s' },
+  tbt: { score: 0.91, value: 190, displayValue: '190 ms' },
+  tti: { score: 0.95, value: 3150.6787, displayValue: '3.2 s' },
+  ttfb: { score: 1, value: 16.335, displayValue: 'Root document took 20 ms' },
+  speedIndex: { score: 0.98, value: 2449.140909884508, displayValue: '2.4 s' }
+}
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1096.572, displayValue: '1.1 s' },
+  fid: { score: 0.36, value: 298, displayValue: '300 ms' },
+  lcp: { score: 0.74, value: 3134.975, displayValue: '3.1 s' },
+  tbt: { score: 0.91, value: 190, displayValue: '190 ms' },
+  tti: { score: 0.95, value: 3150.6787, displayValue: '3.2 s' },
+  ttfb: { score: 1, value: 16.335, displayValue: 'Root document took 20 ms' },
+  speedIndex: { score: 0.98, value: 2449.140909884508, displayValue: '2.4 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1096.572, displayValue: '1.1 s' },
+  fid: { score: 0.36, value: 298, displayValue: '300 ms' },
+  lcp: { score: 0.74, value: 3134.975, displayValue: '3.1 s' },
+  tbt: { score: 0.91, value: 190, displayValue: '190 ms' },
+  tti: { score: 0.95, value: 3150.6787, displayValue: '3.2 s' },
+  ttfb: { score: 1, value: 16.335, displayValue: 'Root document took 20 ms' },
+  speedIndex: { score: 0.98, value: 2449.140909884508, displayValue: '2.4 s' }
+}
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1149ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1513ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1382ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1221ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1302ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1371ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1496ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+[SSR] crawl: using list fallback for 01K4E30SDE6V63572S7VT7NGNE, keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] crawl: using list fallback for 01K4E30SDE6V63572S7VT7NGNE, keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] crawl: using list fallback for 01K4E30SDE6V63572S7VT7NGNE, keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1556ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+[SSR] crawl: using list fallback for 01K4E30SDE6V63572S7VT7NGNE, keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] crawl: using list fallback for 01K4E30SDE6V63572S7VT7NGNE, keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] crawl: using list fallback for 01K4E30SDE6V63572S7VT7NGNE, keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+📊 RUM data stored: https://seoanalyze.se/analys/3731 - LCP: 208ms, CLS: 0.0457, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: 4079494c-9fc3-417a-be5d-179f4b5a519a)
+📝 Created analysis 01K4E85BKQ0HJ57PP72BCTCEKF for https://seoanalyze.se/
+Added SEO job 3732 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/3731 - LCP: 260ms, CLS: 0.0111, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3732 - LCP: 172ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/688 - LCP: 200ms, CLS: 0.0457, INP: 72ms
+📊 RUM data stored: https://seoanalyze.se/analys/3732 - LCP: 172ms, CLS: 0.0636, INP: nullms
+🔍 Starting CRAWL analysis for https://seoanalyze.se/ (client: fc8eb9bf-ec5c-487b-899a-56b0523a75e1)
+📝 Created analysis 01K4E85JJ8GFPVZ20KR4077CGE for https://seoanalyze.se/
+📝 Created Crawl analysis record: 01K4E85JJ8GFPVZ20KR4077CGE
+Added Crawl job 689 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 972ms, CLS: 0.0026, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/689 - LCP: 176ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/246 - LCP: 188ms, CLS: 0.0551, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: 40094a6b-bea0-435a-ba5a-519933e57446)
+📝 Created analysis 01K4E85PCYG3EAYM3J1FW1TSDA for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4E85PCYG3EAYM3J1FW1TSDA
+Added Lighthouse job 247 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 972ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/247 - LCP: 160ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/689 - LCP: 176ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/689 - LCP: 176ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3732 - LCP: 172ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/689 - LCP: 176ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/247 - LCP: 160ms, CLS: 0.0352, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/247 - LCP: 160ms, CLS: 0.0352, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3732 - LCP: 172ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2176ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3732 - LCP: 148ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3732 - LCP: 156ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/689 - LCP: 176ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/689 - LCP: 132ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2176ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/247 - LCP: 160ms, CLS: 0.0352, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2176ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3732 - LCP: 156ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/247 - LCP: 160ms, CLS: 0.0352, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/689 - LCP: 132ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/247 - LCP: 160ms, CLS: 0.0811, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/247 - LCP: 156ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/247 - LCP: 156ms, CLS: 0.0551, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1441ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+[SSR] crawl: using list fallback for 01K4E30SDE6V63572S7VT7NGNE, keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1712ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+[SSR] crawl: using list fallback for 01K4E30SDE6V63572S7VT7NGNE, keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] crawl: using list fallback for 01K4E30SDE6V63572S7VT7NGNE, keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1466ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+[SSR] crawl: using list fallback for 01K4E30SDE6V63572S7VT7NGNE, keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] crawl: using list fallback for 01K4E30SDE6V63572S7VT7NGNE, keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+📊 RUM data stored: https://seoanalyze.se/analys/3732 - LCP: 156ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3732 - LCP: 292ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3732 - LCP: 152ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/689 - LCP: 132ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/689 - LCP: 196ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/247 - LCP: 156ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3732 - LCP: 152ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/689 - LCP: 196ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/247 - LCP: 200ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/247 - LCP: 200ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3732 - LCP: 152ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3732 - LCP: 228ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/689 - LCP: 196ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/689 - LCP: 208ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/247 - LCP: 200ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/247 - LCP: 188ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3732 - LCP: 228ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/689 - LCP: 208ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/247 - LCP: 188ms, CLS: 0.0551, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1362ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+[SSR] crawl: using list fallback for 01K4E30SDE6V63572S7VT7NGNE, keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1413ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+[SSR] crawl: using list fallback for 01K4E30SDE6V63572S7VT7NGNE, keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] crawl: using list fallback for 01K4E30SDE6V63572S7VT7NGNE, keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+📊 RUM data stored: https://seoanalyze.se/analys/3732 - LCP: 228ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3732 - LCP: 304ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3732 - LCP: 132ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/689 - LCP: 208ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/689 - LCP: 188ms, CLS: 0.0111, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/247 - LCP: 188ms, CLS: 0.0551, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: cdbc22b0-1d35-448a-b3f9-5500b27fb96f)
+📝 Created analysis 01K4E9SN5WD4FMG998CVSYSYZ0 for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4E9SN5WD4FMG998CVSYSYZ0
+Added Lighthouse job 248 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/247 - LCP: 220ms, CLS: 0.0568, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/248 - LCP: 168ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/689 - LCP: 188ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3732 - LCP: 132ms, CLS: 0.0457, INP: nullms
+🔍 Starting CRAWL analysis for https://seoanalyze.se/ (client: d16ba4f2-5048-4cc2-b13e-623fad478ba8)
+📝 Created analysis 01K4E9SRG23FMX04Y4KFHJ8F4W for https://seoanalyze.se/
+📝 Created Crawl analysis record: 01K4E9SRG23FMX04Y4KFHJ8F4W
+Added Crawl job 690 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/689 - LCP: 188ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/690 - LCP: 204ms, CLS: 0.0142, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/248 - LCP: 168ms, CLS: 0.0238, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: 450d488a-b2b1-4556-b266-b03c5124ad49)
+📝 Created analysis 01K4E9SVZ5GFKM82HD3NFWWRJK for https://seoanalyze.se/
+Added SEO job 3733 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/3732 - LCP: 132ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3733 - LCP: 244ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/690 - LCP: 204ms, CLS: 0.0519, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/690 - LCP: 204ms, CLS: 0.0519, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/248 - LCP: 168ms, CLS: 0.0352, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 3076ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3733 - LCP: 244ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 3076ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 3076ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3733 - LCP: 244ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/690 - LCP: 204ms, CLS: 0.0519, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/248 - LCP: 168ms, CLS: 0.0811, INP: nullms
+[SSR] crawl: using list fallback for 01K4E30SDE6V63572S7VT7NGNE, keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1172.394, displayValue: '1.2 s' },
+  fid: { score: 0.36, value: 299, displayValue: '300 ms' },
+  lcp: { score: 0.77, value: 3031.529, displayValue: '3.0 s' },
+  tbt: { score: 0.71, value: 366.0000000000002, displayValue: '370 ms' },
+  tti: { score: 0.94, value: 3182.341100000001, displayValue: '3.2 s' },
+  ttfb: { score: 1, value: 16.079, displayValue: 'Root document took 20 ms' },
+  speedIndex: { score: 0.82, value: 3907.408601809452, displayValue: '3.9 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1172.394, displayValue: '1.2 s' },
+  fid: { score: 0.36, value: 299, displayValue: '300 ms' },
+  lcp: { score: 0.77, value: 3031.529, displayValue: '3.0 s' },
+  tbt: { score: 0.71, value: 366.0000000000002, displayValue: '370 ms' },
+  tti: { score: 0.94, value: 3182.341100000001, displayValue: '3.2 s' },
+  ttfb: { score: 1, value: 16.079, displayValue: 'Root document took 20 ms' },
+  speedIndex: { score: 0.82, value: 3907.408601809452, displayValue: '3.9 s' }
+}
+[SSR] crawl: using list fallback for 01K4E30SDE6V63572S7VT7NGNE, keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1172.394, displayValue: '1.2 s' },
+  fid: { score: 0.36, value: 299, displayValue: '300 ms' },
+  lcp: { score: 0.77, value: 3031.529, displayValue: '3.0 s' },
+  tbt: { score: 0.71, value: 366.0000000000002, displayValue: '370 ms' },
+  tti: { score: 0.94, value: 3182.341100000001, displayValue: '3.2 s' },
+  ttfb: { score: 1, value: 16.079, displayValue: 'Root document took 20 ms' },
+  speedIndex: { score: 0.82, value: 3907.408601809452, displayValue: '3.9 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1172.394, displayValue: '1.2 s' },
+  fid: { score: 0.36, value: 299, displayValue: '300 ms' },
+  lcp: { score: 0.77, value: 3031.529, displayValue: '3.0 s' },
+  tbt: { score: 0.71, value: 366.0000000000002, displayValue: '370 ms' },
+  tti: { score: 0.94, value: 3182.341100000001, displayValue: '3.2 s' },
+  ttfb: { score: 1, value: 16.079, displayValue: 'Root document took 20 ms' },
+  speedIndex: { score: 0.82, value: 3907.408601809452, displayValue: '3.9 s' }
+}
+📊 RUM data stored: https://seoanalyze.se/analys/3733 - LCP: 244ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3733 - LCP: 328ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/690 - LCP: 204ms, CLS: 0.0519, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/690 - LCP: 184ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/248 - LCP: 168ms, CLS: 0.0811, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3733 - LCP: 328ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/690 - LCP: 184ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/248 - LCP: 176ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/248 - LCP: 176ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3733 - LCP: 328ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/690 - LCP: 184ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/248 - LCP: 176ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/248 - LCP: 176ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/690 - LCP: 184ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3733 - LCP: 328ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/248 - LCP: 176ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/248 - LCP: 224ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/248 - LCP: 136ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/248 - LCP: 124ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/248 - LCP: 164ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3733 - LCP: 328ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/248 - LCP: 164ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3733 - LCP: 328ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3733 - LCP: 280ms, CLS: 0.0457, INP: 152ms
+📊 RUM data stored: https://seoanalyze.se/analys/690 - LCP: 184ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/690 - LCP: 252ms, CLS: 0.0111, INP: 136ms
+📊 RUM data stored: https://seoanalyze.se/analys/248 - LCP: 164ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/248 - LCP: 204ms, CLS: 0.0551, INP: 80ms
+📊 RUM data stored: https://seoanalyze.se/analys/3733 - LCP: 280ms, CLS: 0.0457, INP: 152ms
+📊 RUM data stored: https://seoanalyze.se/analys/3733 - LCP: 124ms, CLS: 0.0111, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/690 - LCP: 252ms, CLS: 0.0457, INP: 136ms
+📊 RUM data stored: https://seoanalyze.se/analys/690 - LCP: 168ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/248 - LCP: 204ms, CLS: 0.0551, INP: 80ms
+📊 RUM data stored: https://seoanalyze.se/analys/248 - LCP: 204ms, CLS: 0.0551, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: b2358e3e-5824-4dce-9d30-dc1e86dec2de)
+📝 Created analysis 01K4EBA0BBC3GFZZPP7GFD4A2E for https://seoanalyze.se/
+Added SEO job 3734 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/3733 - LCP: 988ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/248 - LCP: 204ms, CLS: 0.0551, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3734 - LCP: 172ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3734 - LCP: 172ms, CLS: 0.0636, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1622ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+[SSR] crawl: using list fallback for 01K4E30SDE6V63572S7VT7NGNE, keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1172.394, displayValue: '1.2 s' },
+  fid: { score: 0.36, value: 299, displayValue: '300 ms' },
+  lcp: { score: 0.77, value: 3031.529, displayValue: '3.0 s' },
+  tbt: { score: 0.71, value: 366.0000000000002, displayValue: '370 ms' },
+  tti: { score: 0.94, value: 3182.341100000001, displayValue: '3.2 s' },
+  ttfb: { score: 1, value: 16.079, displayValue: 'Root document took 20 ms' },
+  speedIndex: { score: 0.82, value: 3907.408601809452, displayValue: '3.9 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1172.394, displayValue: '1.2 s' },
+  fid: { score: 0.36, value: 299, displayValue: '300 ms' },
+  lcp: { score: 0.77, value: 3031.529, displayValue: '3.0 s' },
+  tbt: { score: 0.71, value: 366.0000000000002, displayValue: '370 ms' },
+  tti: { score: 0.94, value: 3182.341100000001, displayValue: '3.2 s' },
+  ttfb: { score: 1, value: 16.079, displayValue: 'Root document took 20 ms' },
+  speedIndex: { score: 0.82, value: 3907.408601809452, displayValue: '3.9 s' }
+}
+📊 RUM data stored: https://seoanalyze.se/analys/3734 - LCP: 172ms, CLS: 0.0636, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: 62b2f555-f1a4-4047-af1c-8f1055bd4952)
+📝 Created analysis 01K4EBP1MXZGYX95P40SJYAR9G for https://seoanalyze.se/
+Added SEO job 3735 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/3734 - LCP: 284ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3735 - LCP: 188ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/690 - LCP: 399704ms, CLS: 0, INP: nullms
+🔍 Starting CRAWL analysis for https://seoanalyze.se/ (client: e12edb1a-71ec-4141-b15a-2ccd1033c3de)
+📝 Created analysis 01K4EBP67N1P0DPKYHQFDF1H16 for https://seoanalyze.se/
+📝 Created Crawl analysis record: 01K4EBP67N1P0DPKYHQFDF1H16
+Added Crawl job 691 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 980ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/691 - LCP: 216ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3735 - LCP: 188ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/248 - LCP: 204ms, CLS: 0.0551, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: dbf63562-afd7-4a4c-9878-1881ed0fdab9)
+📝 Created analysis 01K4EBPA96SWBR9FG8AK30RG9S for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4EBPA96SWBR9FG8AK30RG9S
+Added Lighthouse job 249 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 972ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/691 - LCP: 216ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/249 - LCP: 188ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/249 - LCP: 188ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2124ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3735 - LCP: 188ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/691 - LCP: 216ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/249 - LCP: 188ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2124ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2124ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3735 - LCP: 188ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/691 - LCP: 216ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/249 - LCP: 188ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3735 - LCP: 188ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/691 - LCP: 216ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/249 - LCP: 188ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/691 - LCP: 216ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3735 - LCP: 188ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/691 - LCP: 216ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/249 - LCP: 188ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3735 - LCP: 188ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/691 - LCP: 216ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3735 - LCP: 188ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3735 - LCP: 188ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3000 - LCP: 200ms, CLS: 0.0111, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3000 - LCP: 200ms, CLS: 0.0111, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/691 - LCP: 216ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3000 - LCP: 200ms, CLS: 0.0111, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/2000 - LCP: 248ms, CLS: 0.0111, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/2000 - LCP: 248ms, CLS: 0.0111, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/1000 - LCP: 180ms, CLS: 0.0111, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/1000 - LCP: 180ms, CLS: 0.0111, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/1 - LCP: 152ms, CLS: 0.0205, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/1 - LCP: 152ms, CLS: 0.0205, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/691 - LCP: 216ms, CLS: 0.0696, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/analys/691 (client: ebf9d1db-fa1b-40f0-a8e7-b1a2629a6ac7)
+📝 Created analysis 01K4EC5BWBC8GMHEWTGAD0SCES for https://seoanalyze.se/analys/691
+Added SEO job 3736 for https://seoanalyze.se/analys/691
+📊 RUM data stored: https://seoanalyze.se/analys/1 - LCP: 152ms, CLS: 0.0205, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3736 - LCP: 168ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/691 - LCP: 216ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3736 - LCP: 168ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/249 - LCP: 188ms, CLS: 0.0696, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1564ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+[SSR] crawl: using list fallback for 01K4E30SDE6V63572S7VT7NGNE, keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] /analys/01K4E30SDE6V63572S7VT7NGNE type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1296ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+[SSR] crawl: list fallback had no richer payload for 691
+[SSR] /analys/691 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1179.575, displayValue: '1.2 s' },
+  fid: { score: 0.19, value: 385, displayValue: '390 ms' },
+  lcp: { score: 0.63, value: 3534.007, displayValue: '3.5 s' },
+  tbt: { score: 0.55, value: 538.5, displayValue: '540 ms' },
+  tti: { score: 0.92, value: 3541.8407, displayValue: '3.5 s' },
+  ttfb: { score: 1, value: 11.663, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.98, value: 2515.964888058909, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1179.575, displayValue: '1.2 s' },
+  fid: { score: 0.19, value: 385, displayValue: '390 ms' },
+  lcp: { score: 0.63, value: 3534.007, displayValue: '3.5 s' },
+  tbt: { score: 0.55, value: 538.5, displayValue: '540 ms' },
+  tti: { score: 0.92, value: 3541.8407, displayValue: '3.5 s' },
+  ttfb: { score: 1, value: 11.663, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.98, value: 2515.964888058909, displayValue: '2.5 s' }
+}
+[SSR] crawl: list fallback had no richer payload for 691
+[SSR] /analys/691 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1179.575, displayValue: '1.2 s' },
+  fid: { score: 0.19, value: 385, displayValue: '390 ms' },
+  lcp: { score: 0.63, value: 3534.007, displayValue: '3.5 s' },
+  tbt: { score: 0.55, value: 538.5, displayValue: '540 ms' },
+  tti: { score: 0.92, value: 3541.8407, displayValue: '3.5 s' },
+  ttfb: { score: 1, value: 11.663, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.98, value: 2515.964888058909, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1179.575, displayValue: '1.2 s' },
+  fid: { score: 0.19, value: 385, displayValue: '390 ms' },
+  lcp: { score: 0.63, value: 3534.007, displayValue: '3.5 s' },
+  tbt: { score: 0.55, value: 538.5, displayValue: '540 ms' },
+  tti: { score: 0.92, value: 3541.8407, displayValue: '3.5 s' },
+  ttfb: { score: 1, value: 11.663, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.98, value: 2515.964888058909, displayValue: '2.5 s' }
+}
+📊 RUM data stored: https://seoanalyze.se/analys/3736 - LCP: 168ms, CLS: 0.0636, INP: nullms
+✅ Connected to Redis
+Cache SET: seo-analyzer:analysis-history:https://seoanalyze.se/analys/691-10 (TTL: 1800s)
+📊 RUM data stored: https://seoanalyze.se/analys/3736 - LCP: 412ms, CLS: 0.0769, INP: 40ms
+[SSR] crawl: list fallback had no richer payload for 691
+[SSR] /analys/691 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+📊 RUM data stored: https://seoanalyze.se/analys/691 - LCP: 216ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/691 - LCP: 260ms, CLS: 0.0969, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3736 - LCP: 412ms, CLS: 0.0769, INP: 40ms
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1179.575, displayValue: '1.2 s' },
+  fid: { score: 0.19, value: 385, displayValue: '390 ms' },
+  lcp: { score: 0.63, value: 3534.007, displayValue: '3.5 s' },
+  tbt: { score: 0.55, value: 538.5, displayValue: '540 ms' },
+  tti: { score: 0.92, value: 3541.8407, displayValue: '3.5 s' },
+  ttfb: { score: 1, value: 11.663, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.98, value: 2515.964888058909, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1179.575, displayValue: '1.2 s' },
+  fid: { score: 0.19, value: 385, displayValue: '390 ms' },
+  lcp: { score: 0.63, value: 3534.007, displayValue: '3.5 s' },
+  tbt: { score: 0.55, value: 538.5, displayValue: '540 ms' },
+  tti: { score: 0.92, value: 3541.8407, displayValue: '3.5 s' },
+  ttfb: { score: 1, value: 11.663, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.98, value: 2515.964888058909, displayValue: '2.5 s' }
+}
+📊 RUM data stored: https://seoanalyze.se/analys/249 - LCP: 188ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/691 - LCP: 260ms, CLS: 0.0969, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/249 - LCP: 292ms, CLS: 0.0933, INP: 160ms
+📊 RUM data stored: https://seoanalyze.se/analys/249 - LCP: 292ms, CLS: 0.0933, INP: 160ms
+[SSR] crawl: list fallback had no richer payload for 691
+[SSR] /analys/691 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+📊 RUM data stored: https://seoanalyze.se/analys/691 - LCP: 260ms, CLS: 0.0969, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/691 - LCP: 248ms, CLS: 0.0967, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/691 - LCP: 248ms, CLS: 0.0967, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: d3bc1397-64ea-4c86-a0d0-0ba3c4ba2079)
+📝 Created analysis 01K4EDW9XMQYX0XXYB45720EGW for https://seoanalyze.se/
+Added SEO job 3737 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/3736 - LCP: 412ms, CLS: 0.0769, INP: 40ms
+📊 RUM data stored: https://seoanalyze.se/analys/3737 - LCP: 204ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3737 - LCP: 204ms, CLS: 0.0457, INP: nullms
+🔍 Starting CRAWL analysis for https://seoanalyze.se/ (client: 800907ee-21a2-4470-8237-84f853bf23d6)
+📝 Created analysis 01K4EDWJ96W8X605YDN94GA31B for https://seoanalyze.se/
+📝 Created Crawl analysis record: 01K4EDWJ96W8X605YDN94GA31B
+Added Crawl job 692 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/691 - LCP: 248ms, CLS: 0.0993, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/692 - LCP: 188ms, CLS: 0.0238, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: a75d38ad-8cc4-4d5c-acd5-f7ac2f8dd550)
+📝 Created analysis 01K4EDWQENB973VA3VYAD91YA2 for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4EDWQENB973VA3VYAD91YA2
+Added Lighthouse job 250 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/249 - LCP: 292ms, CLS: 0.0933, INP: 160ms
+📊 RUM data stored: https://seoanalyze.se/analys/692 - LCP: 188ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/250 - LCP: 180ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3737 - LCP: 204ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/692 - LCP: 188ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/250 - LCP: 180ms, CLS: 0.0352, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/250 - LCP: 180ms, CLS: 0.0352, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2120ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2120ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2120ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3737 - LCP: 204ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3737 - LCP: 204ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/692 - LCP: 188ms, CLS: 0.0696, INP: nullms
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+📊 RUM data stored: https://seoanalyze.se/analys/250 - LCP: 180ms, CLS: 0.0811, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/250 - LCP: 216ms, CLS: 0.0933, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/250 - LCP: 216ms, CLS: 0.0933, INP: nullms
+[SSR] crawl: list fallback had no richer payload for 692
+[SSR] /analys/692 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+[SSR] crawl: list fallback had no richer payload for 692
+[SSR] /analys/692 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1543ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+[SSR] crawl: list fallback had no richer payload for 691
+[SSR] /analys/691 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1179.575, displayValue: '1.2 s' },
+  fid: { score: 0.19, value: 385, displayValue: '390 ms' },
+  lcp: { score: 0.63, value: 3534.007, displayValue: '3.5 s' },
+  tbt: { score: 0.55, value: 538.5, displayValue: '540 ms' },
+  tti: { score: 0.92, value: 3541.8407, displayValue: '3.5 s' },
+  ttfb: { score: 1, value: 11.663, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.98, value: 2515.964888058909, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1179.575, displayValue: '1.2 s' },
+  fid: { score: 0.19, value: 385, displayValue: '390 ms' },
+  lcp: { score: 0.63, value: 3534.007, displayValue: '3.5 s' },
+  tbt: { score: 0.55, value: 538.5, displayValue: '540 ms' },
+  tti: { score: 0.92, value: 3541.8407, displayValue: '3.5 s' },
+  ttfb: { score: 1, value: 11.663, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.98, value: 2515.964888058909, displayValue: '2.5 s' }
+}
+[SSR] crawl: list fallback had no richer payload for 691
+[SSR] /analys/691 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1179.575, displayValue: '1.2 s' },
+  fid: { score: 0.19, value: 385, displayValue: '390 ms' },
+  lcp: { score: 0.63, value: 3534.007, displayValue: '3.5 s' },
+  tbt: { score: 0.55, value: 538.5, displayValue: '540 ms' },
+  tti: { score: 0.92, value: 3541.8407, displayValue: '3.5 s' },
+  ttfb: { score: 1, value: 11.663, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.98, value: 2515.964888058909, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1179.575, displayValue: '1.2 s' },
+  fid: { score: 0.19, value: 385, displayValue: '390 ms' },
+  lcp: { score: 0.63, value: 3534.007, displayValue: '3.5 s' },
+  tbt: { score: 0.55, value: 538.5, displayValue: '540 ms' },
+  tti: { score: 0.92, value: 3541.8407, displayValue: '3.5 s' },
+  ttfb: { score: 1, value: 11.663, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.98, value: 2515.964888058909, displayValue: '2.5 s' }
+}
+📊 RUM data stored: https://seoanalyze.se/analys/3737 - LCP: 204ms, CLS: 0.0457, INP: nullms
+✅ Connected to Redis
+Cache SET: seo-analyzer:analysis-history:https://seoanalyze.se/-10 (TTL: 1800s)
+📊 RUM data stored: https://seoanalyze.se/analys/3737 - LCP: 304ms, CLS: 0.0769, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: d5530d50-43a6-4782-b788-e3b3c0b170cf)
+📝 Created analysis 01K4EEPNFK4CKJDD6QXPQ9FDTY for https://seoanalyze.se/
+Added SEO job 3738 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/3737 - LCP: 304ms, CLS: 0.0798, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3738 - LCP: 268ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3738 - LCP: 268ms, CLS: 0.0636, INP: nullms
+Cache HIT: seo-analyzer:analysis-history:https://seoanalyze.se/-10
+📊 RUM data stored: https://seoanalyze.se/analys/3738 - LCP: 176ms, CLS: 0.0769, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3738 - LCP: 176ms, CLS: 0.0769, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1365ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+[SSR] crawl: list fallback had no richer payload for 692
+[SSR] /analys/692 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] crawl: list fallback had no richer payload for 692
+[SSR] /analys/692 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+📊 RUM data stored: https://seoanalyze.se/analys/3738 - LCP: 176ms, CLS: 0.0769, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: 6ff8c39b-3c63-4975-87ac-8dc55c58a200)
+📝 Created analysis 01K4EF83MAN2ZJWQ62FXK9V870 for https://seoanalyze.se/
+Added SEO job 3739 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 988ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3739 - LCP: 264ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3739 - LCP: 264ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3739 - LCP: 264ms, CLS: 0.0457, INP: nullms
+✅ Connected to Redis
+Cache SET: seo-analyzer:analysis-history:https://seoanalyze.se/-10 (TTL: 1800s)
+📊 RUM data stored: https://seoanalyze.se/analys/3739 - LCP: 204ms, CLS: 0.1271, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/692 - LCP: 188ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3739 - LCP: 204ms, CLS: 0.1271, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 980ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 980ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/250 - LCP: 216ms, CLS: 0.0933, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/analys/250 (client: 127ae00a-b63d-4cd9-9bb8-975579caee20)
+📝 Created analysis 01K4EF9K88K31PGWZKHFSJWB6P for https://seoanalyze.se/analys/250
+📝 Created Lighthouse analysis record: 01K4EF9K88K31PGWZKHFSJWB6P
+Added Lighthouse job 251 for https://seoanalyze.se/analys/250
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 972ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/251 - LCP: 188ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 980ms, CLS: 0, INP: nullms
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+🔍 Starting CRAWL analysis for https://seoanalyze.se/analys/250 (client: b5c1cbc5-c55f-4368-89d8-70a2c903e651)
+📝 Created analysis 01K4EF9RMZYZR5TJABE21H9YPC for https://seoanalyze.se/analys/250
+📝 Created Crawl analysis record: 01K4EF9RMZYZR5TJABE21H9YPC
+Added Crawl job 693 for https://seoanalyze.se/analys/250
+📊 RUM data stored: https://seoanalyze.se/analys/251 - LCP: 188ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 372ms, CLS: 0, INP: nullms
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+📊 RUM data stored: https://seoanalyze.se/analys/693 - LCP: 260ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/250 - LCP: 1576ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3739 - LCP: 204ms, CLS: 0.1271, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/analys/250 (client: 9bf42dd2-19d2-4a64-99fd-b826a4ef7fd2)
+📝 Created analysis 01K4EF9YGNPHTB17R44AFRH8ES for https://seoanalyze.se/analys/250
+Added SEO job 3740 for https://seoanalyze.se/analys/250
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+📊 RUM data stored: https://seoanalyze.se/analys/693 - LCP: 260ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 964ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/250 - LCP: 1576ms, CLS: 0, INP: nullms
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+📊 RUM data stored: https://seoanalyze.se/analys/3740 - LCP: 208ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/693 - LCP: 260ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/251 - LCP: 188ms, CLS: 0.075, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3740 - LCP: 208ms, CLS: 0.0457, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1458ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+[SSR] crawl: list fallback had no richer payload for 692
+[SSR] /analys/692 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] crawl: list fallback had no richer payload for 692
+[SSR] /analys/692 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] crawl: list fallback had no richer payload for 692
+[SSR] /analys/692 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+📊 RUM data stored: https://seoanalyze.se/analys/3740 - LCP: 208ms, CLS: 0.0457, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: 00fdc2ff-7090-4a74-99b4-37d2b43b83f2)
+📝 Created analysis 01K4EFS7SA5ABZ99NYFN3G0Z0Q for https://seoanalyze.se/
+Added SEO job 3741 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 984ms, CLS: 0.0023, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3741 - LCP: 296ms, CLS: 0.0457, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1519ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+[SSR] crawl: list fallback had no richer payload for 692
+[SSR] /analys/692 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] crawl: list fallback had no richer payload for 692
+[SSR] /analys/692 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] crawl: list fallback had no richer payload for 692
+[SSR] /analys/692 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 0.99, value: 1228.583, displayValue: '1.2 s' },
+  fid: { score: 0.15, value: 416.9999999999999, displayValue: '420 ms' },
+  lcp: { score: 0.66, value: 3423.467, displayValue: '3.4 s' },
+  tbt: { score: 0.79, value: 292.4374999999998, displayValue: '290 ms' },
+  tti: { score: 0.93, value: 3439.4097, displayValue: '3.4 s' },
+  ttfb: { score: 1, value: 13.699, displayValue: 'Root document took 10 ms' },
+  speedIndex: { score: 0.97, value: 2543.139434963552, displayValue: '2.5 s' }
+}
+📊 RUM data stored: https://seoanalyze.se/analys/3741 - LCP: 296ms, CLS: 0.0457, INP: nullms
+✅ Connected to Redis
+Cache SET: seo-analyzer:analysis-history:https://seoanalyze.se/-10 (TTL: 1800s)
+📊 RUM data stored: https://seoanalyze.se/analys/3741 - LCP: 396ms, CLS: 0.0285, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3741 - LCP: 396ms, CLS: 0.0285, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3741 - LCP: 396ms, CLS: 0.0285, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: da0315d3-5988-4874-994d-33dc6673841e)
+📝 Created analysis 01K4EGHJMJ64M57117KK3315W8 for https://seoanalyze.se/
+Added SEO job 3742 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 968ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3742 - LCP: 316ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3742 - LCP: 316ms, CLS: 0.0457, INP: nullms
+📝 Created analysis 01K4EGMXHHRJ0QYCF8NA02FNME for https://example.com
+📝 Created analysis 01K4EGMXHHRJ0QYCF8NA02FNME for https://example.com
+📝 Created analysis 01K4EGNGR6PXXPR465FDHKJFDK for https://example.com
+📝 Created analysis 01K4EGNGR6PXXPR465FDHKJFDK for https://example.com
+📝 Created analysis 01K4EGNZWS06ZY6D2KM56YVEPS for https://example.com
+📝 Created analysis 01K4EGNZWS06ZY6D2KM56YVEPS for https://example.com
+[SSR] crawl: list fallback had no richer payload for 694
+[SSR] /analys/694 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] crawl: list fallback had no richer payload for 694
+[SSR] /analys/694 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] crawl: list fallback had no richer payload for 694
+[SSR] /analys/694 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+[SSR] crawl: list fallback had no richer payload for 694
+[SSR] /analys/694 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  fid: { score: 0.91, value: 124, displayValue: '120 ms' },
+  lcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  tbt: { score: 1, value: 23, displayValue: '20 ms' },
+  tti: { score: 1, value: 888.146, displayValue: '0.9 s' },
+  ttfb: {
+    score: 1,
+    value: 93.09000000000003,
+    displayValue: 'Root document took 90 ms'
+  },
+  speedIndex: { score: 1, value: 927.8622000106811, displayValue: '0.9 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  fid: { score: 0.91, value: 124, displayValue: '120 ms' },
+  lcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  tbt: { score: 1, value: 23, displayValue: '20 ms' },
+  tti: { score: 1, value: 888.146, displayValue: '0.9 s' },
+  ttfb: {
+    score: 1,
+    value: 93.09000000000003,
+    displayValue: 'Root document took 90 ms'
+  },
+  speedIndex: { score: 1, value: 927.8622000106811, displayValue: '0.9 s' }
+}
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  fid: { score: 0.91, value: 124, displayValue: '120 ms' },
+  lcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  tbt: { score: 1, value: 23, displayValue: '20 ms' },
+  tti: { score: 1, value: 888.146, displayValue: '0.9 s' },
+  ttfb: {
+    score: 1,
+    value: 93.09000000000003,
+    displayValue: 'Root document took 90 ms'
+  },
+  speedIndex: { score: 1, value: 927.8622000106811, displayValue: '0.9 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  fid: { score: 0.91, value: 124, displayValue: '120 ms' },
+  lcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  tbt: { score: 1, value: 23, displayValue: '20 ms' },
+  tti: { score: 1, value: 888.146, displayValue: '0.9 s' },
+  ttfb: {
+    score: 1,
+    value: 93.09000000000003,
+    displayValue: 'Root document took 90 ms'
+  },
+  speedIndex: { score: 1, value: 927.8622000106811, displayValue: '0.9 s' }
+}
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  fid: { score: 0.91, value: 124, displayValue: '120 ms' },
+  lcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  tbt: { score: 1, value: 23, displayValue: '20 ms' },
+  tti: { score: 1, value: 888.146, displayValue: '0.9 s' },
+  ttfb: {
+    score: 1,
+    value: 93.09000000000003,
+    displayValue: 'Root document took 90 ms'
+  },
+  speedIndex: { score: 1, value: 927.8622000106811, displayValue: '0.9 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  fid: { score: 0.91, value: 124, displayValue: '120 ms' },
+  lcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  tbt: { score: 1, value: 23, displayValue: '20 ms' },
+  tti: { score: 1, value: 888.146, displayValue: '0.9 s' },
+  ttfb: {
+    score: 1,
+    value: 93.09000000000003,
+    displayValue: 'Root document took 90 ms'
+  },
+  speedIndex: { score: 1, value: 927.8622000106811, displayValue: '0.9 s' }
+}
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  fid: { score: 0.91, value: 124, displayValue: '120 ms' },
+  lcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  tbt: { score: 1, value: 23, displayValue: '20 ms' },
+  tti: { score: 1, value: 888.146, displayValue: '0.9 s' },
+  ttfb: {
+    score: 1,
+    value: 93.09000000000003,
+    displayValue: 'Root document took 90 ms'
+  },
+  speedIndex: { score: 1, value: 927.8622000106811, displayValue: '0.9 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  fid: { score: 0.91, value: 124, displayValue: '120 ms' },
+  lcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  tbt: { score: 1, value: 23, displayValue: '20 ms' },
+  tti: { score: 1, value: 888.146, displayValue: '0.9 s' },
+  ttfb: {
+    score: 1,
+    value: 93.09000000000003,
+    displayValue: 'Root document took 90 ms'
+  },
+  speedIndex: { score: 1, value: 927.8622000106811, displayValue: '0.9 s' }
+}
+📊 RUM data stored: https://seoanalyze.se/analys/3742 - LCP: 316ms, CLS: 0.0457, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: eff75974-c8fc-4d68-84b6-0106ec37e22c)
+📝 Created analysis 01K4EHFCMTN115BT702YZWZJT4 for https://seoanalyze.se/
+Added SEO job 3743 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 988ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3743 - LCP: 384ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3743 - LCP: 384ms, CLS: 0.0636, INP: nullms
+[SSR] crawl: list fallback had no richer payload for 694
+[SSR] /analys/694 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  fid: { score: 0.91, value: 124, displayValue: '120 ms' },
+  lcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  tbt: { score: 1, value: 23, displayValue: '20 ms' },
+  tti: { score: 1, value: 888.146, displayValue: '0.9 s' },
+  ttfb: {
+    score: 1,
+    value: 93.09000000000003,
+    displayValue: 'Root document took 90 ms'
+  },
+  speedIndex: { score: 1, value: 927.8622000106811, displayValue: '0.9 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  fid: { score: 0.91, value: 124, displayValue: '120 ms' },
+  lcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  tbt: { score: 1, value: 23, displayValue: '20 ms' },
+  tti: { score: 1, value: 888.146, displayValue: '0.9 s' },
+  ttfb: {
+    score: 1,
+    value: 93.09000000000003,
+    displayValue: 'Root document took 90 ms'
+  },
+  speedIndex: { score: 1, value: 927.8622000106811, displayValue: '0.9 s' }
+}
+📊 RUM data stored: https://seoanalyze.se/analys/693 - LCP: 260ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/251 - LCP: 188ms, CLS: 0.075, INP: nullms
+🔍 Starting CRAWL analysis for https://seoanalyze.se/ (client: 51b3e393-83e9-463c-ac71-8342bcd5ab0e)
+📝 Created analysis 01K4EHSJRKXYCH1STBZYE0KXSQ for https://seoanalyze.se/
+📝 Created Crawl analysis record: 01K4EHSJRKXYCH1STBZYE0KXSQ
+Added Crawl job 695 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 964ms, CLS: 0.0013, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/695 - LCP: 284ms, CLS: 0.0636, INP: nullms
+🔍 Starting CRAWL analysis for https://seoanalyze.se/ (client: 3893faa0-5066-41d5-8999-d2437abba5fb)
+📝 Created analysis 01K4EHSTSC8YK5MK6YBBSNG099 for https://seoanalyze.se/
+📝 Created Crawl analysis record: 01K4EHSTSC8YK5MK6YBBSNG099
+Added Crawl job 696 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 952ms, CLS: 0.0012, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/696 - LCP: 292ms, CLS: 0.0636, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/696 - LCP: 292ms, CLS: 0.0636, INP: nullms
+[SSR] crawl: list fallback had no richer payload for 694
+[SSR] /analys/694 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  fid: { score: 0.91, value: 124, displayValue: '120 ms' },
+  lcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  tbt: { score: 1, value: 23, displayValue: '20 ms' },
+  tti: { score: 1, value: 888.146, displayValue: '0.9 s' },
+  ttfb: {
+    score: 1,
+    value: 93.09000000000003,
+    displayValue: 'Root document took 90 ms'
+  },
+  speedIndex: { score: 1, value: 927.8622000106811, displayValue: '0.9 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  fid: { score: 0.91, value: 124, displayValue: '120 ms' },
+  lcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  tbt: { score: 1, value: 23, displayValue: '20 ms' },
+  tti: { score: 1, value: 888.146, displayValue: '0.9 s' },
+  ttfb: {
+    score: 1,
+    value: 93.09000000000003,
+    displayValue: 'Root document took 90 ms'
+  },
+  speedIndex: { score: 1, value: 927.8622000106811, displayValue: '0.9 s' }
+}
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  fid: { score: 0.91, value: 124, displayValue: '120 ms' },
+  lcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  tbt: { score: 1, value: 23, displayValue: '20 ms' },
+  tti: { score: 1, value: 888.146, displayValue: '0.9 s' },
+  ttfb: {
+    score: 1,
+    value: 93.09000000000003,
+    displayValue: 'Root document took 90 ms'
+  },
+  speedIndex: { score: 1, value: 927.8622000106811, displayValue: '0.9 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  fid: { score: 0.91, value: 124, displayValue: '120 ms' },
+  lcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  tbt: { score: 1, value: 23, displayValue: '20 ms' },
+  tti: { score: 1, value: 888.146, displayValue: '0.9 s' },
+  ttfb: {
+    score: 1,
+    value: 93.09000000000003,
+    displayValue: 'Root document took 90 ms'
+  },
+  speedIndex: { score: 1, value: 927.8622000106811, displayValue: '0.9 s' }
+}
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1513ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 1288ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+[SSR] crawl: list fallback had no richer payload for 694
+[SSR] /analys/694 type=crawl ssrHasResults=true keys=[
+  'rum',
+  'pages',
+  'summary',
+  'ruleEngine',
+  'schemaVersion',
+  [length]: 5
+]
+LighthouseResultsDisplay - lighthouseData keys: [
+  'rum',
+  'seo',
+  'ruleEngine',
+  'diagnostics',
+  'performance',
+  'accessibility',
+  'bestPractices',
+  'coreWebVitals',
+  'opportunities',
+  'schemaVersion',
+  'analysisId'
+]
+LighthouseResultsDisplay - coreWebVitals: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  fid: { score: 0.91, value: 124, displayValue: '120 ms' },
+  lcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  tbt: { score: 1, value: 23, displayValue: '20 ms' },
+  tti: { score: 1, value: 888.146, displayValue: '0.9 s' },
+  ttfb: {
+    score: 1,
+    value: 93.09000000000003,
+    displayValue: 'Root document took 90 ms'
+  },
+  speedIndex: { score: 1, value: 927.8622000106811, displayValue: '0.9 s' }
+}
+LighthouseResultsDisplay - cwv: {
+  cls: { score: 1, value: 0, displayValue: '0' },
+  fcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  fid: { score: 0.91, value: 124, displayValue: '120 ms' },
+  lcp: { score: 1, value: 815.146, displayValue: '0.8 s' },
+  tbt: { score: 1, value: 23, displayValue: '20 ms' },
+  tti: { score: 1, value: 888.146, displayValue: '0.9 s' },
+  ttfb: {
+    score: 1,
+    value: 93.09000000000003,
+    displayValue: 'Root document took 90 ms'
+  },
+  speedIndex: { score: 1, value: 927.8622000106811, displayValue: '0.9 s' }
+}
+📊 RUM data stored: https://seoanalyze.se/analys/3743 - LCP: 384ms, CLS: 0.0636, INP: nullms
+✅ Connected to Redis
+Cache SET: seo-analyzer:analysis-history:https://seoanalyze.se/-10 (TTL: 1800s)
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: baf983c0-deed-4186-8701-6b5d8fc6f225)
+📝 Created analysis 01K4EJW6Y30NHWGNPXN5GSMJVN for https://seoanalyze.se/
+Added SEO job 3744 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/3743 - LCP: 332ms, CLS: 0.0293, INP: 152ms
+📊 RUM data stored: https://seoanalyze.se/analys/3744 - LCP: 244ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3744 - LCP: 244ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3744 - LCP: 244ms, CLS: 0.0457, INP: nullms
+Cache HIT: seo-analyzer:analysis-history:https://seoanalyze.se/-10
+📊 RUM data stored: https://seoanalyze.se/analys/3744 - LCP: 196ms, CLS: 0.0293, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3744 - LCP: 196ms, CLS: 0.0293, INP: nullms
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: 3c52c13c-5c08-4470-97d2-ab920dcf5a47)
+📝 Created analysis 01K4EJYK0J6ABDZ22R5PNPBA60 for https://seoanalyze.se/
+Added SEO job 3745 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1132ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3745 - LCP: 240ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3745 - LCP: 240ms, CLS: 0.0457, INP: nullms
+🔍 Starting CRAWL analysis for https://seoanalyze.se/ (client: 285c4e0b-ff1a-4d03-81a3-e834ea56f5fd)
+📝 Created analysis 01K4EJYT94FHXKQTRYTZG7Y1N5 for https://seoanalyze.se/
+📝 Created Crawl analysis record: 01K4EJYT94FHXKQTRYTZG7Y1N5
+Added Crawl job 697 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 796ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/697 - LCP: 292ms, CLS: 0.0238, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: eab32d35-f001-420c-a68d-31ce5cb9fef9)
+📝 Created analysis 01K4EJYZNHZHWMZMNZG0B5ERX0 for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K4EJYZNHZHWMZMNZG0B5ERX0
+Added Lighthouse job 254 for https://seoanalyze.se/
+📊 RUM data stored: https://seoanalyze.se/analys/697 - LCP: 292ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 752ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/254 - LCP: 164ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2084ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/254 - LCP: 164ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/697 - LCP: 292ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2084ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2084ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3745 - LCP: 240ms, CLS: 0.0457, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/697 - LCP: 292ms, CLS: 0.0238, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/254 - LCP: 164ms, CLS: 0.0696, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3744 - LCP: 196ms, CLS: 0.0293, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 2099.900001525879ms, CLS: 0, INP: nullms

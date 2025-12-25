@@ -1,0 +1,30 @@
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://0.0.0.0:5001
+
+ ✓ Starting...
+ ✓ Ready in 534ms
+✅ Using Prisma singleton for database connection
+📁 Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📊 RUM data stored: https://seoanalyze.se/analys/213 - LCP: 176ms, CLS: 0.0284, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/213 - LCP: 928ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/671 - LCP: 188ms, CLS: 0.0234, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/671 - LCP: 196ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3709 - LCP: 776ms, CLS: 0.0186, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/213 - LCP: 928ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/3709 - LCP: 204ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/671 - LCP: 196ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 196ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 196ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 196ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 196ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/671 - LCP: 196ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 196ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/671 - LCP: 196ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/213 - LCP: 928ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/671 - LCP: 196ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 196ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 196ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/671 - LCP: 196ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/213 - LCP: 928ms, CLS: 0, INP: nullms

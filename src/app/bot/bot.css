@@ -1,0 +1,93 @@
+.bot-info-page {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: #f8f9fa;
+}
+
+.bot-info-page .container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bot-info-page h1 {
+  color: #1e293b;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.bot-info-page h2 {
+  color: #334155;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.bot-info-page h3 {
+  color: #475569;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.bot-info-page .info-section {
+  margin-bottom: 40px;
+}
+
+.bot-info-page .user-agent {
+  display: block;
+  background: #f1f5f9;
+  padding: 15px;
+  border-radius: 8px;
+  font-family: monospace;
+  margin: 15px 0;
+  word-break: break-all;
+}
+
+.bot-info-page .code-example {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 15px;
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 14px;
+  white-space: pre;
+  overflow-x: auto;
+}
+
+.bot-info-page ul {
+  margin: 15px 0;
+  padding-left: 25px;
+}
+
+.bot-info-page li {
+  margin-bottom: 8px;
+  color: #475569;
+}
+
+.bot-info-page .tech-info {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.bot-info-page .tech-info td {
+  padding: 10px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.bot-info-page .tech-info td:first-child {
+  font-weight: 600;
+  width: 40%;
+  color: #475569;
+}
+
+.bot-info-page .ip-list {
+  font-family: monospace;
+  background: #f8fafc;
+  padding: 15px 15px 15px 35px;
+  border-radius: 8px;
+}

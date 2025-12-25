@@ -1,0 +1,270 @@
+.fixPanelOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.fixPanel {
+  background: white;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fixPanelHeader {
+  padding: 24px 24px 20px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.fixPanelTitleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.severityBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border-radius: 20px;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.fixPanelClose {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #666;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.fixPanelClose:hover {
+  background: #f8f9fa;
+  color: #333;
+}
+
+.fixPanelTitle {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  line-height: 1.3;
+}
+
+.foundOn {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #666;
+}
+
+.fixPanelContent {
+  padding: 24px;
+}
+
+.statusSection,
+.howToSection,
+.quickFixesSection,
+.linksSection {
+  margin-bottom: 28px;
+}
+
+.statusSection h4,
+.howToSection h4,
+.quickFixesSection h4,
+.linksSection h4 {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.statusButtons {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.statusBtn {
+  padding: 8px 16px;
+  border: 2px solid #e9ecef;
+  background: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.statusBtn:hover {
+  border-color: #0d6efd;
+  background: #f8f9ff;
+}
+
+.statusBtn.active {
+  border-color: #0d6efd;
+  background: #0d6efd;
+  color: white;
+}
+
+.howToList {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.howToList li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.quickFixItem {
+  margin-bottom: 16px;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.quickFixHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.quickFixLabel {
+  font-weight: 500;
+  color: #333;
+}
+
+.copyBtn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.copyBtn:hover {
+  background: #218838;
+  transform: translateY(-1px);
+}
+
+.copyBtn.copied {
+  background: #17a2b8;
+  animation: pulse 0.5s ease-in-out;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.codeSnippet {
+  margin: 0;
+  padding: 16px;
+  background: #f8f9fa;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #333;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.linksList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.guideLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 12px;
+  background: #e7f3ff;
+  color: #0d6efd;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s;
+  border: 1px solid transparent;
+}
+
+.guideLink:hover {
+  background: #cce7ff;
+  border-color: #0d6efd;
+  text-decoration: none;
+  color: #0a58ca;
+  transform: translateY(-1px);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .fixPanelOverlay {
+    padding: 10px;
+  }
+  
+  .fixPanel {
+    max-height: 90vh;
+  }
+  
+  .fixPanelHeader,
+  .fixPanelContent {
+    padding: 16px;
+  }
+  
+  .statusButtons {
+    gap: 6px;
+  }
+  
+  .statusBtn {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+  
+  .codeSnippet {
+    font-size: 12px;
+    padding: 12px;
+  }
+}

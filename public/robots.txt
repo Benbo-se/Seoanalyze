@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://seoanalyze.se/sitemap.xml
+
+# Disallow admin/private areas  
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Allow SEO bots specifically (never block as per CLAUDE.md)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot  
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# SEO analyzer specific - allow all crawlers
+User-agent: *
+Crawl-delay: 1

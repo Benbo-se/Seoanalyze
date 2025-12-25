@@ -1,0 +1,71 @@
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://0.0.0.0:5001
+
+ ✓ Starting...
+ ✓ Ready in 695ms
+✅ Using Prisma singleton for database connection
+[STORAGE] Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+🔍 AnalysisPageClient using type: lighthouse for jobId: 01K68VRS0TC116YXWXEPKQ57CX
+📊 RUM data stored: https://seoanalyze.se/analys/01K68VRS0TC116YXWXEPKQ57CX - LCP: 304ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 932ms, CLS: 0, INP: nullms
+prisma:error Error in PostgreSQL connection: Error { kind: Db, cause: Some(DbError { severity: "FATAL", parsed_severity: Some(Fatal), code: SqlState(E57P01), message: "terminating connection due to administrator command", detail: None, hint: None, position: None, where_: None, schema: None, table: None, column: None, datatype: None, constraint: None, file: Some("postgres.c"), line: Some(3328), routine: Some("ProcessInterrupts") }) }
+📡 SSE for job null using queue: lighthouse, client: i9flj3fxusj
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 420ms, CLS: 0, INP: nullms
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: 2670070d-bcf4-44ab-97dd-11a3eb252de7)
+📝 Created analysis 01K68WA4SEC3YWKK3JNM7C8AHB for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K68WA4SEC3YWKK3JNM7C8AHB
+Added Lighthouse job 393 for https://seoanalyze.se/
+📡 SSE for job 393 using queue: unknown, client: p4x2rsrekzq
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: f00eacea-c143-4fc5-9640-611d969199e6)
+📝 Created analysis 01K68WA67VFEWA3A2EGJRCNECY for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K68WA67VFEWA3A2EGJRCNECY
+Added Lighthouse job 394 for https://seoanalyze.se/
+🔌 SSE cleanup for job null, client i9flj3fxusj
+📊 RUM data stored: https://seoanalyze.se/analys/01K68VRQMQ0HFF652YFMBKHC7T - LCP: 544700ms, CLS: 0.0021, INP: nullms
+🔌 SSE cleanup for job 393, client p4x2rsrekzq
+📡 Resolved queue: lighthouse -> lighthouse for job 393
+📡 SSE for job 393 using queue: lighthouse, client: p4x2rsrekzq
+🔌 SSE cleanup for job 393, client p4x2rsrekzq
+📡 Resolved queue: lighthouse -> lighthouse for job 393
+📡 SSE for job 393 using queue: lighthouse, client: p4x2rsrekzq
+📊 RUM data stored: https://seoanalyze.se/analys/393 - LCP: 2560ms, CLS: 0.0035, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/analys/393 - LCP: 2560ms, CLS: 0.0035, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1240ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1240ms, CLS: 0, INP: nullms
+🔌 SSE cleanup for job 393, client p4x2rsrekzq
+🔍 AnalysisPageClient using type: lighthouse for jobId: 01K68WA4SEC3YWKK3JNM7C8AHB
+🔌 SSE cleanup for job 393, client p4x2rsrekzq
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://0.0.0.0:5001
+
+ ✓ Starting...
+ ✓ Ready in 574ms
+✅ Using Prisma singleton for database connection
+[STORAGE] Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📊 RUM data stored: https://seoanalyze.se/analys/394 - LCP: 316ms, CLS: 0, INP: nullms
+📡 SSE for job null using queue: lighthouse, client: 032i4t4zn62b
+🔌 SSE cleanup for job null, client 032i4t4zn62b
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://0.0.0.0:5001
+
+ ✓ Starting...
+ ✓ Ready in 653ms
+✅ Using Prisma singleton for database connection
+[STORAGE] Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 420ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 1024ms, CLS: 0, INP: nullms
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://0.0.0.0:5001
+
+ ✓ Starting...
+ ✓ Ready in 406ms
+✅ Using Prisma singleton for database connection
+[STORAGE] Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis

@@ -1,0 +1,137 @@
+.panel {
+  margin: 12px 0 16px;
+  padding: 16px;
+  border: 2px solid #10b981;
+  border-radius: 12px;
+  background: #f0fdf4;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  color: #059669;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #065f46;
+}
+
+.summary {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 16px;
+  padding: 12px;
+  background: white;
+  border-radius: 8px;
+  justify-content: center;
+}
+
+.summaryItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.summaryValue {
+  font-size: 24px;
+  font-weight: 700;
+  color: #10b981;
+  line-height: 1;
+}
+
+.summaryLabel {
+  font-size: 12px;
+  color: #6b7280;
+  margin-top: 2px;
+}
+
+.winsList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.winItem {
+  padding: 12px;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #d1fae5;
+}
+
+.winHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.winTitle {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  color: #059669;
+  flex: 1;
+}
+
+.winMeta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.impactBadge {
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+}
+
+.critical {
+  background-color: #ef4444;
+}
+
+.high {
+  background-color: #f59e0b;
+}
+
+.medium {
+  background-color: #3b82f6;
+}
+
+.points {
+  color: #10b981;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.winDescription {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #374151;
+  line-height: 1.4;
+}
+
+.winTime {
+  font-size: 12px;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.empty {
+  font-size: 14px;
+  color: #059669;
+  text-align: center;
+  padding: 20px;
+}

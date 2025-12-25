@@ -1,0 +1,3 @@
+{
+  "/api/circuit-breaker/route": "app/api/circuit-breaker/route.js"
+}

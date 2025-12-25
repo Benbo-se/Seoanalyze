@@ -1,0 +1,7 @@
+📊 RUM data stored: https://seoanalyze.se/ - LCP: 389.8000000715256ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/integritetspolicy - LCP: 250.5ms, CLS: 0, INP: nullms
+📊 RUM data stored: https://seoanalyze.se/ai-analys - LCP: 570.2000000476837ms, CLS: 0.0535, INP: nullms
+Redis reconnect attempt 1, waiting 50ms
+Redis reconnect attempt 2, waiting 100ms
+Redis reconnect attempt 3, waiting 150ms
+✅ Connected to Redis

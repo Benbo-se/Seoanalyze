@@ -1,0 +1,117 @@
+.issue-breakdown-pie {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e2e8f0;
+}
+
+.pie-header {
+  margin-bottom: 16px;
+}
+
+.pie-header h3 {
+  margin: 0 0 4px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.total-count {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.pie-container {
+  height: 200px;
+  margin: 16px 0;
+}
+
+.pie-insight {
+  text-align: center;
+  padding: 12px;
+  background: #f8fafc;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.insight-percentage {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.insight-text {
+  font-size: 14px;
+  color: #475569;
+}
+
+/* No issues state */
+.no-issues {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.no-issues-icon {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.no-issues-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #16a34a;
+}
+
+/* Custom tooltip styles */
+.pie-tooltip {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+
+.tooltip-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.tooltip-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+}
+
+.tooltip-category {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.tooltip-stats {
+  display: flex;
+  gap: 8px;
+}
+
+.tooltip-count {
+  color: #475569;
+}
+
+.tooltip-percentage {
+  color: #64748b;
+  font-weight: 500;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .issue-breakdown-pie {
+    padding: 20px;
+  }
+  
+  .pie-container {
+    height: 180px;
+  }
+}

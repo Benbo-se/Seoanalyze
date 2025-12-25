@@ -1,0 +1,37 @@
+Security analysis failed: response is not defined
+Security analysis failed: response is not defined
+Browser operation failed after 30172ms: TimeoutError: Navigation timeout of 30000 ms exceeded
+    at new Deferred (/home/reda/seo-analyzer-nextjs/node_modules/puppeteer-core/lib/cjs/puppeteer/util/Deferred.js:60:34)
+    at Deferred.create (/home/reda/seo-analyzer-nextjs/node_modules/puppeteer-core/lib/cjs/puppeteer/util/Deferred.js:21:16)
+    at new LifecycleWatcher (/home/reda/seo-analyzer-nextjs/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/LifecycleWatcher.js:73:60)
+    at CdpFrame.goto (/home/reda/seo-analyzer-nextjs/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Frame.js:149:29)
+    at CdpFrame.<anonymous> (/home/reda/seo-analyzer-nextjs/node_modules/puppeteer-core/lib/cjs/puppeteer/util/decorators.js:109:27)
+    at CdpPage.goto (/home/reda/seo-analyzer-nextjs/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:574:43)
+    at /home/reda/seo-analyzer-nextjs/lib/queue-workers.js:183:18
+    at async withBrowser (/home/reda/seo-analyzer-nextjs/lib/browser-pool.js:110:20)
+    at async getPuppeteerHTML (/home/reda/seo-analyzer-nextjs/lib/queue-workers.js:173:10)
+    at async Worker.connection.host [as processFn] (/home/reda/seo-analyzer-nextjs/lib/queue-workers.js:912:31)
+⚠️ SEO: Puppeteer fallback failed: Navigation timeout of 30000 ms exceeded
+Security analysis failed: response is not defined
+Browser timeout - forcing close
+Failed to parse source map TypeError: Cannot read properties of undefined (reading 'sourceURL')
+    at SourceMap.parseMap (/home/reda/seo-analyzer-nextjs/node_modules/lighthouse/core/lib/cdt/generated/SourceMap.js:384:56)
+    at SourceMap.eachSection (/home/reda/seo-analyzer-nextjs/node_modules/lighthouse/core/lib/cdt/generated/SourceMap.js:340:13)
+    at #ensureMappingsProcessed (/home/reda/seo-analyzer-nextjs/node_modules/lighthouse/core/lib/cdt/generated/SourceMap.js:285:22)
+    at SourceMap.mappings (/home/reda/seo-analyzer-nextjs/node_modules/lighthouse/core/lib/cdt/generated/SourceMap.js:274:38)
+    at computeMappingEndColumns (file:///home/reda/seo-analyzer-nextjs/node_modules/@paulirish/trace_engine/models/trace/handlers/ScriptsHandler.js:88:26)
+    at computeGeneratedFileSizes (file:///home/reda/seo-analyzer-nextjs/node_modules/@paulirish/trace_engine/models/trace/handlers/ScriptsHandler.js:113:28)
+    at Module.getScriptGeneratedSizes (file:///home/reda/seo-analyzer-nextjs/node_modules/@paulirish/trace_engine/models/trace/handlers/ScriptsHandler.js:157:24)
+    at Module.computeScriptDuplication (file:///home/reda/seo-analyzer-nextjs/node_modules/@paulirish/trace_engine/models/trace/extras/ScriptDuplication.js:117:54)
+    at Module.generateInsight (file:///home/reda/seo-analyzer-nextjs/node_modules/@paulirish/trace_engine/models/trace/insights/DuplicatedJavaScript.js:57:87)
+    at #computeInsightSet (file:///home/reda/seo-analyzer-nextjs/node_modules/@paulirish/trace_engine/models/trace/Processor.js:391:33)
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+Security analysis failed: response is not defined
+Security analysis failed: response is not defined
+Security analysis failed: response is not defined
+Security analysis failed: response is not defined

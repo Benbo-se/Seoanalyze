@@ -1,0 +1,26 @@
+[lh-worker] Queue job for https://seoanalyze.se/integritetspolicy (queue size: 0)
+[lh-worker] Starting analysis for https://seoanalyze.se/integritetspolicy
+Loading ES modules...
+Using Chrome path: /usr/bin/chromium
+Chrome flags: 5 flags configured
+Lighthouse categories: performance, seo
+Chrome process 4107880 killed successfully
+Cleaned up temp directory: /tmp/lighthouse-1763822417627-7ad3jrrn-3044152
+[lh-worker] Analysis complete for https://seoanalyze.se/integritetspolicy
+[lh-worker] SIGINT received, shutting down...
+[lh-worker] Lighthouse worker listening on http://127.0.0.1:5002
+[lh-worker] Config: {
+  timeout: '90000ms',
+  cache: '600000ms',
+  concurrency: 1,
+  chrome: 'auto-detect'
+}
+[lh-worker] Queue job for https://seoanalyze.se/bot (queue size: 0)
+[lh-worker] Starting analysis for https://seoanalyze.se/bot
+Loading ES modules...
+Using Chrome path: /usr/bin/chromium
+Chrome flags: 5 flags configured
+Lighthouse categories: performance, seo
+Chrome process 4108461 killed successfully
+Cleaned up temp directory: /tmp/lighthouse-1763822496110-yk8h2eid-4108379
+[lh-worker] Analysis complete for https://seoanalyze.se/bot

@@ -1,0 +1,17 @@
+
+> seo-analyzer-nextjs@0.1.0 start
+> next start
+
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 3.9s
+✅ Using Prisma singleton for database connection
+[STORAGE] Local artifact storage initialized at /opt/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+📡 SSE for job null using queue: seo, client: zs1y8pdy1ys
+🔌 SSE cleanup for job null, client zs1y8pdy1ys
+📡 SSE for job null using queue: seo, client: zs1y8pdy1ys
+🔌 SSE cleanup for job null, client zs1y8pdy1ys

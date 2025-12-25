@@ -1,0 +1,145 @@
+ ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+ ⚠ Webpack is configured while Turbopack is not, which may cause problems.
+ ⚠ See instructions if you need to configure Turbopack:
+  https://nextjs.org/docs/app/api-reference/next-config-js/turbopack
+
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+ ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+ ⚠ Webpack is configured while Turbopack is not, which may cause problems.
+ ⚠ See instructions if you need to configure Turbopack:
+  https://nextjs.org/docs/app/api-reference/next-config-js/turbopack
+
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+ ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+ ⚠ Webpack is configured while Turbopack is not, which may cause problems.
+ ⚠ See instructions if you need to configure Turbopack:
+  https://nextjs.org/docs/app/api-reference/next-config-js/turbopack
+
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+job-meta error Error: Stream isn't writeable and enableOfflineQueue options is false
+    at E (.next/server/chunks/[root-of-the-server]__e2489f32._.js:1:7152)
+SSE polling error: Error: Stream isn't writeable and enableOfflineQueue options is false
+    at c (.next/server/chunks/[root-of-the-server]__3a606e33._.js:6:436)
+    at Object.start (.next/server/chunks/[root-of-the-server]__3a606e33._.js:6:1110)
+    at b (.next/server/chunks/[root-of-the-server]__3a606e33._.js:1:6988)
+Redis get error: Error: Stream isn't writeable and enableOfflineQueue options is false
+    at o (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:6921)
+    at s (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:7320)
+Redis set error: Error: Stream isn't writeable and enableOfflineQueue options is false
+    at i (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:7158)
+    at s (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:7381)
+ ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+ ⚠ Webpack is configured while Turbopack is not, which may cause problems.
+ ⚠ See instructions if you need to configure Turbopack:
+  https://nextjs.org/docs/app/api-reference/next-config-js/turbopack
+
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+ ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+ ⚠ Webpack is configured while Turbopack is not, which may cause problems.
+ ⚠ See instructions if you need to configure Turbopack:
+  https://nextjs.org/docs/app/api-reference/next-config-js/turbopack
+
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+❌ AI analysis failed: TypeError: Cannot read properties of undefined (reading 'create')
+    at R (.next/server/chunks/[root-of-the-server]__801bb897._.js:1:14642)
+    at async u (.next/server/chunks/[root-of-the-server]__801bb897._.js:1:17730)
+    at async s (.next/server/chunks/[root-of-the-server]__801bb897._.js:1:18762)
+    at async q (.next/server/chunks/[root-of-the-server]__801bb897._.js:1:19895)
+ ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+ ⚠ Webpack is configured while Turbopack is not, which may cause problems.
+ ⚠ See instructions if you need to configure Turbopack:
+  https://nextjs.org/docs/app/api-reference/next-config-js/turbopack
+
+❌ AI analysis failed: TypeError: Cannot read properties of undefined (reading 'create')
+    at R (.next/server/chunks/[root-of-the-server]__3952fb30._.js:1:14734)
+    at async u (.next/server/chunks/[root-of-the-server]__3952fb30._.js:1:17822)
+    at async s (.next/server/chunks/[root-of-the-server]__3952fb30._.js:1:18854)
+    at async q (.next/server/chunks/[root-of-the-server]__3952fb30._.js:1:19987)
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+ ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+ ⚠ Webpack is configured while Turbopack is not, which may cause problems.
+ ⚠ See instructions if you need to configure Turbopack:
+  https://nextjs.org/docs/app/api-reference/next-config-js/turbopack
+
+❌ AI analysis failed: TypeError: Cannot read properties of undefined (reading 'create')
+    at R (.next/server/chunks/[root-of-the-server]__3952fb30._.js:1:14743)
+    at async u (.next/server/chunks/[root-of-the-server]__3952fb30._.js:1:17831)
+    at async s (.next/server/chunks/[root-of-the-server]__3952fb30._.js:1:18863)
+    at async q (.next/server/chunks/[root-of-the-server]__3952fb30._.js:1:19996)
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+ ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+ ⚠ Webpack is configured while Turbopack is not, which may cause problems.
+ ⚠ See instructions if you need to configure Turbopack:
+  https://nextjs.org/docs/app/api-reference/next-config-js/turbopack
+
+❌ AI analysis failed: TypeError: Cannot read properties of undefined (reading 'create')
+    at R (.next/server/chunks/[root-of-the-server]__d071f0fa._.js:1:14808)
+    at async u (.next/server/chunks/[root-of-the-server]__d071f0fa._.js:1:17896)
+    at async s (.next/server/chunks/[root-of-the-server]__d071f0fa._.js:1:18928)
+    at async j (.next/server/chunks/[root-of-the-server]__d071f0fa._.js:1:20061)
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+ ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+ ⚠ Webpack is configured while Turbopack is not, which may cause problems.
+ ⚠ See instructions if you need to configure Turbopack:
+  https://nextjs.org/docs/app/api-reference/next-config-js/turbopack
+
+❌ AI analysis failed: TypeError: Cannot read properties of undefined (reading 'create')
+    at R (.next/server/chunks/[root-of-the-server]__d071f0fa._.js:1:14808)
+    at async u (.next/server/chunks/[root-of-the-server]__d071f0fa._.js:1:17896)
+    at async s (.next/server/chunks/[root-of-the-server]__d071f0fa._.js:1:18928)
+    at async j (.next/server/chunks/[root-of-the-server]__d071f0fa._.js:1:20061)
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+ ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+ ⚠ Webpack is configured while Turbopack is not, which may cause problems.
+ ⚠ See instructions if you need to configure Turbopack:
+  https://nextjs.org/docs/app/api-reference/next-config-js/turbopack
+
+❌ AI analysis failed: TypeError: Cannot read properties of undefined (reading 'create')
+    at R (.next/server/chunks/[root-of-the-server]__d071f0fa._.js:1:14894)
+    at async u (.next/server/chunks/[root-of-the-server]__d071f0fa._.js:1:17982)
+    at async s (.next/server/chunks/[root-of-the-server]__d071f0fa._.js:1:19014)
+    at async j (.next/server/chunks/[root-of-the-server]__d071f0fa._.js:1:20147)
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+❌ AI analysis failed: TypeError: Cannot read properties of undefined (reading 'create')
+    at R (.next/server/chunks/[root-of-the-server]__d071f0fa._.js:1:14894)
+    at async u (.next/server/chunks/[root-of-the-server]__d071f0fa._.js:1:17982)
+    at async s (.next/server/chunks/[root-of-the-server]__d071f0fa._.js:1:19014)
+    at async j (.next/server/chunks/[root-of-the-server]__d071f0fa._.js:1:20147)
+job-meta error Error: Stream isn't writeable and enableOfflineQueue options is false
+    at E (.next/server/chunks/[root-of-the-server]__e2489f32._.js:1:7152)
+SSE polling error: Error: Stream isn't writeable and enableOfflineQueue options is false
+    at c (.next/server/chunks/[root-of-the-server]__3a606e33._.js:6:436)
+    at Object.start (.next/server/chunks/[root-of-the-server]__3a606e33._.js:6:1110)
+    at b (.next/server/chunks/[root-of-the-server]__3a606e33._.js:1:6988)
+Redis get error: Error: Stream isn't writeable and enableOfflineQueue options is false
+    at o (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:6921)
+    at s (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:7320)
+Redis set error: Error: Stream isn't writeable and enableOfflineQueue options is false
+    at i (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:7158)
+    at s (.next/server/chunks/[root-of-the-server]__5a590232._.js:1:7381)

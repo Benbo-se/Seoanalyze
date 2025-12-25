@@ -1,0 +1,3 @@
+module.exports=[35658,e=>{"use strict";e.s(["getMachineId",()=>a]);var i=e.i(22734),r=e.i(30533);async function a(){for(let e of["/etc/machine-id","/var/lib/dbus/machine-id"])try{return(await i.promises.readFile(e,{encoding:"utf8"})).trim()}catch(e){r.diag.debug(`error reading machine id: ${e}`)}}}];
+
+//# sourceMappingURL=1c1a8_build_esm_detectors_platform_node_machine-id_getMachineId-linux_6c4885e0.js.map

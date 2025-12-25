@@ -1,0 +1,186 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Analysis model - stores all analysis metadata
+model Analysis {
+  id            String   @id @default(cuid())
+  targetUrl     String
+  type          String // 'seo' | 'crawl' | 'lighthouse'
+  schemaVersion Int      @default(1)
+  status        String   @default("pending") // 'pending' | 'processing' | 'completed' | 'failed'
+  summary       Json? // JSONB field for quick access to key metrics
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  // Relations
+  artifacts AnalysisArtifact[]
+  shares    Share[]
+
+  // Indexes for performance
+  @@index([targetUrl, createdAt(sort: Desc)])
+  @@index([type, createdAt(sort: Desc)])
+  @@index([status])
+}
+
+// Artifacts storage references
+model AnalysisArtifact {
+  id          String   @id @default(cuid())
+  analysisId  String
+  kind        String // 'raw_json' | 'pdf_v1' | 'screenshot' | 'har'
+  key         String // Storage key (file path or S3 key)
+  sizeBytes   Int
+  contentType String   @default("application/json")
+  createdAt   DateTime @default(now())
+
+  // Relations
+  analysis Analysis @relation(fields: [analysisId], references: [id], onDelete: Cascade)
+
+  @@index([analysisId])
+  @@index([kind])
+}
+
+// Real User Metrics - Core Web Vitals från riktiga användare
+model RumEvent {
+  id   BigInt   @id @default(autoincrement())
+  url  String
+  ts   DateTime @default(now())
+  lcp  Float?
+  cls  Float?
+  inp  Float?
+  ua   String?
+  vp_w Int?
+  vp_h Int?
+
+  @@index([url, ts])
+  @@map("rum_events")
+}
+
+// Share links for public access
+model Share {
+  id           String    @id @default(cuid())
+  analysisId   String?
+  aiAnalysisId String?
+  shareId      String    @unique // Public share ID (ULID or random string)
+  isEnabled    Boolean   @default(true)
+  views        Int       @default(0)
+  createdAt    DateTime  @default(now())
+  expiresAt    DateTime? // Optional expiration
+
+  // Relations (either analysis OR aiAnalysis, not both)
+  analysis   Analysis?   @relation(fields: [analysisId], references: [id], onDelete: Cascade)
+  aiAnalysis AiAnalysis? @relation(fields: [aiAnalysisId], references: [id], onDelete: Cascade)
+
+  @@index([shareId])
+  @@index([analysisId])
+  @@index([aiAnalysisId])
+}
+
+// Change Detection - Track critical SEO element changes
+model ChangeSnapshot {
+  id        String   @id @default(cuid())
+  url       String // Target URL being monitored
+  canonical String? // Canonical URL value
+  robots    String? // robots.txt content (first 2KB)
+  csp       String? // Content-Security-Policy header
+  title     String? // Page title
+  metaDesc  String? // Meta description
+  h1        String? // First H1 tag
+  createdAt DateTime @default(now())
+
+  // Relations
+  changes ChangeDetection[]
+
+  @@index([url, createdAt(sort: Desc)])
+}
+
+// Change alerts and notifications
+model ChangeDetection {
+  id         String    @id @default(cuid())
+  url        String // Target URL
+  changeType String // 'canonical' | 'robots' | 'csp' | 'title' | 'meta_desc' | 'h1'
+  severity   String // 'critical' | 'warning' | 'info'
+  oldValue   String? // Previous value
+  newValue   String? // New value
+  isResolved Boolean   @default(false)
+  createdAt  DateTime  @default(now())
+  resolvedAt DateTime?
+
+  // Relations
+  snapshotId String
+  snapshot   ChangeSnapshot @relation(fields: [snapshotId], references: [id], onDelete: Cascade)
+
+  @@index([url, createdAt(sort: Desc)])
+  @@index([changeType, severity])
+  @@index([isResolved])
+}
+
+// AI-Driven Analysis - Professional SEO reports with competitor comparison
+model AiAnalysis {
+  id        String @id @default(cuid())
+  targetUrl String // User's website URL
+  status    String @default("pending") // 'pending' | 'crawling_user' | 'finding_competitors' | 'crawling_competitors' | 'analyzing' | 'completed' | 'failed'
+  progress  Int    @default(0) // 0-100
+
+  // Related analyses (links to regular Analysis records)
+  userAnalysisId   String? // ULID of user's SEO analysis
+  userCrawlId      String? // ULID of user's Crawl analysis
+  userLighthouseId String? // ULID of user's Lighthouse analysis
+
+  // Competitor data
+  competitors    Json? // Array of competitor URLs that were analyzed
+  competitorData Json? // Crawl results for competitors
+
+  // AI-generated report
+  aiReport Json? // DeepSeek AI analysis results
+
+  // Metadata
+  createdAt   DateTime  @default(now())
+  completedAt DateTime?
+  error       String?
+
+  // For future: link to user if we add auth
+  userEmail String?
+
+  // Relations
+  shares Share[]
+
+  @@index([targetUrl, createdAt(sort: Desc)])
+  @@index([status])
+}
+
+// Chatbot conversation logs
+model ChatLog {
+  id            String   @id @default(cuid())
+  sessionId     String // Anonymous session ID (no user auth yet)
+  userMessage   String   @db.Text
+  botResponse   String   @db.Text
+
+  // Context
+  currentPage   String? // URL where question was asked
+  analysisId    String? // If user is on a results page
+  analysisType  String? // seo/crawl/lighthouse/ai
+
+  // Feedback
+  helpful       Boolean? // User can give thumbs up/down
+  feedbackText  String?  // Optional text feedback
+
+  // Metadata
+  responseTime  Int? // Milliseconds
+  tokensUsed    Int? // DeepSeek tokens used
+  cost          Float? // Cost in SEK (öre)
+
+  createdAt     DateTime @default(now())
+
+  @@index([sessionId, createdAt(sort: Desc)])
+  @@index([helpful])
+  @@index([createdAt(sort: Desc)])
+}

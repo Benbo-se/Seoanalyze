@@ -1,0 +1,412 @@
+📡 SSE for job null using queue: seo, client: 6xpi75rajnw
+🔌 SSE cleanup for job null, client 6xpi75rajnw
+
+> seo-analyzer-nextjs@0.1.0 start
+> next start
+
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:5001
+   - Network:      http://128.199.44.138:5001
+
+ ✓ Starting...
+ ✓ Ready in 3.3s
+✅ Using Prisma singleton for database connection
+[STORAGE] Local artifact storage initialized at /home/reda/seo-analyzer-nextjs/artifacts
+✅ Connected to Redis
+🤖 Starting AI analysis for https://seoanalyze.se/
+✅ Created AI analysis cmglg5jvl0000r2ecnt4jnhrf for https://seoanalyze.se/
+🤖 Added AI Analysis job 74 for https://seoanalyze.se/
+🚀 Queued AI analysis job 74 for https://seoanalyze.se/
+📡 [SSE] Client connecting for AI job: cmglg5jvl0000r2ecnt4jnhrf
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+🔍 Starting SEO analysis for https://seoanalyze.se/ (client: 27df2c6f-7af5-4797-a09f-c17212eff797)
+📝 Created analysis 01K785G3MDX96J19JC3BYDPXV2 for https://seoanalyze.se/
+Added SEO job 5315 for https://seoanalyze.se/
+🔍 Starting with unknown type, will resolve via job-meta
+🔍 AnalysisPageClient using type: unknown for jobId: 5315
+📡 Resolved queue: analysis -> seo for job 5315
+📡 SSE for job 5315 using queue: seo, client: kcriuq1nxzd
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+🔍 Starting CRAWL analysis for https://seoanalyze.se/ (client: 66aeafe0-e4c0-45c8-9a1a-ada7006b3418)
+📈 [SSE] AI Progress: crawling_user - 10%
+📝 Created analysis 01K785G8F63D4GFJKMTSF5W0QB for https://seoanalyze.se/
+📝 Created Crawl analysis record: 01K785G8F63D4GFJKMTSF5W0QB
+Added Crawl job 1028 for https://seoanalyze.se/
+🔍 Starting with unknown type, will resolve via job-meta
+🔍 AnalysisPageClient using type: unknown for jobId: 1028
+📡 Resolved queue: crawl -> crawl for job 1028
+📡 SSE for job 1028 using queue: crawl, client: hckluxmudnc
+📈 [SSE] AI Progress: crawling_user - 10%
+🔌 SSE cleanup for job 5315, client kcriuq1nxzd
+🔍 AnalysisPageClient using type: seo for jobId: 01K785G3MDX96J19JC3BYDPXV2
+🔌 SSE cleanup for job 1028, client hckluxmudnc
+🔍 AnalysisPageClient using type: crawl for jobId: 01K785G8F63D4GFJKMTSF5W0QB
+NORMALIZE CRAWL INPUT: {
+  "hasLinkmap": true,
+  "hasSummaryLinkmap": true,
+  "keys": [
+    "pages",
+    "summary",
+    "linkmap",
+    "sitemap",
+    "robotsTxt",
+    "technical",
+    "schemaVersion",
+    "rum",
+    "ruleEngine",
+    "analysisId",
+    "targetUrl"
+  ],
+  "linkmapKeys": [
+    "internalLinks",
+    "externalLinks",
+    "linkGraph",
+    "orphanPages",
+    "topLinkedPages",
+    "linkDistribution",
+    "score",
+    "grade",
+    "issues",
+    "recommendations"
+  ],
+  "internalLinksCount": 9
+}
+LM0 processing: {
+  internalCount: 9,
+  externalCount: 5,
+  firstInternal: {
+    source: 'https://seoanalyze.se/',
+    target: 'https://seoanalyze.se/',
+    text: '',
+    rel: null,
+    isInternal: true
+  }
+}
+EDGE ADDED: internal from https://seoanalyze.se/ to https://seoanalyze.se/
+EDGE ADDED: internal from https://seoanalyze.se/ to https://seoanalyze.se/ai-analy
+EDGE ADDED: internal from https://seoanalyze.se/ to https://seoanalyze.se/integrit
+EDGE DUPLICATE: internal
+EDGE ADDED: internal from https://seoanalyze.se/ai-analy to https://seoanalyze.se/
+EDGE ADDED: internal from https://seoanalyze.se/ai-analy to https://seoanalyze.se/integrit
+EDGE ADDED: internal from https://seoanalyze.se/ai-analy to https://seoanalyze.se/ai-analy
+EDGE ADDED: internal from https://seoanalyze.se/integrit to https://seoanalyze.se/integrit
+EDGE DUPLICATE: internal
+EDGE ADDED: external from https://seoanalyze.se/ to https://benbo.se/
+EDGE DUPLICATE: external
+EDGE ADDED: external from https://seoanalyze.se/ai-analy to https://benbo.se/
+EDGE DUPLICATE: external
+EDGE ADDED: external from https://seoanalyze.se/integrit to https://benbo.se/
+EDGE ADDED: external from https://seoanalyze.se/ to https://benbo.se/
+EDGE ADDED: internal from https://seoanalyze.se/ to https://seoanalyze.se/ai-analy
+EDGE DUPLICATE: external
+EDGE ADDED: internal from https://seoanalyze.se/ to https://seoanalyze.se/integrit
+EDGE ADDED: external from https://seoanalyze.se/ai-analy to https://benbo.se/
+EDGE ADDED: internal from https://seoanalyze.se/ai-analy to https://seoanalyze.se/
+EDGE DUPLICATE: external
+EDGE ADDED: internal from https://seoanalyze.se/ai-analy to https://seoanalyze.se/integrit
+EDGE ADDED: external from https://seoanalyze.se/integrit to https://benbo.se/
+NORMALIZED CRAWL DATA {
+  linkmap: { internal: 11, external: 6, broken: 0, redirects: 0, orphans: 0 },
+  issues: {
+    missingTitle: 0,
+    missingMeta: 0,
+    missingH1: 0,
+    thinContent: 0,
+    brokenLinks: 0,
+    brokenImages: 0,
+    imagesWithoutAlt: 0
+  },
+  sampleUrls: {
+    internal: [ 'https://seoanalyze.se/', 'https://seoanalyze.se/ai-analys' ],
+    external: [ 'https://benbo.se/', 'https://benbo.se/' ],
+    images: []
+  }
+}
+🔌 SSE cleanup for job 5315, client kcriuq1nxzd
+📈 [SSE] AI Progress: crawling_user - 10%
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: e7a02cb1-e1a0-4029-a4bf-b415e6a98497)
+📝 Created analysis 01K785GCF77Q14RSKKNF74Z1ET for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K785GCF77Q14RSKKNF74Z1ET
+Added Lighthouse job 505 for https://seoanalyze.se/
+🔍 Starting with unknown type, will resolve via job-meta
+🔍 AnalysisPageClient using type: unknown for jobId: 505
+📡 Resolved queue: lighthouse -> lighthouse for job 505
+📡 SSE for job 505 using queue: lighthouse, client: 6lvu34l2fk5
+🔌 SSE cleanup for job 1028, client hckluxmudnc
+📈 [SSE] AI Progress: crawling_user - 10%
+📡 SSE for job null using queue: seo, client: u93ofqc89
+📡 SSE for job null using queue: crawl, client: cqkjgcre8j7
+📈 [SSE] AI Progress: crawling_user - 10%
+🔌 SSE cleanup for job null, client u93ofqc89
+📡 SSE for job null using queue: seo, client: u93ofqc89
+🔌 SSE cleanup for job null, client cqkjgcre8j7
+📡 SSE for job null using queue: crawl, client: cqkjgcre8j7
+📈 [SSE] AI Progress: crawling_user - 10%
+🔌 SSE cleanup for job 505, client 6lvu34l2fk5
+📡 Resolved queue: lighthouse -> lighthouse for job 505
+📡 SSE for job 505 using queue: lighthouse, client: 6lvu34l2fk5
+🔌 [SSE] Client disconnected: cmglg5jvl0000r2ecnt4jnhrf
+📡 [SSE] Client connecting for AI job: cmglg5jvl0000r2ecnt4jnhrf
+📈 [SSE] AI Progress: completed - 100%
+✅ [SSE] AI Analysis completed: cmglg5jvl0000r2ecnt4jnhrf
+🔌 [SSE] Client disconnected: cmglg5jvl0000r2ecnt4jnhrf
+🔌 SSE cleanup for job 505, client 6lvu34l2fk5
+🔍 AnalysisPageClient using type: lighthouse for jobId: 01K785GCF77Q14RSKKNF74Z1ET
+🔌 SSE cleanup for job 505, client 6lvu34l2fk5
+🔌 SSE cleanup for job null, client u93ofqc89
+📡 SSE for job null using queue: seo, client: u93ofqc89
+📡 [SSE] Client connecting for AI job: cmglg5jvl0000r2ecnt4jnhrf
+🔌 SSE cleanup for job null, client u93ofqc89
+📡 SSE for job null using queue: seo, client: u93ofqc89
+🔌 SSE cleanup for job null, client cqkjgcre8j7
+📡 SSE for job null using queue: crawl, client: cqkjgcre8j7
+📡 SSE for job null using queue: lighthouse, client: 32v8kaeyev2
+📈 [SSE] AI Progress: completed - 100%
+✅ [SSE] AI Analysis completed: cmglg5jvl0000r2ecnt4jnhrf
+🔌 [SSE] Client disconnected: cmglg5jvl0000r2ecnt4jnhrf
+🔌 SSE cleanup for job null, client 32v8kaeyev2
+📡 SSE for job null using queue: lighthouse, client: 32v8kaeyev2
+📡 [SSE] Client connecting for AI job: cmglg5jvl0000r2ecnt4jnhrf
+🔌 SSE cleanup for job null, client u93ofqc89
+📡 SSE for job null using queue: seo, client: u93ofqc89
+🔌 SSE cleanup for job null, client cqkjgcre8j7
+📡 SSE for job null using queue: crawl, client: cqkjgcre8j7
+🔌 SSE cleanup for job null, client 32v8kaeyev2
+📡 SSE for job null using queue: lighthouse, client: 32v8kaeyev2
+📈 [SSE] AI Progress: completed - 100%
+✅ [SSE] AI Analysis completed: cmglg5jvl0000r2ecnt4jnhrf
+🔌 [SSE] Client disconnected: cmglg5jvl0000r2ecnt4jnhrf
+🤖 Starting AI analysis for https://seoanalyze.se
+✅ Created AI analysis cmglg94rs0001r2ec9j1imqp5 for https://seoanalyze.se
+🤖 Added AI Analysis job 75 for https://seoanalyze.se
+🚀 Queued AI analysis job 75 for https://seoanalyze.se
+📡 [SSE] Client connecting for AI job: cmglg94rs0001r2ec9j1imqp5
+📈 [SSE] AI Progress: crawling_user - 10%
+🔌 SSE cleanup for job null, client u93ofqc89
+📡 SSE for job null using queue: seo, client: u93ofqc89
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📡 SSE for job null using queue: seo, client: u93ofqc89
+🔌 SSE cleanup for job null, client u93ofqc89
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+🔌 [SSE] Client disconnected: cmglg94rs0001r2ec9j1imqp5
+📡 [SSE] Client connecting for AI job: cmglg94rs0001r2ec9j1imqp5
+🔌 SSE cleanup for job null, client u93ofqc89
+📡 SSE for job null using queue: seo, client: u93ofqc89
+📈 [SSE] AI Progress: completed - 100%
+✅ [SSE] AI Analysis completed: cmglg94rs0001r2ec9j1imqp5
+🔌 [SSE] Client disconnected: cmglg94rs0001r2ec9j1imqp5
+🔌 SSE cleanup for job null, client u93ofqc89
+📡 SSE for job null using queue: seo, client: u93ofqc89
+🔌 SSE cleanup for job null, client cqkjgcre8j7
+🔌 SSE cleanup for job null, client u93ofqc89
+📡 SSE for job null using queue: crawl, client: cqkjgcre8j7
+🔌 SSE cleanup for job null, client 32v8kaeyev2
+🔌 SSE cleanup for job null, client cqkjgcre8j7
+📡 SSE for job null using queue: lighthouse, client: 32v8kaeyev2
+🔌 SSE cleanup for job null, client 32v8kaeyev2
+🤖 Starting AI analysis for https://nobina.se
+✅ Created AI analysis cmglgdnm10003r2eckz95qul1 for https://nobina.se
+🤖 Added AI Analysis job 76 for https://nobina.se
+🚀 Queued AI analysis job 76 for https://nobina.se
+📡 [SSE] Client connecting for AI job: cmglgdnm10003r2eckz95qul1
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+🤖 Starting AI analysis for https://www.google.com
+✅ Created AI analysis cmglge74a0004r2ecr6a1048y for https://www.google.com
+🤖 Added AI Analysis job 77 for https://www.google.com
+🚀 Queued AI analysis job 77 for https://www.google.com
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%
+🔌 [SSE] Client disconnected: cmglgdnm10003r2eckz95qul1
+📡 [SSE] Client connecting for AI job: cmglgdnm10003r2eckz95qul1
+🔌 [SSE] Client disconnected: cmglgdnm10003r2eckz95qul1
+🤖 Starting AI analysis for https://seoanalyze.se
+✅ Created AI analysis cmglgh9wq0005r2ec3x51ox9l for https://seoanalyze.se
+🤖 Added AI Analysis job 78 for https://seoanalyze.se
+🚀 Queued AI analysis job 78 for https://seoanalyze.se
+🔍 Starting LIGHTHOUSE analysis for https://seoanalyze.se/ (client: 1b9fcb5d-1d84-4cb9-b38b-eea78d1bfa69)
+📝 Created analysis 01K7862DJGFY9BB27PM8CK89J5 for https://seoanalyze.se/
+📝 Created Lighthouse analysis record: 01K7862DJGFY9BB27PM8CK89J5
+Added Lighthouse job 510 for https://seoanalyze.se/
+🔍 Starting with unknown type, will resolve via job-meta
+🔍 AnalysisPageClient using type: unknown for jobId: 510
+📡 Resolved queue: lighthouse -> lighthouse for job 510
+📡 SSE for job 510 using queue: lighthouse, client: uxkykycbv3d
+🔌 SSE cleanup for job 510, client uxkykycbv3d
+🔍 AnalysisPageClient using type: lighthouse for jobId: 01K7862DJGFY9BB27PM8CK89J5
+🔌 SSE cleanup for job 510, client uxkykycbv3d
+📡 SSE for job null using queue: lighthouse, client: 7v2pj5dk5r5
+🔌 SSE cleanup for job null, client 7v2pj5dk5r5
+🤖 Starting AI analysis for https://seoanalyze.se/
+✅ Created AI analysis cmglgmcdi0006r2ecwgvst1lz for https://seoanalyze.se/
+🤖 Added AI Analysis job 79 for https://seoanalyze.se/
+🚀 Queued AI analysis job 79 for https://seoanalyze.se/
+📡 [SSE] Client connecting for AI job: cmglgmcdi0006r2ecwgvst1lz
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+🔌 [SSE] Client disconnected: cmglgmcdi0006r2ecwgvst1lz
+📡 [SSE] Client connecting for AI job: cmglgmcdi0006r2ecwgvst1lz
+🔌 [SSE] Client disconnected: cmglgmcdi0006r2ecwgvst1lz
+🤖 Starting AI analysis for https://seoanalyze.se/
+✅ Created AI analysis cmglgnzic0007r2eco9ib1pd4 for https://seoanalyze.se/
+🤖 Added AI Analysis job 80 for https://seoanalyze.se/
+🚀 Queued AI analysis job 80 for https://seoanalyze.se/
+📡 [SSE] Client connecting for AI job: cmglgnzic0007r2eco9ib1pd4
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+🔌 [SSE] Client disconnected: cmglgnzic0007r2eco9ib1pd4
+📡 [SSE] Client connecting for AI job: cmglgnzic0007r2eco9ib1pd4
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+🔌 [SSE] Client disconnected: cmglgnzic0007r2eco9ib1pd4
+📡 [SSE] Client connecting for AI job: cmglgnzic0007r2eco9ib1pd4
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: pending - 0%
+📈 [SSE] AI Progress: crawling_user - 10%
+📈 [SSE] AI Progress: crawling_user - 10%

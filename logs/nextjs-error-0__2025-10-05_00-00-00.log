@@ -1,0 +1,22 @@
+ ⨯ TypeError: Failed to parse body as FormData.
+    at async h (.next/server/chunks/ssr/_2767642b._.js:1:8128)
+ ⨯ TypeError: Failed to parse body as FormData.
+    at async h (.next/server/chunks/ssr/_2767642b._.js:1:8128)
+ ⨯ TypeError: Failed to parse body as FormData.
+    at async h (.next/server/chunks/ssr/_2767642b._.js:1:8128)
+ ⨯ TypeError: Failed to parse body as FormData.
+    at async h (.next/server/chunks/ssr/_2767642b._.js:1:8128)
+SSE polling error: ReferenceError: Cannot access 'u' before initialization
+    at c (.next/server/chunks/[root-of-the-server]__3a606e33._.js:6:885)
+    at async Object.start (.next/server/chunks/[root-of-the-server]__3a606e33._.js:6:1104)
+Failed to retrieve artifact analyses/2025-10-04/01K6RKZEXGYSP3FJV6DSTVWZHT/report.pdf: Error: ENOENT: no such file or directory, open '/home/reda/seo-analyzer-nextjs/artifacts/analyses/2025-10-04/01K6RKZEXGYSP3FJV6DSTVWZHT/report.pdf'
+    at async Object.get (.next/server/chunks/[root-of-the-server]__1a8263cc._.js:10:14637)
+    at async y (.next/server/chunks/[root-of-the-server]__de1e6677._.js:974:1180)
+    at async c (.next/server/chunks/[root-of-the-server]__de1e6677._.js:974:4653)
+    at async l (.next/server/chunks/[root-of-the-server]__de1e6677._.js:974:5685)
+    at async k (.next/server/chunks/[root-of-the-server]__de1e6677._.js:974:6818) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/reda/seo-analyzer-nextjs/artifacts/analyses/2025-10-04/01K6RKZEXGYSP3FJV6DSTVWZHT/report.pdf'
+}
