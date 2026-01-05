@@ -11,7 +11,7 @@ const hasKeys = !!(webpush && process.env.VAPID_PUBLIC_KEY && process.env.VAPID_
 // VAPID setup only if keys are available
 if (webpush && hasKeys) {
   webpush.setVapidDetails(
-    'mailto:support@seoanalyze.se',
+    'mailto:reda@benbo.se',
     process.env.VAPID_PUBLIC_KEY || 'BEffMaVuuKK12Yl5mulPU99ZShnk-0l_gbOuNVtidI0zOQsxJNQFQsP4vTfYHkUqTswmvOMfAscLZf5NkrPTgmk',
     process.env.VAPID_PRIVATE_KEY || 'vpQLDy3_J9xKn6PHKXfgpZNPhP4Sv8oG7AcKm5V_TqE'
   );

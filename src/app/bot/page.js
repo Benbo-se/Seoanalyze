@@ -81,9 +81,7 @@ Disallow: /`}
             vänligen kontakta oss omedelbart:
           </p>
           <ul>
-            <li>E-post: bot@seoanalyze.se</li>
-            <li>Support: support@seoanalyze.se</li>
-            <li>Akuta ärenden: +46 (kommer snart)</li>
+            <li>E-post: reda@benbo.se</li>
           </ul>
         </section>
 

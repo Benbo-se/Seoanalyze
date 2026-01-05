@@ -81,7 +81,7 @@ export async function POST(request) {
   } catch (error) {
     console.error('Chatbot error:', error);
     return NextResponse.json({
-      error: 'Ett fel uppstod. Försök igen eller kontakta admin@seoanalyze.se',
+      error: 'Ett fel uppstod. Försök igen eller kontakta reda@benbo.se',
       details: error.message
     }, { status: 500 });
   }
@@ -113,7 +113,7 @@ VANLIGA TERMER:
 SUPPORT:
 - Om analys fastnar >5 min, be användare uppdatera sidan eller testa igen
 - Om error 429, säg att de träffat rate limit och ska vänta 1 minut
-- Om error 500, be dem kontakta admin@seoanalyze.se
+- Om error 500, be dem kontakta reda@benbo.se
 
 UPPGIFT:
 - Svara på SVENSKA

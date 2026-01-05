@@ -7,13 +7,17 @@ En fullständig SEO-analysplattform byggd med Next.js 15 som analyserar webbplat
 - **SEO-analys** - Analyserar meta-taggar, rubriker, länkar, bilder och mer
 - **Lighthouse-analys** - Kör Google Lighthouse för prestanda, tillgänglighet och SEO-poäng
 - **Crawling** - Crawlar webbplatser för att hitta alla sidor och analysera struktur
+- **GDPR-analys** - Cookie-detektion, tracking-scripts, robust banner-detektion (4 metoder) och AI-genererad compliance-rapport
+- **Säkerhetsanalys** - SSL-certifikat, security headers, exponerade filer, sårbara bibliotek och AI-rapport
 - **AI-analys** - AI-driven analys av SEO-resultat med rekommendationer
 - **Chatbot** - Interaktiv chatbot för SEO-frågor
 - **Delningsfunktion** - Dela analysresultat via unika länkar
 
 ## Tech Stack
 
-- **Frontend**: Next.js 15, React 19, Tailwind CSS
+- **Frontend**: Next.js 15, React 19, Tailwind CSS 3.4
+- **UI-komponenter**: shadcn/ui, Radix UI, Lucide-ikoner
+- **Typsnitt**: Plus Jakarta Sans (rubriker), Inter (brödtext)
 - **Backend**: Next.js API Routes, Express
 - **Databas**: PostgreSQL med Prisma ORM
 - **Kö-system**: Redis, BullMQ
@@ -33,8 +37,8 @@ En fullständig SEO-analysplattform byggd med Next.js 15 som analyserar webbplat
 
 1. Klona repot
 ```bash
-git clone https://github.com/YOUR_USERNAME/seo-analyzer-nextjs.git
-cd seo-analyzer-nextjs
+git clone https://github.com/RedaEkengren/seoanalyze.se.git
+cd seoanalyze.se
 ```
 
 2. Installera dependencies
@@ -97,16 +101,24 @@ npm run prod:start
 
 ```
 ├── src/
-│   ├── app/           # Next.js App Router
-│   │   ├── api/       # API-routes
-│   │   ├── analys/    # Analyssidor
-│   │   ├── ai-analys/ # AI-analyssidor
-│   │   └── bot/       # Chatbot
-│   └── components/    # React-komponenter
-├── lib/               # Utility-funktioner och workers
-├── prisma/            # Databasschema
-├── public/            # Statiska filer
-└── artifacts/         # Analysresultat (gitignored)
+│   ├── app/              # Next.js App Router
+│   │   ├── api/          # API-routes
+│   │   ├── analys/       # Analyssidor
+│   │   ├── blogg/        # Bloggartiklar
+│   │   └── ...           # Övriga sidor
+│   ├── components/
+│   │   ├── ui/           # shadcn/ui-komponenter (button, badge, tabs, etc.)
+│   │   ├── common/       # Header, Footer, HeroSection
+│   │   ├── landing/      # ToolsShowcase, Features, FinalCTA
+│   │   ├── results/      # SEO-resultatvisning
+│   │   ├── gdpr/         # GDPR-resultatvisning
+│   │   └── security/     # Säkerhetsresultatvisning
+│   ├── lib/              # Utilities (cn, etc.)
+│   └── styles/           # globals.css, chatbot.css
+├── lib/                  # Backend workers och analyzers
+├── prisma/               # Databasschema
+├── public/               # Statiska filer
+└── artifacts/            # Analysresultat (gitignored)
 ```
 
 ## Licens

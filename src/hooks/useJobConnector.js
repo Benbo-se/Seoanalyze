@@ -54,7 +54,9 @@ function normalizeType(type) {
     analyze: 'analysis',
     seo: 'analysis',
     crawl: 'crawl',
-    lighthouse: 'lighthouse'
+    lighthouse: 'lighthouse',
+    gdpr: 'gdpr',
+    security: 'security'
   };
   console.log('🔧 normalizeType input:', type, '→ output:', map[type] || type);
   return map[type] || type;

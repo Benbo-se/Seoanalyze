@@ -4,7 +4,7 @@ import webpush from 'web-push';
 // Configure VAPID keys from environment variables
 const VAPID_PUBLIC_KEY = process.env.VAPID_PUBLIC_KEY;
 const VAPID_PRIVATE_KEY = process.env.VAPID_PRIVATE_KEY;
-const VAPID_SUBJECT = process.env.VAPID_SUBJECT || 'mailto:admin@seoanalyze.se';
+const VAPID_SUBJECT = process.env.VAPID_SUBJECT || 'mailto:reda@benbo.se';
 
 // Only configure if all keys are available
 if (VAPID_PUBLIC_KEY && VAPID_PRIVATE_KEY) {

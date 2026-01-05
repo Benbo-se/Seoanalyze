@@ -7,6 +7,8 @@ import { useJobConnector } from '../../../hooks/useJobConnector';
 import CrawlResultsDisplayV2 from '../../../components/crawl/CrawlResultsDisplayV2';
 import LighthouseResultsDisplay from '../../../components/results/LighthouseResultsDisplay';
 import ResultsDisplay from '../../../components/results/ResultsDisplay';
+import GdprResultsDisplay from '../../../components/gdpr/GdprResultsDisplay';
+import SecurityResultsDisplay from '../../../components/security/SecurityResultsDisplay';
 import SkeletonLoader from '../../../components/common/SkeletonLoader';
 import LoadingRing from '../../../components/common/LoadingRing';
 import ConsultationBanner from '../../../components/common/ConsultationBanner';
@@ -141,8 +143,10 @@ export default function AnalysisPageClient({ params, initialAnalysis = null, ini
   const analysisType = status?.type || detectedType;
   const typeDisplayName = {
     seo: 'SEO-analys',
-    lighthouse: 'Lighthouse-analys', 
-    crawl: 'Crawl-analys'
+    lighthouse: 'Lighthouse-analys',
+    crawl: 'Crawl-analys',
+    gdpr: 'GDPR-analys',
+    security: 'Säkerhetsanalys'
   }[analysisType] || 'Analys';
 
   const formatRetryTime = () => {
@@ -281,6 +285,8 @@ export default function AnalysisPageClient({ params, initialAnalysis = null, ini
                     analysisType === 'crawl' ? 'Crawlar din webbplats...' :
                     analysisType === 'lighthouse' ? 'Kör Lighthouse-analys...' :
                     analysisType === 'seo' ? 'Analyserar SEO...' :
+                    analysisType === 'gdpr' ? 'Kör GDPR-analys...' :
+                    analysisType === 'security' ? 'Kör Säkerhetsanalys...' :
                     'Bearbetar analys...'
                   }
                 />
@@ -288,7 +294,9 @@ export default function AnalysisPageClient({ params, initialAnalysis = null, ini
                   {analysisType === 'crawl' && `Crawlar din webbplats...`}
                   {analysisType === 'lighthouse' && `Kör Lighthouse-analys...`}
                   {analysisType === 'seo' && `Analyserar SEO...`}
-                  {!['crawl', 'lighthouse', 'seo'].includes(analysisType) && `Bearbetar analys...`}
+                  {analysisType === 'gdpr' && `Kör GDPR-analys...`}
+                  {analysisType === 'security' && `Kör Säkerhetsanalys...`}
+                  {!['crawl', 'lighthouse', 'seo', 'gdpr', 'security'].includes(analysisType) && `Bearbetar analys...`}
                 </h3>
                 
                 {/* Progress Display */}
@@ -308,6 +316,8 @@ export default function AnalysisPageClient({ params, initialAnalysis = null, ini
                   {analysisType === 'crawl' && progress > 0 && `${progress} av 100 sidor analyserade`}
                   {analysisType === 'lighthouse' && 'Mäter prestanda, tillgänglighet och SEO'}
                   {analysisType === 'seo' && 'Granskar sidans SEO-optimering'}
+                  {analysisType === 'gdpr' && 'Analyserar cookies och GDPR-compliance'}
+                  {analysisType === 'security' && 'Kontrollerar SSL, headers och sårbarheter'}
                 </p>
               </div>
             )}
@@ -449,6 +459,18 @@ export default function AnalysisPageClient({ params, initialAnalysis = null, ini
                   type="seo"
                   artifactBase={resultId ? `/api/artifacts/by-id/${resultId}` : null}
                   onNewAnalysis={() => window.location.href = '/'}
+                />
+              )}
+              {analysisType === 'gdpr' && (
+                <GdprResultsDisplay
+                  result={{ ...results, url: analysis?.targetUrl }}
+                  analysisId={analysis?.id || resultId}
+                />
+              )}
+              {analysisType === 'security' && (
+                <SecurityResultsDisplay
+                  result={{ ...results, url: analysis?.targetUrl }}
+                  analysisId={analysis?.id || resultId}
                 />
               )}
             </div>

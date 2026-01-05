@@ -80,8 +80,8 @@ export default function Integritetspolicy() {
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Kontakt</h2>
           <p className="text-gray-600">
             För frågor om denna integritetspolicy, kontakta oss på{' '}
-            <a href="mailto:privacy@seoanalyze.se" className="text-blue-600 hover:text-blue-800">
-              privacy@seoanalyze.se
+            <a href="mailto:reda@benbo.se" className="text-blue-600 hover:text-blue-800">
+              reda@benbo.se
             </a>
           </p>
         </section>

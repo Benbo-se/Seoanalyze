@@ -1,0 +1,662 @@
+/* Security Results Display Styles */
+
+.security-results-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.security-results {
+  padding: 1.5rem;
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.security-hero {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+.security-score-section {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Grade Badge */
+.security-grade {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+}
+
+.security-grade-a { background: linear-gradient(135deg, #22c55e, #16a34a); }
+.security-grade-b { background: linear-gradient(135deg, #84cc16, #65a30d); }
+.security-grade-c { background: linear-gradient(135deg, #eab308, #ca8a04); }
+.security-grade-d { background: linear-gradient(135deg, #f59e0b, #d97706); }
+.security-grade-f { background: linear-gradient(135deg, #ef4444, #dc2626); }
+
+.security-score-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+
+.security-score-number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1e293b;
+}
+
+.security-score-label {
+  font-size: 0.75rem;
+  color: #64748b;
+}
+
+.security-summary {
+  flex: 1;
+  min-width: 300px;
+}
+
+.security-summary p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #334155;
+  margin: 0;
+}
+
+/* Sections */
+.security-section {
+  background: white;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.security-section h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+}
+
+.security-section-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 1.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.security-section-header:hover {
+  background: #f8fafc;
+}
+
+.security-toggle-icon {
+  font-size: 1.25rem;
+  color: #64748b;
+}
+
+.security-section-content {
+  padding: 0 1.5rem 1.5rem;
+}
+
+/* SSL Section */
+.security-ssl-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.security-ssl-card {
+  padding: 1rem;
+  border-radius: 8px;
+  background: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.security-ssl-valid { background: #dcfce7; border: 1px solid #22c55e; }
+.security-ssl-invalid { background: #fee2e2; border: 1px solid #ef4444; }
+.security-ssl-warning { background: #fef3c7; border: 1px solid #f59e0b; }
+
+.security-ssl-icon { font-size: 1.5rem; }
+.security-ssl-label { font-size: 0.875rem; color: #64748b; }
+.security-ssl-value { font-weight: 600; color: #1e293b; }
+
+/* Headers Section */
+.security-headers-group {
+  margin-bottom: 1.5rem;
+}
+
+.security-headers-group:last-child {
+  margin-bottom: 0;
+}
+
+.security-headers-group h3 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0 0 0.75rem;
+}
+
+.security-headers-missing h3 {
+  color: #dc2626;
+}
+
+.security-headers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.security-header-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  background: #f8fafc;
+}
+
+.security-header-missing {
+  background: #fef2f2;
+}
+
+.security-header-name {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  min-width: 200px;
+}
+
+.security-check-icon { color: #22c55e; }
+.security-x-icon { color: #ef4444; }
+
+.security-header-grade {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.security-header-a { color: #166534; background: #dcfce7; }
+.security-header-b { color: #3f6212; background: #ecfccb; }
+.security-header-c { color: #854d0e; background: #fef9c3; }
+.security-header-d { color: #9a3412; background: #ffedd5; }
+.security-header-f { color: #991b1b; background: #fee2e2; }
+.security-header-unknown { color: #64748b; background: #f1f5f9; }
+
+.security-header-value {
+  font-size: 0.75rem;
+  color: #64748b;
+  background: #e2e8f0;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.security-header-importance {
+  font-size: 0.875rem;
+  color: #ef4444;
+}
+
+/* Exposed Files */
+.security-exposed-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.security-exposed-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+}
+
+.security-exposed-critical {
+  background: #fee2e2;
+  border-left: 4px solid #dc2626;
+}
+
+.security-exposed-item code {
+  flex: 1;
+  font-family: monospace;
+  font-size: 0.875rem;
+}
+
+.security-exposed-status {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #dc2626;
+  text-transform: uppercase;
+}
+
+.security-warning-icon { color: #dc2626; font-size: 1.25rem; }
+
+/* Empty States */
+.security-empty-state {
+  padding: 2rem;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.security-empty-good {
+  background: #dcfce7;
+  border: 1px dashed #22c55e;
+}
+
+.security-empty-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Vulnerable Libraries */
+.security-vuln-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.security-vuln-item {
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 4px solid;
+}
+
+.security-vuln-critical { background: #fee2e2; border-left-color: #dc2626; }
+.security-vuln-high { background: #ffedd5; border-left-color: #ea580c; }
+.security-vuln-medium { background: #fef3c7; border-left-color: #d97706; }
+.security-vuln-low { background: #fef9c3; border-left-color: #ca8a04; }
+
+.security-vuln-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.security-vuln-name { font-weight: 600; color: #1e293b; }
+.security-vuln-version { font-family: monospace; color: #64748b; }
+
+.security-severity-badge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.security-severity-critical { background: #dc2626; color: white; }
+.security-severity-high { background: #ea580c; color: white; }
+.security-severity-medium { background: #d97706; color: white; }
+.security-severity-low { background: #ca8a04; color: white; }
+
+.security-vuln-desc {
+  margin: 0 0 0.5rem;
+  color: #475569;
+  font-size: 0.875rem;
+}
+
+.security-cve-link {
+  font-size: 0.875rem;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.security-cve-link:hover {
+  text-decoration: underline;
+}
+
+/* Mixed Content */
+.security-mixed-content {
+  padding: 1.5rem;
+}
+
+.security-mixed-warning {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1rem;
+  background: #fef3c7;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.security-mixed-warning p {
+  margin: 0;
+  color: #92400e;
+}
+
+.security-mixed-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.security-mixed-resource {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  background: #f1f5f9;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  color: #64748b;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.security-mixed-more {
+  color: #64748b;
+  font-size: 0.875rem;
+  font-style: italic;
+  margin: 0.5rem 0 0;
+}
+
+/* Issues */
+.security-issues-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+.security-issue-card {
+  padding: 1.25rem;
+  border-radius: 8px;
+  border-left: 4px solid;
+}
+
+.security-issue-critical { background: #fee2e2; border-left-color: #dc2626; }
+.security-issue-high { background: #ffedd5; border-left-color: #ea580c; }
+.security-issue-medium { background: #fef3c7; border-left-color: #d97706; }
+.security-issue-low { background: #fef9c3; border-left-color: #ca8a04; }
+
+.security-issue-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.security-issue-header h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+}
+
+.security-owasp-badge {
+  background: #1e293b;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.security-issue-description {
+  color: #64748b;
+  margin: 0 0 0.75rem;
+  line-height: 1.5;
+}
+
+.security-issue-action {
+  background: white;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
+}
+
+/* Recommendations */
+.security-recommendations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.security-recommendation-card {
+  padding: 1.25rem;
+  border-radius: 8px;
+  border-left: 4px solid;
+}
+
+.security-priority-high { background: #fef3c7; border-left-color: #f59e0b; }
+.security-priority-medium { background: #e0f2fe; border-left-color: #0ea5e9; }
+.security-priority-low { background: #f0fdf4; border-left-color: #22c55e; }
+
+.security-rec-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.security-rec-header h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+}
+
+.security-priority-badge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.security-priority-badge.security-priority-high { background: #f59e0b; color: white; }
+.security-priority-badge.security-priority-medium { background: #0ea5e9; color: white; }
+.security-priority-badge.security-priority-low { background: #22c55e; color: white; }
+
+.security-recommendation-card > p {
+  margin: 0 0 0.75rem;
+  color: #475569;
+  line-height: 1.5;
+}
+
+.security-rec-impl {
+  background: #1e293b;
+  padding: 0.75rem;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+}
+
+.security-rec-impl strong {
+  display: block;
+  color: #94a3b8;
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.security-rec-impl code {
+  display: block;
+  color: #22d3ee;
+  font-family: monospace;
+  font-size: 0.875rem;
+  word-break: break-all;
+}
+
+.security-rec-time {
+  display: inline-block;
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+/* Header Recommendations */
+.security-header-recs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+.security-header-rec-card {
+  padding: 1rem;
+  background: #f8fafc;
+  border-radius: 8px;
+}
+
+.security-header-rec-card h4 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  color: #1e293b;
+}
+
+.security-header-rec-value {
+  display: block;
+  background: #1e293b;
+  color: #22d3ee;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+  overflow-x: auto;
+}
+
+.security-header-rec-card p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+/* Strengths */
+.security-strengths-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 1.5rem;
+}
+
+.security-strength-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #dcfce7;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  color: #166534;
+}
+
+.security-strength-icon { color: #22c55e; }
+
+/* Action Plan */
+.security-action-plan {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+.security-action-step {
+  padding: 1.25rem;
+  border-radius: 8px;
+}
+
+.security-action-immediate { background: #fee2e2; border-left: 4px solid #dc2626; }
+.security-action-short { background: #fef3c7; border-left: 4px solid #f59e0b; }
+.security-action-long { background: #e0f2fe; border-left: 4px solid #0ea5e9; }
+
+.security-action-step h4 {
+  margin: 0 0 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.security-action-step p {
+  margin: 0;
+  color: #475569;
+  line-height: 1.5;
+}
+
+/* Disclaimer */
+.security-disclaimer {
+  background: #f1f5f9;
+  border-radius: 8px;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.security-disclaimer p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .security-hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .security-score-section {
+    flex-direction: column;
+  }
+
+  .security-summary {
+    min-width: auto;
+  }
+
+  .security-ssl-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .security-header-item {
+    flex-wrap: wrap;
+  }
+
+  .security-header-name {
+    min-width: auto;
+    width: 100%;
+  }
+
+  .security-issue-header {
+    flex-direction: column;
+  }
+
+  .security-vuln-header {
+    flex-wrap: wrap;
+  }
+}

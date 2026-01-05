@@ -69,7 +69,7 @@ export const metadata = {
       {
         rel: "mask-icon",
         url: "/icons/safari-pinned-tab.svg",
-        color: "#ff6b6b",
+        color: "#3B82F6",
       },
     ],
   },
@@ -77,8 +77,8 @@ export const metadata = {
 
 export const viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#ff6b6b" },
-    { media: "(prefers-color-scheme: dark)", color: "#ff6b6b" },
+    { media: "(prefers-color-scheme: light)", color: "#3B82F6" },
+    { media: "(prefers-color-scheme: dark)", color: "#3B82F6" },
   ],
   width: "device-width",
   initialScale: 1,
@@ -104,7 +104,7 @@ export default function RootLayout({ children }) {
         "contactPoint": {
           "@type": "ContactPoint",
           "contactType": "Customer Support",
-          "email": "admin@seoanalyze.se"
+          "email": "reda@benbo.se"
         }
       },
       {

@@ -70,11 +70,13 @@ function isSSRFAttempt(urlString) {
 }
 
 // Import queue system
-const { 
-  addLighthouseJob, 
-  addCrawlJob, 
+const {
+  addLighthouseJob,
+  addCrawlJob,
   addSeoJob,
-  getQueueStats 
+  addGdprJob,
+  addSecurityJob,
+  getQueueStats
 } = require('../../../../lib/queue-manager');
 
 // Import analytics tracker
@@ -94,10 +96,10 @@ export async function POST(request) {
     }
     
     // Validate analysis type
-    if (!['seo', 'crawl', 'lighthouse'].includes(type)) {
+    if (!['seo', 'crawl', 'lighthouse', 'gdpr', 'security'].includes(type)) {
       return Response.json({
         error: 'Invalid analysis type',
-        message: 'Type must be one of: seo, crawl, lighthouse'
+        message: 'Type must be one of: seo, crawl, lighthouse, gdpr, security'
       }, { status: 400 });
     }
     
@@ -233,7 +235,7 @@ export async function POST(request) {
       
       const job = await addLighthouseJob({ url, clientId, analysisId });
       trackVisitor(request, 'lighthouse', { url });
-      
+
       return Response.json({
         jobId: job.id,
         clientId,
@@ -242,8 +244,96 @@ export async function POST(request) {
         sseEndpoint: `/api/sse/job/${job.id}/lighthouse/${clientId}`,
         estimatedTime: '1-3 minutes'
       });
+
+    } else if (type === 'gdpr') {
+      // GDPR Cookie & Privacy Analysis
+      const queueStats = await getQueueStats();
+      const totalWaiting = (queueStats.gdpr?.waiting || 0) + (queueStats.gdpr?.active || 0);
+
+      if (totalWaiting >= 20) {
+        return Response.json({
+          error: 'Systemet är överbelastat just nu',
+          message: 'Det finns redan för många GDPR-analyser i kö. Försök igen om några minuter.',
+          queueLength: totalWaiting,
+          estimatedWaitMinutes: Math.ceil(totalWaiting * 3)
+        }, { status: 429 });
+      }
+
+      let analysisId = null;
+      if (process.env.ENABLE_DATABASE === 'true' && analysisRepo.isEnabled) {
+        try {
+          const analysis = await analysisRepo.create({
+            targetUrl: url,
+            type: 'gdpr',
+            status: 'pending',
+            summary: {
+              startTime: new Date()
+            }
+          });
+          analysisId = analysis.id;
+          console.log(`📝 Created GDPR analysis record: ${analysisId}`);
+        } catch (dbError) {
+          console.error('Failed to create GDPR analysis record:', dbError);
+        }
+      }
+
+      const job = await addGdprJob({ url, clientId, analysisId });
+      trackVisitor(request, 'gdpr', { url });
+
+      return Response.json({
+        jobId: job.id,
+        clientId,
+        analysisId,
+        message: 'GDPR-analys startad. Anslut till SSE för realtidsuppdateringar.',
+        sseEndpoint: `/api/sse/job/${job.id}/gdpr/${clientId}`,
+        estimatedTime: '2-5 minuter'
+      });
+
+    } else if (type === 'security') {
+      // Security Analysis
+      const queueStats = await getQueueStats();
+      const totalWaiting = (queueStats.security?.waiting || 0) + (queueStats.security?.active || 0);
+
+      if (totalWaiting >= 30) {
+        return Response.json({
+          error: 'Systemet är överbelastat just nu',
+          message: 'Det finns redan för många säkerhetsanalyser i kö. Försök igen om några minuter.',
+          queueLength: totalWaiting,
+          estimatedWaitMinutes: Math.ceil(totalWaiting * 2)
+        }, { status: 429 });
+      }
+
+      let analysisId = null;
+      if (process.env.ENABLE_DATABASE === 'true' && analysisRepo.isEnabled) {
+        try {
+          const analysis = await analysisRepo.create({
+            targetUrl: url,
+            type: 'security',
+            status: 'pending',
+            summary: {
+              startTime: new Date()
+            }
+          });
+          analysisId = analysis.id;
+          console.log(`📝 Created Security analysis record: ${analysisId}`);
+        } catch (dbError) {
+          console.error('Failed to create Security analysis record:', dbError);
+        }
+      }
+
+      const job = await addSecurityJob({ url, clientId, analysisId });
+      trackVisitor(request, 'security', { url });
+
+      return Response.json({
+        jobId: job.id,
+        clientId,
+        analysisId,
+        message: 'Säkerhetsanalys startad. Anslut till SSE för realtidsuppdateringar.',
+        sseEndpoint: `/api/sse/job/${job.id}/security/${clientId}`,
+        estimatedTime: '1-3 minuter'
+      });
     }
-    
+
   } catch (error) {
     console.error(`Analysis error:`, error);
     return Response.json({ 

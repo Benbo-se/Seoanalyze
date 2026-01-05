@@ -21,7 +21,7 @@ function getRedis() {
   return redisInstance;
 }
 
-const QUEUES = ['analysis', 'seo', 'crawl', 'lighthouse'];
+const QUEUES = ['analysis', 'seo', 'crawl', 'lighthouse', 'gdpr', 'security'];
 
 function parseMaybeJSON(s) {
   try { return JSON.parse(s); } catch { return null; }

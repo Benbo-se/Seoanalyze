@@ -118,7 +118,7 @@ export default function ChatBot() {
       console.error('Chat error:', error);
       setMessages(prev => [...prev, {
         role: 'bot',
-        content: 'Oj, något gick fel! Försök igen eller kontakta oss på admin@seoanalyze.se',
+        content: 'Oj, något gick fel! Försök igen eller kontakta oss på reda@benbo.se',
         timestamp: new Date(),
         isError: true
       }]);

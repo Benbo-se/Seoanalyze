@@ -1,3 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ========================================
+   TAILWIND CSS VARIABLES (Lovable Design)
+   ======================================== */
+@layer base {
+  :root {
+    /* Colors - Light Mode */
+    --background: 210 20% 98%;
+    --foreground: 215 25% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 215 16% 47%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 210 20% 96%;
+    --muted-foreground: 215 16% 47%;
+    --accent: 24 95% 53%;
+    --accent-foreground: 0 0% 100%;
+    --ai: 258 90% 66%;
+    --ai-foreground: 0 0% 100%;
+    --ai-muted: 258 90% 96%;
+    --success: 160 84% 39%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 214 20% 90%;
+    --input: 214 20% 90%;
+    --ring: 217 91% 60%;
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+/* Tailwind utility classes */
+@layer utilities {
+  .gradient-hero {
+    background: linear-gradient(135deg, hsl(217 91% 60% / 0.08) 0%, hsl(258 90% 66% / 0.06) 100%);
+  }
+
+  .gradient-ai {
+    background: linear-gradient(135deg, hsl(258 90% 66%) 0%, hsl(280 90% 60%) 100%);
+  }
+
+  .shadow-glow {
+    box-shadow: 0 0 40px hsl(217 91% 60% / 0.15);
+  }
+
+  .shadow-ai {
+    box-shadow: 0 0 30px hsl(258 90% 66% / 0.2);
+  }
+}
+
+/* ========================================
+   LEGACY CSS VARIABLES (for result pages)
+   ======================================== */
 :root {
   --primary-color: #ff6b6b;
   --secondary-color: #ee5a24;
@@ -15,18 +91,18 @@
   --error-color: #dc3545;
   --warning-color: #ffc107;
   --info-color: #17a2b8;
-  
+
   /* New Design Tokens */
   --container-w: min(1080px, calc(100% - 32px));
-  --space-1: 8px; 
-  --space-2: 12px; 
-  --space-3: 16px; 
-  --space-4: 24px; 
-  --space-5: 32px; 
+  --space-1: 8px;
+  --space-2: 12px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
   --space-6: 40px;
-  --h2: 28px; 
-  --h3: 18px; 
-  --label: 13px; 
+  --h2: 28px;
+  --h3: 18px;
+  --label: 13px;
   --value: 20px;
 }
 

@@ -7,7 +7,7 @@ import styles from './ConsultationBanner.module.css';
 
 const ConsultationBanner = () => {
   const handleContact = () => {
-    window.location.href = 'mailto:redaekengren@protonmail.com?subject=Hjälp med SEO-analys från seoanalyze.se';
+    window.location.href = 'mailto:reda@benbo.se?subject=Hjälp med SEO-analys från seoanalyze.se';
   };
 
   return (
