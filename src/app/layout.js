@@ -211,7 +211,6 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <ErrorBoundary>
-          <div className="warm-overlay"></div>
           {children}
           <Footer />
           <CookieBanner />
