@@ -3,47 +3,77 @@
   <!-- Homepage -->
   <url>
     <loc>https://seoanalyze.se/</loc>
-    <lastmod>2025-10-15</lastmod>
+    <lastmod>2026-01-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- SEO Analysis -->
-  <url>
-    <loc>https://seoanalyze.se/seo-analys</loc>
-    <lastmod>2025-10-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Lighthouse Analysis -->
-  <url>
-    <loc>https://seoanalyze.se/lighthouse-analys</loc>
-    <lastmod>2025-10-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Crawl Analysis -->
-  <url>
-    <loc>https://seoanalyze.se/crawl-analys</loc>
-    <lastmod>2025-10-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- AI Analysis -->
+  <!-- AI Analysis Landing -->
   <url>
     <loc>https://seoanalyze.se/ai-analys</loc>
-    <lastmod>2025-10-15</lastmod>
+    <lastmod>2026-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+
+  <!-- Blog -->
+  <url>
+    <loc>https://seoanalyze.se/blogg</loc>
+    <lastmod>2026-01-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog Articles -->
+  <url>
+    <loc>https://seoanalyze.se/blogg/lix-lasbarhet-seo</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://seoanalyze.se/blogg/vanliga-seo-misstag</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://seoanalyze.se/blogg/forbattra-core-web-vitals</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- FAQ -->
+  <url>
+    <loc>https://seoanalyze.se/faq</loc>
+    <lastmod>2026-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://seoanalyze.se/kontakt</loc>
+    <lastmod>2026-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://seoanalyze.se/om-oss</loc>
+    <lastmod>2026-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <!-- Bot/Chatbot -->
   <url>
     <loc>https://seoanalyze.se/bot</loc>
-    <lastmod>2025-10-15</lastmod>
+    <lastmod>2026-01-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -51,14 +81,7 @@
   <!-- Legal pages -->
   <url>
     <loc>https://seoanalyze.se/integritetspolicy</loc>
-    <lastmod>2025-10-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
-
-  <url>
-    <loc>https://seoanalyze.se/anvandarvillkor</loc>
-    <lastmod>2025-10-15</lastmod>
+    <lastmod>2026-01-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>

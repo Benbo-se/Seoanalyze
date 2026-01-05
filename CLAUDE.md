@@ -10,11 +10,9 @@ Efter /compact eller ny session, läs filerna nedan i ordning.
 
 ## Projektfiler
 
-4. **`redesign.md`** - KLAR: Landing page redesign med Tailwind + Lovable-design
-5. **`mdfiler/ux-forbattringar.md`** - UX/UI feedback och prioriterade förbättringar
-6. **`mdfiler/framtid.md`** - Planerade funktioner (GDPR, säkerhet, lokal SEO)
-7. `README.md` - Tech stack, installation
-8. `mdfiler/02readme.md` - Detaljerad README, stress test resultat
+4. **`mdfiler/ux-forbattringar.md`** - UX/UI feedback och prioriterade förbättringar
+5. **`mdfiler/framtid.md`** - Planerade funktioner (Lokal SEO nästa)
+6. `README.md` - Tech stack, installation
 
 ## Snabbfakta
 
@@ -25,173 +23,219 @@ Efter /compact eller ny session, läs filerna nedan i ordning.
 - **Sökväg:** `/opt/seo-analyzer-nextjs/`
 - **Kontakt:** reda@benbo.se
 
+---
+
 ## Senaste ändringar (2026-01-05)
 
-### SESSION 2026-01-05 (senaste):
-**Landing Page Redesign med Tailwind CSS:**
+### SESSION 2026-01-05 (natt) - SENASTE:
 
-Komplett redesign av startsidan med Lovable-inspirerad design.
+**Expert-rekommendationer implementerade:**
 
-**Installerat:**
-- Tailwind CSS 3.4.19 (nedgraderad från v4 för shadcn-kompatibilitet)
-- tailwindcss-animate, class-variance-authority, clsx, tailwind-merge
-- @radix-ui/react-slot, @radix-ui/react-tabs
+1. **sitemap.xml uppdaterad:**
+   - Borttagna: `/seo-analys`, `/lighthouse-analys`, `/crawl-analys`, `/anvandarvillkor`
+   - Tillagda: `/blogg`, `/faq`, `/kontakt`, `/om-oss`, `/bot`, `/integritetspolicy`
+   - Tillagda: 3 bloggartiklar (`/blogg/lix-lasbarhet-seo`, etc.)
+   - Alla lastmod uppdaterade till 2026-01-05
 
-**Nya filer:**
-- `tailwind.config.js` - Färgpalett, typsnitt, animationer
-- `src/lib/utils.js` - cn() helper för klassnamn
-- `src/components/ui/` - shadcn/ui-komponenter:
-  - `button.jsx`, `badge.jsx`, `tabs.jsx`, `input.jsx`, `card.jsx`
-- `src/components/landing/ToolsShowcase.jsx` - 6 analystyper med tabs
-- `src/components/landing/Features.jsx` - 8 feature-kort
+2. **FAQ accordion implementerad:**
+   - Konverterad till client component med `'use client'`
+   - React useState för öppna/stängda items
+   - AccordionItem och CategoryAccordion komponenter
+   - ChevronDown-ikon från Lucide (roterar vid öppning)
+   - "Expandera alla" / "Stäng alla" knappar
 
-**Uppdaterade filer:**
-- `src/styles/globals.css` - Tailwind directives + CSS-variabler
-- `src/components/common/Header.jsx` - Glassmorphism, ny navigation
-- `src/components/common/HeroSection.jsx` - Tailwind styling, behåller logik
-- `src/components/common/Footer.jsx` - 4-kolumns layout
-- `src/components/landing/FinalCTA.jsx` - Gradient CTA-sektion
-- `src/app/page.js` - Ny komponentstruktur
-- `src/app/layout.js` - Tog bort landing.css
+3. **Emoji → Lucide på undersidor:**
+   - `kontakt/page.js`: 📧→Mail, 🔧→Wrench, 💼→Briefcase, 🤝→Handshake
+   - `om-oss/page.js`: 🇸🇪→Flag, 🤖→Bot, 💰→Banknote, 📊→BarChart3, 👨‍💻→Code
 
-**Designbeslut:**
-- Endast SEOanalyze-logga i header (tog bort Benbo)
-- "Se verktyg"-knapp scrollar till #tools
-- Länk till benbo.se i footer
-- Dark mode avvaktar
+4. **FAQPage schema tillagt:**
+   - JSON-LD med alla 26 frågor
+   - Genereras dynamiskt från faqs-array
+   - Injiceras via Next.js Script-komponent
 
-**Färgpalett (HSL):**
-- Primary: #3B82F6 (blå)
-- Accent: #F97316 (orange CTA)
-- AI: #8B5CF6 (lila för AI-features)
+5. **Article schema på bloggartiklar:**
+   - `blogg/lix-lasbarhet-seo/page.js`
+   - `blogg/vanliga-seo-misstag/page.js`
+   - `blogg/forbattra-core-web-vitals/page.js`
+   - Inkluderar: headline, description, datePublished, author, publisher, mainEntityOfPage
+
+**Filer ändrade:**
+- `public/sitemap.xml` - Uppdaterad med korrekta URLs
+- `src/app/faq/page.js` - Accordion + FAQPage schema
+- `src/app/kontakt/page.js` - Lucide-ikoner
+- `src/app/om-oss/page.js` - Lucide-ikoner
+- `src/app/blogg/lix-lasbarhet-seo/page.js` - Header + Article schema
+- `src/app/blogg/vanliga-seo-misstag/page.js` - Header + Article schema
+- `src/app/blogg/forbattra-core-web-vitals/page.js` - Header + Article schema
 
 ---
+
+### SESSION 2026-01-05 (kväll):
+
+**1. AI-Rapport navigering fixad:**
+- HeroSection navigerar nu till `/ai-analys` istället för att köra analys direkt
+- Användaren kan välja konkurrenter på dedikerad sida
+- URL skickas som query param: `/ai-analys?url=...`
+- `AiAnalysisLanding.jsx` läser URL från searchParams
+- Lade till Suspense boundary i `/ai-analys/page.js`
+
+**2. Ny logga installerad:**
+- Ny 150x150 PNG-logga ersatte `SEOanalyzerLogo.png`
+- Används i Header och Footer
+- Källa: https://files.catbox.moe/dvlyer.png
+
+**3. Favicons genererade:**
+- 13 storlekar från 16x16 till 512x512
+- Ny `favicon.ico` (multi-size ICO, 285KB)
+- Använt: sharp + png-to-ico
+
+**4. AI-resultat CSS fixad:**
+- `.ai-results-loading` och `.ai-results-error` fick gradient-bakgrund
+- Vit text syns nu mot lila bakgrund
+- Fil: `src/styles/ai-results.css`
+
+**Filer ändrade:**
+- `src/components/common/HeroSection.jsx` - AI navigerar till /ai-analys
+- `src/components/ai-analysis/AiAnalysisLanding.jsx` - Läser URL från query
+- `src/app/ai-analys/page.js` - Suspense boundary
+- `src/styles/ai-results.css` - Gradient på loading/error
+- `public/images/SEOanalyzerLogo.png` - Ny logga
+- `public/favicon.ico` - Ny favicon
+- `public/icons/*.png` - Alla favicon-storlekar
+
+---
+
+## EXPERT-UTVÄRDERING (2026-01-05)
+
+5 AI-agenter utvärderade sajten. Sammanfattning:
+
+### Betyg
+
+| Expert | Betyg | Huvudkommentar |
+|--------|-------|----------------|
+| UX/UI | 7.5/10 | Modern design, FAQ saknar accordion |
+| Kund | 7/10 | Gratis bra, saknar ansikten/trovärdighet |
+| SEO | 7/10 | Bra grund, canonical-taggar pekar fel |
+| Konkurrent | Stark | Unikt med SEO+GDPR+Säkerhet gratis |
+| Teknisk | 7/10 | Modern stack, bilder behöver optimeras |
+
+### KRITISKA PROBLEM (Fixa omedelbart)
+
+1. **Canonical-taggar pekar på startsidan för ALLA undersidor**
+   - Alla undersidor har `canonical: "https://seoanalyze.se"`
+   - Bör vara sidspecifika (`/blogg`, `/faq`, etc.)
+   - Påverkar: SEO-indexering
+
+2. ~~**Sitemap.xml listar sidor som inte finns (404)**~~ ✅ FIXAT
+   - ~~Listar: `/seo-analys`, `/lighthouse-analys`, `/crawl-analys`, `/anvandarvillkor`~~
+   - ~~Saknar: `/blogg`, `/faq`, `/om-oss`, `/kontakt`~~
+   - Fil: `public/sitemap.xml` - Uppdaterad med korrekta URLs
+
+3. ~~**FAQ saknar accordion-funktionalitet**~~ ✅ FIXAT
+   - ~~All text visas samtidigt = lång scrollning~~
+   - Implementerat med React useState + ChevronDown-ikon
+   - Inkluderar FAQPage JSON-LD schema för rich snippets
+
+4. **Hero-bilder är ~1.5MB totalt**
+   - herocrawl.png: 483KB
+   - herolighthouse.png: 486KB
+   - heroseo.png: 484KB
+   - Lösning: Konvertera till WebP
+
+### TOP STYRKOR
+
+1. **100% gratis utan registrering** - unikt på marknaden
+2. **Svensk LIX-analys** - ingen konkurrent har detta
+3. **Allt-i-ett (SEO + GDPR + Säkerhet)** - konkurrenter kräver 3-5 verktyg
+4. **Modern design** med Tailwind + shadcn/ui
+5. **Omfattande Schema.org markup**
+
+### PRIORITERAD ÅTGÄRDSLISTA
+
+| Prio | Åtgärd | Påverkan | Status |
+|------|--------|----------|--------|
+| 1 | Fixa canonical-taggar på undersidor | SEO-kritiskt | ❌ |
+| 2 | ~~Uppdatera sitemap.xml~~ | Crawling | ✅ |
+| 3 | ~~Implementera FAQ-accordion~~ | UX | ✅ |
+| 4 | ~~Byt emoji-ikoner till Lucide~~ | Design | ✅ |
+| 5 | Konvertera bilder till WebP | Prestanda | ❌ |
+| 6 | Lägg till kontaktformulär | Konvertering | ❌ |
+| 7 | Visa ansikten/team på Om oss | Trovärdighet | ❌ |
+| 8 | Lägg till kundcitat/testimonials | Social proof | ❌ |
+| 9 | ~~Article schema för bloggartiklar~~ | Rich snippets | ✅ |
+| 10 | Unika OG-taggar per sida | Social delning | ❌ |
+
+### MARKNADSFÖRINGSTIPS
+
+**Huvudbudskap:**
+> "Sveriges smartaste SEO-verktyg - gratis och utan registrering"
+
+**Unika säljpunkter:**
+- Enda verktyget med LIX-analys
+- Allt-i-ett istället för 5 separata verktyg
+- "Gratis utan gränser" (konkurrenter har dagsgränser)
+
+---
+
+## Tidigare sessioner
+
+### SESSION 2026-01-05 (dag):
+**Landing Page Redesign med Tailwind CSS - KLAR**
+
+- Tailwind CSS 3.4.19 installerat
+- shadcn/ui-komponenter (button, badge, tabs, input, card)
+- Ny Header med glassmorphism
+- Ny Footer med 4-kolumns layout
+- ToolsShowcase med 6 analystyper
+- Features med 8 kort
+- Rosa färger borttagna, blå tema
 
 ### SESSION 2026-01-04:
-**GDPR Iframe-detektion + Settings-knapp + EDPB-krav:**
+**GDPR Iframe-detektion + EDPB-krav**
 
-1. **Settings-knapp detektion** - Ny `settingsKeywords` array:
-   - Svenska: "anpassa", "inställningar", "hantera", "detaljer"
-   - Engelska: "settings", "customize", "manage", "preferences"
-   - `hasSettings` sätts nu korrekt
-
-2. **CMP Iframe-detektion** - Ny `CMP_SELECTORS.iframes` (20+ selectors):
-   - Sourcepoint: `iframe[id*="sp_message_iframe"]`
-   - OneTrust, Cookiebot, Quantcast, Didomi, TrustArc
-   - Generiska: `iframe[src*="consent"]`, `iframe[title*="cookie"]`
-
-3. **Iframe context-switch** - Ny metod `findButtonsInIframes()`:
-   - Byter till iframe context med `contentFrame()`
-   - Kör knapp-detektion inuti iframe
-   - Sätter `result.iframeDetected = true`
-
-4. **Banner-data från iframe** - Ny metod `extractBannerDataFromIframe()`:
-   - Extraherar text och knappar från CMP-iframe
-   - Tar screenshot av iframe
-
-5. **EDPB "Neka alla"-krav** - Ny violation (severity: medium, -10p):
-   - Saknad "Neka alla"-knapp ger nu alltid avdrag
-   - Gäller även TCF-sajter utan tracking
-   - Refererar till EDPB Riktlinjer 05/2020
-
-**Filer ändrade:**
-- `lib/gdpr-analyzer.js` - Alla ovan nämnda ändringar
-
-**Testade sajter (med nya scores):**
-- aftonbladet.se: Score 90 (före: 100) - saknar reject, iframe detekterad
-- expressen.se: Score 80 - alla knappar på huvudsidan
-- dn.se: Score 60 - saknar reject + tracking
-- svd.se: Score 80 - iframe detekterad, alla knappar
-- seoanalyze.se: Score 100 - alla knappar finns
-
----
+- Settings-knapp detektion
+- CMP iframe-detektion (20+ selectors)
+- EDPB "Neka alla"-krav (-10p)
 
 ### SESSION 2026-01-03:
-**GDPR DeepSeek-förbättring + TCF-detektion:**
+**GDPR + Säkerhetsanalys implementerat**
 
-1. **Banner-text extraktion** - `extractBannerData()` extraherar text, knappar, screenshot
-2. **AI-prompt uppdaterad** - DeepSeek får banner-text, skiljer consent-banners från info-notices
-3. **Privacy notice-detektion** - "no cookies" = privacy by design
-4. **TCF-detektion (IAB)** - Detekterar TCF v1/v2:
-   - `__tcfapi` / `__cmp` JavaScript API
-   - TCF cookies (`IABTCF_*`, `euconsent-v2`, `_sp_*`)
-5. **TCF-logik** - TCF + ingen tracking = compliant
+- Puppeteer-baserad cookie-detektion
+- TCF v1/v2 detektion
+- AI-rapport via DeepSeek
+- Säkerhetsanalys (SSL, headers, OWASP)
 
-**Filer ändrade:**
-- `lib/gdpr-analyzer.js` - `extractBannerData()`, METHOD 5 & 6 för TCF
-- `lib/gdpr-ai-report.js` - Uppdaterad prompt
-
-**Testade sajter:**
-- argusmetrics.io: Score 100 ✓ (privacy notice)
-- aftonbladet.se: Score 100, TCF v2 ✓
-- svt.se: Score 100 ✓
-- ica.se: Score 100 ✓
-- klarna.com: Score 80 (tracking före consent)
-- blocket.se: Score 50 (tracking före consent)
-
-### Tidigare (2026-01-03):
-**Robust GDPR banner-detektion:**
-1. 4 detektionsmetoder: CSS-selector → Textbaserad → Visuell overlay → Consent-cookie
-2. Väntetid ökad 2s → 4s för JS-banners
-3. Knapp-detektion via nyckelord (svenska + engelska)
-4. **Privacy by design-logik** - Sajter utan tracking får högt score (Art. 25)
-
-### NYA FUNKTIONER - GDPR & Säkerhet:
-- **GDPR Cookie-analys** - Puppeteer-baserad cookie-detektion med AI-rapport
-  - Filer: `lib/gdpr-analyzer.js`, `lib/gdpr-ai-report.js`
-  - Komponenter: `src/components/gdpr/GdprResultsDisplay.jsx`
-  - Styling: `src/styles/gdpr-results.css` (CSS-indikatorer, inga emojis)
-- **Säkerhetsanalys** - SSL, headers, exponerade filer, sårbara bibliotek
-  - Filer: `lib/security-analyzer-full.js`, `lib/security-ai-report.js`
-  - Komponenter: `src/components/security/SecurityResultsDisplay.jsx`
-  - Styling: `src/styles/security-results.css`
-- **Nya tabs** i HeroSection: GDPR, SÄKERHET
-- **Nya queues & workers** i `queue-manager.js` och `queue-workers.js`
-- **API uppdaterat** - `/api/analyze` stödjer type=gdpr och type=security
-- **job-meta API fixat** - `src/app/api/job-meta/[jobId]/route.js` inkluderar nu gdpr/security i QUEUES
-
-### Designbeslut:
-- **Lucide-ikoner i resultatvisning** - Samma ikonbibliotek som resten av kodbasen
-- Ikoner: `CheckCircle` (grön), `XCircle` (röd), `AlertTriangle` (gul), `Info` (blå)
-- CSS-klasser: `.icon-ok`, `.icon-error`, `.icon-warning`, `.icon-info`
-
-### Robust GDPR Banner-detektion (2026-01-03):
-- **4 detektionsmetoder** i fallback-ordning:
-  1. CSS-selector (kända CMPs som Cookiebot, OneTrust, etc.)
-  2. Textbaserad (nyckelord: "cookies", "samtycke", "consent", etc.)
-  3. Visuell overlay (fixed/sticky element med knappar)
-  4. Consent-cookie (fallback om banner redan interagerats med)
-- **Utökad väntetid** - 4 sekunder istället för 2 för JS-renderade banners
-- **Knapp-detektion** via nyckelord på svenska/engelska
-- **Privacy by design** - Sajter utan tracking och utan banner får nu högt score (Artikel 25)
-
-### Tidigare implementerat:
-- **Live-statistik** på startsidan (`/api/stats` + `StatsAndTrust.jsx`)
-- **Trust badges:** Svensk LIX-analys, Ingen registrering, Färdig kod, 100% gratis
-- **Blogg** med 3 artiklar (`/blogg`, `/blogg/lix-lasbarhet-seo`, etc.)
-- **Header-navigation:** Blogg, FAQ, Kontakt (ersatte fake Login/Registrera)
-- **Tog bort** "tekniska problem"-banner från startsidan
-
-### Kvar att göra:
-- UX-förbättringar (se `mdfiler/ux-forbattringar.md`)
-- Lokal SEO-analys (se `mdfiler/framtid.md`)
-- E-postpåminnelse för retention
+---
 
 ## Viktiga filer
 
 | Fil | Beskrivning |
 |-----|-------------|
-| `src/components/common/StatsAndTrust.jsx` | Live stats + trust badges |
-| `src/components/common/HeroSection.jsx` | Startsidans hero med 5 tabs |
-| `src/components/common/MobileMenu.jsx` | Header-navigation |
-| `src/app/api/stats/route.js` | API för live-statistik |
-| `src/app/blogg/` | Blogg med 3 artiklar |
-| `lib/gdpr-analyzer.js` | GDPR cookie-analys med Puppeteer |
-| `lib/security-analyzer-full.js` | Säkerhetsanalys (SSL, headers, etc.) |
-| `lib/queue-manager.js` | Alla BullMQ-köer (inkl. gdpr, security) |
-| `lib/queue-workers.js` | Alla workers (inkl. gdpr, security) |
-| `src/components/gdpr/GdprResultsDisplay.jsx` | GDPR-resultatvisning |
-| `src/components/security/SecurityResultsDisplay.jsx` | Säkerhetsresultatvisning |
-| `src/styles/gdpr-results.css` | GDPR styling med CSS-indikatorer |
-| `src/styles/security-results.css` | Säkerhet styling |
-| `src/app/api/job-meta/[jobId]/route.js` | Job status API (QUEUES array) |
+| `src/components/common/HeroSection.jsx` | Hero med 6 analystyper, AI navigerar till /ai-analys |
+| `src/components/common/Header.jsx` | Glassmorphism header |
+| `src/components/common/Footer.jsx` | 4-kolumns footer |
+| `src/app/ai-analys/page.js` | AI-analys landningssida |
+| `src/components/ai-analysis/AiAnalysisLanding.jsx` | URL + konkurrentinput |
+| `src/components/ai-analysis/AiAnalysisResults.jsx` | AI-resultatvisning |
+| `lib/gdpr-analyzer.js` | GDPR cookie-analys |
+| `lib/security-analyzer-full.js` | Säkerhetsanalys |
+| `lib/queue-manager.js` | Alla BullMQ-köer |
+| `lib/queue-workers.js` | Alla workers |
+| `public/sitemap.xml` | Uppdaterad 2026-01-05 |
+| `src/app/faq/page.js` | Accordion + FAQPage schema |
+
+---
+
+## Kvar att göra (prioriterat)
+
+1. ~~AI-Rapport navigering~~ ✓
+2. ~~Ny logga + favicons~~ ✓
+3. Fixa canonical-taggar
+4. ~~Uppdatera sitemap.xml~~ ✓
+5. ~~FAQ accordion~~ ✓
+6. ~~Emoji → Lucide på undersidor~~ ✓
+7. ~~FAQPage schema~~ ✓
+8. ~~Article schema på bloggartiklar~~ ✓
+9. Bilder till WebP
+10. Kontaktformulär
+11. Lokal SEO-analys

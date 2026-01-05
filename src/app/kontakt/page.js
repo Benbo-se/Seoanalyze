@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import Header from '@/components/common/Header';
+import { Mail, Wrench, Briefcase, Handshake } from 'lucide-react';
 
 export const metadata = {
   title: "Kontakt | SEO Analyze",
@@ -8,7 +10,9 @@ export const metadata = {
 
 export default function Kontakt() {
   return (
-    <div className="container mx-auto px-4 py-8 max-w-4xl">
+    <>
+      <Header />
+      <div className="container mx-auto px-4 pb-8 max-w-4xl pt-24">
       <h1 className="text-3xl font-bold mb-2 text-gray-800">Kontakta oss</h1>
       <p className="text-gray-600 mb-8">
         Vi finns här för att hjälpa dig med dina SEO-frågor. Välj det kontaktsätt som passar dig bäst.
@@ -17,7 +21,9 @@ export default function Kontakt() {
       <div className="grid md:grid-cols-2 gap-8 mb-12">
         {/* Allmänna frågor */}
         <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
-          <div className="text-4xl mb-4">📧</div>
+          <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center mb-4">
+            <Mail className="w-6 h-6 text-blue-600" />
+          </div>
           <h2 className="text-xl font-semibold mb-3 text-gray-800">
             Allmänna frågor
           </h2>
@@ -37,7 +43,9 @@ export default function Kontakt() {
 
         {/* Teknisk support */}
         <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
-          <div className="text-4xl mb-4">🔧</div>
+          <div className="w-12 h-12 rounded-lg bg-green-100 flex items-center justify-center mb-4">
+            <Wrench className="w-6 h-6 text-green-600" />
+          </div>
           <h2 className="text-xl font-semibold mb-3 text-gray-800">
             Teknisk support
           </h2>
@@ -57,7 +65,9 @@ export default function Kontakt() {
 
         {/* Konsulttjänster */}
         <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
-          <div className="text-4xl mb-4">💼</div>
+          <div className="w-12 h-12 rounded-lg bg-purple-100 flex items-center justify-center mb-4">
+            <Briefcase className="w-6 h-6 text-purple-600" />
+          </div>
           <h2 className="text-xl font-semibold mb-3 text-gray-800">
             SEO-konsultation
           </h2>
@@ -77,7 +87,9 @@ export default function Kontakt() {
 
         {/* Samarbete */}
         <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
-          <div className="text-4xl mb-4">🤝</div>
+          <div className="w-12 h-12 rounded-lg bg-orange-100 flex items-center justify-center mb-4">
+            <Handshake className="w-6 h-6 text-orange-600" />
+          </div>
           <h2 className="text-xl font-semibold mb-3 text-gray-800">
             Samarbete & partnerskap
           </h2>
@@ -146,6 +158,7 @@ export default function Kontakt() {
           </Link>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 }

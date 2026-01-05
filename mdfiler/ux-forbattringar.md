@@ -1,6 +1,7 @@
 # UX/UI Förbättringar
 
 Genererad: 2026-01-03 av UX-agent
+Uppdaterad: 2026-01-05
 
 ---
 
@@ -15,7 +16,11 @@ Solid grund men behöver polish.
 1. **Error messages på engelska** - "Analysis failed" ska vara svenska
 2. **Kontakt har bara mailto:** - Skapa riktigt kontaktformulär
 3. **Ingen keyboard navigation** - Lägg till focus-states (a11y)
-4. **FAQ är för lång** - Implementera collapsible accordions
+4. ~~**FAQ är för lång**~~ ✅ FIXAT 2026-01-05
+   - Implementerat collapsible accordion med React useState
+   - ChevronDown-ikon som roterar vid öppning
+   - "Expandera alla" / "Stäng alla" knappar
+   - FAQPage JSON-LD schema för rich snippets
 5. **Test-kod i produktion** - Ta bort `noscript`-taggar från `/analys/[jobId]`
 
 ---
@@ -60,6 +65,11 @@ Solid grund men behöver polish.
 - Trust badges (stats, "100% gratis", "Ingen registrering")
 - Header-navigation (Blogg, FAQ, Kontakt) - FIXAT 2026-01-03
 - Lucide-ikoner istället för emojis (konsistent med resten av kodbasen) - FIXAT 2026-01-03
+- FAQ accordion med "Expandera/Stäng alla" - FIXAT 2026-01-05
+- FAQPage schema för Google rich snippets - FIXAT 2026-01-05
+- Article schema på alla bloggartiklar - FIXAT 2026-01-05
+- Emoji → Lucide på kontakt och om-oss sidor - FIXAT 2026-01-05
+- Uppdaterad sitemap.xml med korrekta URLs - FIXAT 2026-01-05
 
 ---
 

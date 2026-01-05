@@ -1,10 +1,10 @@
-import Link from 'next/link';
+'use client';
 
-export const metadata = {
-  title: "Vanliga frågor (FAQ) | SEO Analyze",
-  description: "Svar på vanliga frågor om SEO Analyze. Lär dig hur du använder vår SEO-analystjänst, tolkar resultaten och förbättrar din webbplats ranking.",
-  robots: "index, follow",
-};
+import Link from 'next/link';
+import { useState } from 'react';
+import Header from '@/components/common/Header';
+import { ChevronDown } from 'lucide-react';
+import Script from 'next/script';
 
 const faqs = [
   {
@@ -152,57 +152,166 @@ const faqs = [
   }
 ];
 
-export default function FAQ() {
+// Generate FAQPage schema for rich snippets
+const generateFaqSchema = () => {
+  const allQuestions = faqs.flatMap(category =>
+    category.questions.map(q => ({
+      "@type": "Question",
+      "name": q.q,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": q.a
+      }
+    }))
+  );
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": allQuestions
+  };
+};
+
+function AccordionItem({ question, answer, isOpen, onToggle }) {
   return (
-    <div className="container mx-auto px-4 py-8 max-w-4xl">
-      <h1 className="text-3xl font-bold mb-2 text-gray-800">Vanliga frågor (FAQ)</h1>
-      <p className="text-gray-600 mb-8">
-        Här hittar du svar på de vanligaste frågorna om SEO Analyze och sökmotoroptimering.
-      </p>
+    <div className="border border-gray-200 rounded-lg mb-2 overflow-hidden">
+      <button
+        onClick={onToggle}
+        className="w-full flex items-center justify-between p-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors"
+        aria-expanded={isOpen}
+      >
+        <span className="font-semibold text-gray-800 pr-4">{question}</span>
+        <ChevronDown
+          className={`w-5 h-5 text-gray-500 flex-shrink-0 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
+        />
+      </button>
+      <div
+        className={`overflow-hidden transition-all duration-200 ${isOpen ? 'max-h-96' : 'max-h-0'}`}
+      >
+        <p className="p-4 text-gray-600 leading-relaxed bg-white">
+          {answer}
+        </p>
+      </div>
+    </div>
+  );
+}
 
-      {faqs.map((category, categoryIndex) => (
-        <section key={categoryIndex} className="mb-10">
-          <h2 className="text-2xl font-semibold mb-6 text-gray-800 border-b pb-2">
-            {category.category}
+function CategoryAccordion({ category, questions, openItems, toggleItem, categoryIndex }) {
+  return (
+    <section className="mb-8">
+      <h2 className="text-2xl font-semibold mb-4 text-gray-800 border-b pb-2">
+        {category}
+      </h2>
+      <div>
+        {questions.map((faq, faqIndex) => {
+          const itemKey = `${categoryIndex}-${faqIndex}`;
+          return (
+            <AccordionItem
+              key={itemKey}
+              question={faq.q}
+              answer={faq.a}
+              isOpen={openItems.has(itemKey)}
+              onToggle={() => toggleItem(itemKey)}
+            />
+          );
+        })}
+      </div>
+    </section>
+  );
+}
+
+export default function FAQ() {
+  const [openItems, setOpenItems] = useState(new Set());
+
+  const toggleItem = (key) => {
+    setOpenItems(prev => {
+      const newSet = new Set(prev);
+      if (newSet.has(key)) {
+        newSet.delete(key);
+      } else {
+        newSet.add(key);
+      }
+      return newSet;
+    });
+  };
+
+  const expandAll = () => {
+    const allKeys = faqs.flatMap((cat, catIdx) =>
+      cat.questions.map((_, qIdx) => `${catIdx}-${qIdx}`)
+    );
+    setOpenItems(new Set(allKeys));
+  };
+
+  const collapseAll = () => {
+    setOpenItems(new Set());
+  };
+
+  return (
+    <>
+      <Script
+        id="faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateFaqSchema()) }}
+      />
+      <Header />
+      <div className="container mx-auto px-4 pb-8 max-w-4xl pt-24">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-6 gap-4">
+          <div>
+            <h1 className="text-3xl font-bold mb-2 text-gray-800">Vanliga frågor (FAQ)</h1>
+            <p className="text-gray-600">
+              Här hittar du svar på de vanligaste frågorna om SEO Analyze och sökmotoroptimering.
+            </p>
+          </div>
+          <div className="flex gap-2">
+            <button
+              onClick={expandAll}
+              className="text-sm px-3 py-1.5 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
+            >
+              Expandera alla
+            </button>
+            <button
+              onClick={collapseAll}
+              className="text-sm px-3 py-1.5 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
+            >
+              Stäng alla
+            </button>
+          </div>
+        </div>
+
+        {faqs.map((category, categoryIndex) => (
+          <CategoryAccordion
+            key={categoryIndex}
+            category={category.category}
+            questions={category.questions}
+            openItems={openItems}
+            toggleItem={toggleItem}
+            categoryIndex={categoryIndex}
+          />
+        ))}
+
+        <section className="mt-12 bg-blue-50 rounded-lg p-6">
+          <h2 className="text-xl font-semibold mb-3 text-gray-800">
+            Hittade du inte svaret du sökte?
           </h2>
-
-          <div className="space-y-6">
-            {category.questions.map((faq, faqIndex) => (
-              <div key={faqIndex} className="bg-gray-50 rounded-lg p-5">
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">
-                  {faq.q}
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  {faq.a}
-                </p>
-              </div>
-            ))}
+          <p className="text-gray-600 mb-4">
+            Kontakta oss så hjälper vi dig! Du kan också prova vår AI-chattbot för snabba svar.
+          </p>
+          <div className="flex flex-wrap gap-4">
+            <Link
+              href="/kontakt"
+              className="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              Kontakta oss
+            </Link>
+            <Link
+              href="/bot"
+              className="inline-block bg-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-700 transition-colors"
+            >
+              Fråga AI-chattboten
+            </Link>
           </div>
         </section>
-      ))}
-
-      <section className="mt-12 bg-blue-50 rounded-lg p-6">
-        <h2 className="text-xl font-semibold mb-3 text-gray-800">
-          Hittade du inte svaret du sökte?
-        </h2>
-        <p className="text-gray-600 mb-4">
-          Kontakta oss så hjälper vi dig! Du kan också prova vår AI-chattbot för snabba svar.
-        </p>
-        <div className="flex flex-wrap gap-4">
-          <Link
-            href="/kontakt"
-            className="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
-          >
-            Kontakta oss
-          </Link>
-          <Link
-            href="/bot"
-            className="inline-block bg-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-700 transition-colors"
-          >
-            Fråga AI-chattboten
-          </Link>
-        </div>
-      </section>
-    </div>
+      </div>
+    </>
   );
 }

@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import Header from '@/components/common/Header';
+import { Flag, Bot, Banknote, BarChart3, Code } from 'lucide-react';
 
 export const metadata = {
   title: "Om oss | SEO Analyze",
@@ -8,7 +10,9 @@ export const metadata = {
 
 export default function OmOss() {
   return (
-    <div className="container mx-auto px-4 py-8 max-w-4xl">
+    <>
+      <Header />
+      <div className="container mx-auto px-4 pb-8 max-w-4xl pt-24">
       <h1 className="text-3xl font-bold mb-2 text-gray-800">Om SEO Analyze</h1>
       <p className="text-gray-600 mb-8">
         Ett kraftfullt SEO-verktyg byggt av svenska utvecklare, för svenska webbplatser.
@@ -49,7 +53,9 @@ export default function OmOss() {
         <h2 className="text-2xl font-semibold mb-4 text-gray-800">Vad som gör oss unika</h2>
         <div className="grid md:grid-cols-2 gap-6">
           <div className="bg-white rounded-lg shadow-md p-5 border border-gray-200">
-            <div className="text-3xl mb-3">🇸🇪</div>
+            <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center mb-3">
+              <Flag className="w-6 h-6 text-blue-600" />
+            </div>
             <h3 className="font-semibold text-gray-800 mb-2">Svenskt fokus</h3>
             <p className="text-gray-600">
               Vi förstår den svenska marknaden. Vårt verktyg är byggt för svenska webbplatser
@@ -58,7 +64,9 @@ export default function OmOss() {
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-5 border border-gray-200">
-            <div className="text-3xl mb-3">🤖</div>
+            <div className="w-12 h-12 rounded-lg bg-purple-100 flex items-center justify-center mb-3">
+              <Bot className="w-6 h-6 text-purple-600" />
+            </div>
             <h3 className="font-semibold text-gray-800 mb-2">AI-driven analys</h3>
             <p className="text-gray-600">
               Vår AI analyserar din webbplats mot konkurrenter och ger personliga
@@ -67,7 +75,9 @@ export default function OmOss() {
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-5 border border-gray-200">
-            <div className="text-3xl mb-3">💰</div>
+            <div className="w-12 h-12 rounded-lg bg-green-100 flex items-center justify-center mb-3">
+              <Banknote className="w-6 h-6 text-green-600" />
+            </div>
             <h3 className="font-semibold text-gray-800 mb-2">Helt gratis</h3>
             <p className="text-gray-600">
               Grundläggande SEO-analyser är och förblir gratis. Ingen registrering krävs,
@@ -76,7 +86,9 @@ export default function OmOss() {
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-5 border border-gray-200">
-            <div className="text-3xl mb-3">📊</div>
+            <div className="w-12 h-12 rounded-lg bg-orange-100 flex items-center justify-center mb-3">
+              <BarChart3 className="w-6 h-6 text-orange-600" />
+            </div>
             <h3 className="font-semibold text-gray-800 mb-2">Actionable insights</h3>
             <p className="text-gray-600">
               Vi visar inte bara problemen – vi förklarar varför de är viktiga och
@@ -151,8 +163,8 @@ export default function OmOss() {
         <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
           <div className="flex items-start gap-6">
             <div className="flex-shrink-0">
-              <div className="w-20 h-20 bg-gray-200 rounded-full flex items-center justify-center text-3xl">
-                👨‍💻
+              <div className="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center">
+                <Code className="w-10 h-10 text-gray-600" />
               </div>
             </div>
             <div>
@@ -189,6 +201,7 @@ export default function OmOss() {
           </Link>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 }
