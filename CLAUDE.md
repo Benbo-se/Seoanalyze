@@ -239,3 +239,29 @@ Efter /compact eller ny session, läs filerna nedan i ordning.
 9. Bilder till WebP
 10. Kontaktformulär
 11. Lokal SEO-analys
+
+---
+
+## Teknisk skuld (städa senare)
+
+### JS-filer i root som bör flyttas till `lib/`
+Enligt goldenrules.md ska workers ligga i `/lib/`, men dessa 8 filer ligger i root:
+
+```
+crawler.js
+debug-mobile-overflow.js
+debug-mobile-scroll.js
+lighthouse-analyzer.js
+lighthouse-runner.js
+lighthouse-worker.js
+quick-concurrent-test.js
+verify-analysis-types.js
+```
+
+**Åtgärd krävs:**
+1. Flytta filerna till `/lib/`
+2. Uppdatera `ecosystem.config.js` (PM2-config)
+3. Uppdatera alla importer i `queue-workers.js` och andra filer
+4. Testa att PM2-processer startar korrekt
+
+**Notering:** `seoanalyze.conf.backup` (nginx) kan tas bort.
