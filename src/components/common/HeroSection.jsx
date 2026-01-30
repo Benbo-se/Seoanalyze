@@ -44,7 +44,7 @@ const HeroSection = () => {
 
   const getApiType = (type) => {
     const typeMap = {
-      'ai': 'seo',
+      'ai': 'ai',
       'gdpr': 'gdpr',
       'security': 'security',
       'seo': 'seo',
@@ -57,6 +57,17 @@ const HeroSection = () => {
   const handleAnalyze = async (e) => {
     e?.preventDefault();
     if (!url || url.trim() === '') return;
+
+    // AI-Rapport: navigera till dedikerad sida med konkurrentval
+    if (selectedType === 'ai') {
+      const normalizedUrl = normalizeUrl(url);
+      if (normalizedUrl && normalizedUrl !== 'https://') {
+        window.location.href = `/ai-analys?url=${encodeURIComponent(normalizedUrl)}`;
+      } else {
+        window.location.href = '/ai-analys';
+      }
+      return;
+    }
 
     setLoading(true);
     setError(null);

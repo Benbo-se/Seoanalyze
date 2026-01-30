@@ -1,6 +1,7 @@
 // Push Notifications utility for Next.js app
 
-const VAPID_PUBLIC_KEY = 'BEffMaVuuKK12Yl5mulPU99ZShnk-0l_gbOuNVtidI0zOQsxJNQFQsP4vTfYHkUqTswmvOMfAscLZf5NkrPTgmk'; // Production key
+// VAPID public key must be set via NEXT_PUBLIC_VAPID_PUBLIC_KEY environment variable
+const VAPID_PUBLIC_KEY = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY || '';
 
 /**
  * Request notification permission from user

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Header from '@/components/common/Header';
 
 export const metadata = {
   title: "SEO-blogg | Tips och guider | SEO Analyze",
@@ -35,7 +36,9 @@ const articles = [
 
 export default function Blogg() {
   return (
-    <div className="container mx-auto px-4 py-8 max-w-4xl">
+    <>
+      <Header />
+      <div className="container mx-auto px-4 pb-8 max-w-4xl pt-24">
       <h1 className="text-3xl font-bold mb-2 text-gray-800">SEO-bloggen</h1>
       <p className="text-gray-600 mb-8">
         Tips, guider och nyheter om SEO för svenska webbplatser.
@@ -80,6 +83,7 @@ export default function Blogg() {
           Starta SEO-analys
         </Link>
       </section>
-    </div>
+      </div>
+    </>
   );
 }

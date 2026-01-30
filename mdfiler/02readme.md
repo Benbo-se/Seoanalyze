@@ -88,11 +88,10 @@ cp .env.example .env.local
 ### Environment Configuration (.env.local)
 
 ```bash
-DATABASE_URL="postgresql://seouser:SeoAnalyzer2025Strong@localhost:5432/seoanalyzer"
-REDIS_URL=redis://localhost:6379
-VAPID_PUBLIC_KEY=BEffMaVuuKK12Yl5mulPU99ZShnk-0l_gbOuNVtidI0zOQsxJNQFQsP4vTfYHkUqTswmvOMfAscLZf5NkrPTgmk
-VAPID_PRIVATE_KEY=lSHjCc7uUo9D0MHJgpoZdYg-B81ROxJOwWI1lcQbT0w
-VAPID_SUBJECT=mailto:admin@seoanalyze.se
+# Copy .env.example to .env.local and fill in your values
+cp .env.example .env.local
+
+# See .env.example for all required environment variables
 ```
 
 ### Database Setup

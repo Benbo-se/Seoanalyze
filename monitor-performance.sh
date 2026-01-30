@@ -60,7 +60,7 @@ check_postgres() {
     local pg_status=""
     if command -v psql >/dev/null 2>&1; then
         # Try to connect and get basic stats
-        pg_status=$(psql "postgresql://seouser:SeoAnalyzer2025Strong@localhost:5432/seoanalyzer" -c "SELECT COUNT(*) FROM analyses;" 2>/dev/null | grep -E "^ *[0-9]+$" | tr -d ' ')
+        pg_status=$(psql "$DATABASE_URL" -c "SELECT COUNT(*) FROM analyses;" 2>/dev/null | grep -E "^ *[0-9]+$" | tr -d ' ')
         if [ ! -z "$pg_status" ]; then
             echo "[$timestamp] PostgreSQL: ${pg_status} total analyses in DB" | tee -a $LOG_FILE
         fi

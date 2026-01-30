@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import Header from '@/components/common/Header';
 import AiAnalysisLanding from '@/components/ai-analysis/AiAnalysisLanding';
 
@@ -10,7 +11,9 @@ export default function AiAnalysPage() {
   return (
     <div>
       <Header />
-      <AiAnalysisLanding />
+      <Suspense fallback={<div className="text-center py-20">Laddar...</div>}>
+        <AiAnalysisLanding />
+      </Suspense>
     </div>
   );
 }

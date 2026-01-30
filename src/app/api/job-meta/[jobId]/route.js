@@ -8,7 +8,7 @@ function getRedis() {
     redisInstance = new Redis({
       host: process.env.REDIS_HOST || 'localhost',
       port: Number(process.env.REDIS_PORT) || 6379,
-      password: 'XfLgByQsiJir5gatEMfSOR6yUZIT3jjd',
+      password: process.env.REDIS_PASSWORD || undefined,
       maxRetriesPerRequest: 1,
       lazyConnect: true,
       enableOfflineQueue: false,

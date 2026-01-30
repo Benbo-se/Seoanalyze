@@ -456,24 +456,25 @@ pm2 restart seo-nextjs-prod
 ## CHECKLISTA VID IMPLEMENTATION
 
 ```
-[ ] 1. Installera Tailwind + dependencies
-[ ] 2. Skapa tailwind.config.js
-[ ] 3. Uppdatera globals.css med CSS-variabler
-[ ] 4. Skapa src/lib/utils.js
-[ ] 5. Kopiera + konvertera shadcn/ui komponenter (button, badge, tabs, input, accordion)
-[ ] 6. Porta Header.jsx
-[ ] 7. Porta HeroSection.jsx
-[ ] 8. Porta ToolsShowcase.jsx
-[ ] 9. Porta Features.jsx
-[ ] 10. Porta FinalCTA.jsx
-[ ] 11. Porta Footer.jsx
-[ ] 12. Uppdatera page.js
-[ ] 13. Uppdatera layout.js (fonts)
-[ ] 14. Ta bort landing.css
-[ ] 15. Ta bort backup-filer (88 st)
-[ ] 16. Bygga och testa
-[ ] 17. Verifiera alla 5 analystyper fungerar
-[ ] 18. Verifiera alla sidor (blogg, faq, etc.)
+[x] 1. Installera Tailwind + dependencies
+[x] 2. Skapa tailwind.config.js
+[x] 3. Uppdatera globals.css med CSS-variabler
+[x] 4. Skapa src/lib/utils.js
+[x] 5. Kopiera + konvertera shadcn/ui komponenter (button, badge, tabs, input, card)
+[x] 6. Porta Header.jsx
+[x] 7. Porta HeroSection.jsx
+[x] 8. Porta ToolsShowcase.jsx
+[x] 9. Porta Features.jsx
+[x] 10. Porta FinalCTA.jsx
+[x] 11. Porta Footer.jsx
+[x] 12. Uppdatera page.js
+[x] 13. Uppdatera layout.js (fonts, ta bort warm-overlay)
+[x] 14. Ta bort rosa gradient från body
+[x] 15. Ändra theme-color till blå
+[x] 16. Bygga och testa
+[x] 17. Verifiera alla 6 analystyper fungerar
+[x] 18. Ta bort backup-filer (88 st + 5 mappar + .next.bak)
+[x] 19. Lägg till Header på undersidor (blogg, faq, kontakt, om-oss, integritetspolicy)
 ```
 
 ---

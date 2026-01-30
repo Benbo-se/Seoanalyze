@@ -19,7 +19,7 @@ export async function GET(request, { params }) {
     redis = new Redis({
       host: process.env.REDIS_HOST || 'localhost',
       port: process.env.REDIS_PORT || 6379,
-      password: 'XfLgByQsiJir5gatEMfSOR6yUZIT3jjd',
+      password: process.env.REDIS_PASSWORD || undefined,
       maxRetriesPerRequest: 1,
       connectTimeout: 1000,
       lazyConnect: false

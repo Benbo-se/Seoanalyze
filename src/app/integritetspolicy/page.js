@@ -1,3 +1,5 @@
+import Header from '@/components/common/Header';
+
 export const metadata = {
   title: "Integritetspolicy | SEO Analyze",
   description: "Läs vår integritetspolicy för SEO Analyze. Vi värnar om din personliga integritet och dataskydd.",
@@ -6,7 +8,9 @@ export const metadata = {
 
 export default function Integritetspolicy() {
   return (
-    <div className="container mx-auto px-4 py-8 max-w-4xl">
+    <>
+      <Header />
+      <div className="container mx-auto px-4 pb-8 max-w-4xl pt-24">
       <h1 className="text-3xl font-bold mb-6 text-gray-800">Integritetspolicy</h1>
       
       <div className="prose prose-lg max-w-none">
@@ -93,6 +97,7 @@ export default function Integritetspolicy() {
           </p>
         </section>
       </div>
-    </div>
+      </div>
+    </>
   );
 }

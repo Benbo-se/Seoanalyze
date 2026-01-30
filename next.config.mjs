@@ -11,7 +11,7 @@ const nextConfig = {
   output: 'standalone',
 
   // Configure allowed dev origins for CORS
-  allowedDevOrigins: ['http://128.199.44.138:3000', 'http://localhost:3000'],
+  allowedDevOrigins: ['http://localhost:3000'],
 
   // Fix ioredis externalization warnings
   serverExternalPackages: ['ioredis', 'bullmq'],

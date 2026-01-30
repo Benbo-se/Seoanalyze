@@ -14,8 +14,9 @@ module.exports = {
         PORT: 5001,
         HOSTNAME: '0.0.0.0',
         NODE_OPTIONS: '--max-old-space-size=1536',
-        DATABASE_URL: 'postgresql://seouser:2WiUDRsAGq5Vuxdkj5yeA3cUM0uIvjEz@localhost:5432/seoanalyzer',
-        REDIS_URL: 'redis://:XfLgByQsiJir5gatEMfSOR6yUZIT3jjd@localhost:6379'
+        // Database and Redis URLs from environment
+        DATABASE_URL: process.env.DATABASE_URL,
+        REDIS_URL: process.env.REDIS_URL
       },
       log_file: '/opt/seo-analyzer-nextjs/logs/nextjs-prod.log',
       error_file: '/opt/seo-analyzer-nextjs/logs/nextjs-error.log',
@@ -34,8 +35,8 @@ module.exports = {
       exp_backoff_restart_delay: 2000,
       env: {
         NODE_ENV: 'production',
-        DATABASE_URL: 'postgresql://seouser:2WiUDRsAGq5Vuxdkj5yeA3cUM0uIvjEz@localhost:5432/seoanalyzer',
-        REDIS_URL: 'redis://:XfLgByQsiJir5gatEMfSOR6yUZIT3jjd@localhost:6379',
+        DATABASE_URL: process.env.DATABASE_URL,
+        REDIS_URL: process.env.REDIS_URL,
         ENABLE_DATABASE: 'true',
         NODE_APP_INSTANCE: '0',
         NODE_OPTIONS: '--max-old-space-size=2048',
@@ -50,9 +51,9 @@ module.exports = {
         ANALYZERS_SCHEMA_ENABLED: 'true',
         ANALYZERS_ACTIONABLES_ENABLED: 'true',
         ANALYZERS_SCREENSHOT_ENABLED: 'true',
-        DEEPSEEK_API_KEY: 'sk-90883bca88db4dd5add733805ca0d33c',
-        GOOGLE_SEARCH_API_KEY: '',
-        GOOGLE_SEARCH_ENGINE_ID: '',
+        DEEPSEEK_API_KEY: process.env.DEEPSEEK_API_KEY,
+        GOOGLE_SEARCH_API_KEY: process.env.GOOGLE_SEARCH_API_KEY || '',
+        GOOGLE_SEARCH_ENGINE_ID: process.env.GOOGLE_SEARCH_ENGINE_ID || '',
         LIGHTHOUSE_ONLY_CATEGORIES: ''
       },
       log_file: '/opt/seo-analyzer-nextjs/logs/workers.log',

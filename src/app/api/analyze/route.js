@@ -76,11 +76,15 @@ const {
   addSeoJob,
   addGdprJob,
   addSecurityJob,
+  addAiAnalysisJob,
   getQueueStats
 } = require('../../../../lib/queue-manager');
 
 // Import analytics tracker
 const { trackVisitor } = require('../../../../lib/analytics-tracker');
+
+// Import Prisma for AiAnalysis
+const { prisma } = require('../../../../lib/prisma');
 
 // Import Fas 3 core modules
 const analysisRepo = require('../../../../src/core/analysis.repo');
@@ -96,7 +100,7 @@ export async function POST(request) {
     }
     
     // Validate analysis type
-    if (!['seo', 'crawl', 'lighthouse', 'gdpr', 'security'].includes(type)) {
+    if (!['seo', 'crawl', 'lighthouse', 'gdpr', 'security', 'ai'].includes(type)) {
       return Response.json({
         error: 'Invalid analysis type',
         message: 'Type must be one of: seo, crawl, lighthouse, gdpr, security'
@@ -331,6 +335,46 @@ export async function POST(request) {
         message: 'Säkerhetsanalys startad. Anslut till SSE för realtidsuppdateringar.',
         sseEndpoint: `/api/sse/job/${job.id}/security/${clientId}`,
         estimatedTime: '1-3 minuter'
+      });
+
+    } else if (type === 'ai') {
+      // AI Analysis (komplett rapport med SEO + Lighthouse + Crawl + AI)
+      const queueStats = await getQueueStats();
+      const totalWaiting = (queueStats.aiAnalysis?.waiting || 0) + (queueStats.aiAnalysis?.active || 0);
+
+      if (totalWaiting >= 20) {
+        return Response.json({
+          error: 'Systemet är överbelastat just nu',
+          message: 'Det finns redan för många AI-analyser i kö. Försök igen om några minuter.',
+          queueLength: totalWaiting,
+          estimatedWaitMinutes: Math.ceil(totalWaiting * 5)
+        }, { status: 429 });
+      }
+
+      // Create AiAnalysis record (NOT Analysis - worker expects AiAnalysis table)
+      const aiAnalysis = await prisma.aiAnalysis.create({
+        data: {
+          targetUrl: url,
+          status: 'pending',
+          progress: 0
+        }
+      });
+      console.log(`🤖 Created AiAnalysis ${aiAnalysis.id} for ${url}`);
+
+      const job = await addAiAnalysisJob({
+        url,
+        clientId,
+        aiAnalysisId: aiAnalysis.id
+      });
+      trackVisitor(request, 'ai', { url });
+
+      return Response.json({
+        jobId: aiAnalysis.id,
+        queueJobId: job.id,
+        clientId,
+        message: 'AI-analys startad. Anslut till SSE för realtidsuppdateringar.',
+        sseEndpoint: `/api/sse/job/${job.id}/ai/${clientId}`,
+        estimatedTime: '3-7 minuter'
       });
     }
 

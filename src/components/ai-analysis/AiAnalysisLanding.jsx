@@ -1,6 +1,7 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useSearchParams } from 'next/navigation';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faRobot,
@@ -18,7 +19,16 @@ import {
 import '@/styles/ai-analysis.css';
 
 const AiAnalysisLanding = () => {
+  const searchParams = useSearchParams();
   const [url, setUrl] = useState('');
+
+  // Läs URL från query param (från HeroSection)
+  useEffect(() => {
+    const urlParam = searchParams.get('url');
+    if (urlParam) {
+      setUrl(urlParam);
+    }
+  }, [searchParams]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [competitors, setCompetitors] = useState(['', '', '']);

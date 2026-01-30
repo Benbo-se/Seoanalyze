@@ -1,8 +1,0 @@
-[lh-worker] SIGINT received, shutting down...
-[lh-worker] Lighthouse worker listening on http://127.0.0.1:5002
-[lh-worker] Config: {
-  timeout: '90000ms',
-  cache: '600000ms',
-  concurrency: 3,
-  chrome: 'auto-detect'
-}

@@ -4,15 +4,12 @@
 ## 🖥️ INFRASTRUKTUR ÖVERSIKT
 
 ### Virtual Machine Specifikationer
-- **Provider**: DigitalOcean Droplet
-- **OS**: Ubuntu 24.04.3 LTS (Noble)
-- **Kernel**: 6.8.0-90-generic (uppdaterad 2025-12-13)
-- **CPU**: 4x Intel DO-Regular (4 cores, VT-x enabled)
-- **RAM**: 8GB (7.8Gi tillgängligt)
-- **Swap**: 4GB
-- **Disk**: 77GB (21GB använt, 56GB ledigt)
-- **Hostname**: SeoWorker
-- **IP**: 128.199.44.138
+- **Provider**: DigitalOcean Droplet (or similar VPS)
+- **OS**: Ubuntu 24.04 LTS
+- **Recommended CPU**: 4 cores
+- **Recommended RAM**: 8GB
+- **Recommended Swap**: 4GB
+- **Recommended Disk**: 50GB+
 
 ## 🔒 NÄTVERKSSÄKERHET
 

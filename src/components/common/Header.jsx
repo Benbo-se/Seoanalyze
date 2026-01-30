@@ -30,7 +30,7 @@ const Header = () => {
               width={180}
               height={45}
               priority={true}
-              className="h-10 w-auto"
+              className="h-10 w-auto rounded-lg"
             />
           </Link>
 

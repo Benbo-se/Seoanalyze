@@ -116,8 +116,8 @@
 
 .btn:hover {
   background: var(--bg-light, #fff8f8);
-  border-color: var(--primary-color, #ff6b6b);
-  color: var(--primary-color, #ff6b6b);
+  border-color: var(--primary-color, #3B82F6);
+  color: var(--primary-color, #3B82F6);
 }
 
 /* Mobile responsiveness */

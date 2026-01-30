@@ -1,5 +1,7 @@
 # SEO Analyzer
 
+**Live:** https://seoanalyze.se
+
 En fullständig SEO-analysplattform byggd med Next.js 15 som analyserar webbplatser för SEO, prestanda och tillgänglighet.
 
 ## Funktioner

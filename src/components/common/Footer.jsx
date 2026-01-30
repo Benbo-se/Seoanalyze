@@ -55,7 +55,7 @@ const Footer = () => {
                 alt="SEOanalyze.se"
                 width={150}
                 height={38}
-                className="h-8 w-auto brightness-0 invert"
+                className="h-8 w-auto rounded-lg"
               />
             </div>
             <p className="text-sm text-background/60 mb-4">
