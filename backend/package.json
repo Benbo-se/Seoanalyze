@@ -1,0 +1,35 @@
+{
+  "name": "seo-analyzer-backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "workers": "node lib/queue-workers.js",
+    "lighthouse": "node lib/lighthouse-worker.js",
+    "start": "node lib/queue-workers.js",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:stop": "pm2 stop ecosystem.config.js",
+    "pm2:restart": "pm2 restart ecosystem.config.js",
+    "pm2:logs": "pm2 logs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.879.0",
+    "@aws-sdk/s3-request-presigner": "^3.879.0",
+    "@prisma/client": "^6.15.0",
+    "axios": "^1.11.0",
+    "bull": "^4.16.5",
+    "bullmq": "^5.58.4",
+    "cheerio": "^1.1.2",
+    "chrome-launcher": "^1.2.0",
+    "crawler": "^2.0.2",
+    "generic-pool": "^3.9.0",
+    "he": "^1.2.0",
+    "ioredis": "^5.7.0",
+    "lighthouse": "^12.8.2",
+    "prisma": "^6.15.0",
+    "puppeteer": "^24.17.1",
+    "robots-parser": "^3.0.1",
+    "sitemap-parser": "^0.1.0",
+    "ulid": "^3.0.1",
+    "uuid": "^11.1.0"
+  }
+}

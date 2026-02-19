@@ -1,4 +1,4 @@
-const TextNormalizer = require('../src/utils/text-normalizer');
+const TextNormalizer = require('../../frontend/src/utils/text-normalizer');
 
 /**
  * Analyzes internal and external link structure

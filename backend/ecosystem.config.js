@@ -4,34 +4,33 @@ module.exports = {
       name: 'seo-nextjs-prod',
       script: 'npm',
       args: 'run start',
-      cwd: '/opt/seo-analyzer-nextjs',
-      instances: 1,  // Fork mode - 1 instans
+      cwd: '/opt/seoanalyze.se/frontend',
+      instances: 1,
       exec_mode: 'fork',
-      max_memory_restart: '1500M',  // Ökad från 700M
+      max_memory_restart: '1500M',
       exp_backoff_restart_delay: 2000,
       env: {
         NODE_ENV: 'production',
         PORT: 5001,
         HOSTNAME: '0.0.0.0',
         NODE_OPTIONS: '--max-old-space-size=1536',
-        // Database and Redis URLs from environment
         DATABASE_URL: process.env.DATABASE_URL,
         REDIS_URL: process.env.REDIS_URL
       },
-      log_file: '/opt/seo-analyzer-nextjs/logs/nextjs-prod.log',
-      error_file: '/opt/seo-analyzer-nextjs/logs/nextjs-error.log',
-      out_file: '/opt/seo-analyzer-nextjs/logs/nextjs-out.log',
-      pid_file: '/opt/seo-analyzer-nextjs/logs/nextjs-prod.pid',
+      log_file: '/opt/seoanalyze.se/frontend/logs/nextjs-prod.log',
+      error_file: '/opt/seoanalyze.se/frontend/logs/nextjs-error.log',
+      out_file: '/opt/seoanalyze.se/frontend/logs/nextjs-out.log',
+      pid_file: '/opt/seoanalyze.se/frontend/logs/nextjs-prod.pid',
       restart_delay: 4000,
       max_restarts: 10
     },
     {
       name: 'seo-nextjs-workers',
       script: './lib/queue-workers.js',
-      cwd: '/opt/seo-analyzer-nextjs',
-      instances: 2,  // 2 worker-instanser för parallellitet
+      cwd: '/opt/seoanalyze.se/backend',
+      instances: 2,
       exec_mode: 'fork',
-      max_memory_restart: '2048M',  // Ökad från 1100M
+      max_memory_restart: '2048M',
       exp_backoff_restart_delay: 2000,
       env: {
         NODE_ENV: 'production',
@@ -56,10 +55,10 @@ module.exports = {
         GOOGLE_SEARCH_ENGINE_ID: process.env.GOOGLE_SEARCH_ENGINE_ID || '',
         LIGHTHOUSE_ONLY_CATEGORIES: ''
       },
-      log_file: '/opt/seo-analyzer-nextjs/logs/workers.log',
-      error_file: '/opt/seo-analyzer-nextjs/logs/workers-error.log',
-      out_file: '/opt/seo-analyzer-nextjs/logs/workers-out.log',
-      pid_file: '/opt/seo-analyzer-nextjs/logs/workers.pid',
+      log_file: '/opt/seoanalyze.se/backend/logs/workers.log',
+      error_file: '/opt/seoanalyze.se/backend/logs/workers-error.log',
+      out_file: '/opt/seoanalyze.se/backend/logs/workers-out.log',
+      pid_file: '/opt/seoanalyze.se/backend/logs/workers.pid',
       restart_delay: 4000,
       max_restarts: 10,
       watch: false,
@@ -68,7 +67,7 @@ module.exports = {
     {
       name: 'lighthouse-worker',
       script: './lighthouse-worker.js',
-      cwd: '/opt/seo-analyzer-nextjs',
+      cwd: '/opt/seoanalyze.se/backend',
       instances: 1,
       exec_mode: 'fork',
       max_memory_restart: '512M',
@@ -79,12 +78,12 @@ module.exports = {
         LIGHTHOUSE_TIMEOUT_MS: '90000',
         LIGHTHOUSE_CACHE_TTL_MS: '600000',
         LIGHTHOUSE_CONCURRENCY: '3',
-        LIGHTHOUSE_ONLY_CATEGORIES: ''  // Tom sträng = använd default (alla 4 kategorier)
+        LIGHTHOUSE_ONLY_CATEGORIES: ''
       },
-      log_file: '/opt/seo-analyzer-nextjs/logs/lighthouse-worker.log',
-      error_file: '/opt/seo-analyzer-nextjs/logs/lighthouse-worker-error.log',
-      out_file: '/opt/seo-analyzer-nextjs/logs/lighthouse-worker-out.log',
-      pid_file: '/opt/seo-analyzer-nextjs/logs/lighthouse-worker.pid',
+      log_file: '/opt/seoanalyze.se/backend/logs/lighthouse-worker.log',
+      error_file: '/opt/seoanalyze.se/backend/logs/lighthouse-worker-error.log',
+      out_file: '/opt/seoanalyze.se/backend/logs/lighthouse-worker-out.log',
+      pid_file: '/opt/seoanalyze.se/backend/logs/lighthouse-worker.pid',
       restart_delay: 4000,
       max_restarts: 10,
       watch: false

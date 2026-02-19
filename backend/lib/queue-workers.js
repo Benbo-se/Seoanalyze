@@ -33,13 +33,13 @@ const {
 } = require('./queue-manager');
 
 // Fas 3: Import database modules
-const analysisRepo = require('../src/core/analysis.repo');
-const artifactStore = require('../src/core/artifact.store');
+const analysisRepo = require('../../frontend/src/core/analysis.repo');
+const artifactStore = require('../../frontend/src/core/artifact.store');
 
 // Import change detection and rule engine
-const { checkForChanges } = require('../src/core/change-detection.service');
-const { analyzeWithRules } = require('../src/core/rule-engine');
-const rumRepo = require('../src/core/rum.repo');
+const { checkForChanges } = require('../../frontend/src/core/change-detection.service');
+const { analyzeWithRules } = require('../../frontend/src/core/rule-engine');
+const rumRepo = require('../../frontend/src/core/rum.repo');
 
 // Helper function to create detailed error responses for users
 function createDetailedErrorResponse(error, url, domain) {
@@ -1380,8 +1380,8 @@ function generateQuickActions(issues, crawler) {
 }
 
 // Import text normalizer
-const TextNormalizer = require('../src/utils/text-normalizer');
-const H1Analyzer = require('../src/utils/h1-analyzer');
+const TextNormalizer = require('../../frontend/src/utils/text-normalizer');
+const H1Analyzer = require('../../frontend/src/utils/h1-analyzer');
 
 // SEO-analys funktion (kopierad från server.js)
 async function performSeoAnalysis(html, url) {
